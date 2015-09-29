@@ -120,14 +120,25 @@ function normalize(json) {
     })
 }
 
+var internalRules = [{
+    name: 'minor',
+    rule: (it) => {
+        var kw = ['minor', 'techreport', 'talk', 'forum', 'application', 'thesis' ]
+        return _.any(_.map(kw, (k) => _.contains(it.keyword, k)))
+    }
+}]
+
 function applyRules(rules, json) {
     _.map(rules.verified, (it) => {
         json = _.filter(json, (j) => {
             if (j.hash === it.hash1 || j.hash == it.hash2) {
-                message(`Excluding pair [${j.hash}] '${_.trunc(j.title)}' beacuse of existing rule [${it.hash1}] ~ [${it.hash2}]`)
+                message(`Excluding pair [${j.hash}] '${_.trunc(j.title)}' beacuse of existing rule [${it.hash1}] ~ [${it.hash2}] - ${it.notes}`)
                 return false
             } else {
-                return true
+                if (_.any(internalRules, (r) => r.rule(j))) {
+                    message(`an internal rule matches. removing [${j.hash}] '${_.trunc(j.title)}'`)
+                    return false
+                } else return true
             }
         })
     })
@@ -196,8 +207,12 @@ var main = () => {
                                 var nf = diff(b1, b2, bib1)
                                 nf = nf.concat(diff(b2, b1, bib2))
                                 nf = _.sortBy(nf, 'title')
-                                error('not found')
-                                console.log(et.print(nf))
+                                if(nf.length > 0) {
+                                    error('some records were not found')
+                                    console.log(et.print(nf))
+                                } else {
+                                    ok('all records found or covered by rules')
+                                }
                             })
                         } else {
                             var nf = diff(b1, b2, bib1)
