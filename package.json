@@ -9,7 +9,7 @@
   "man": "./man/man1/vz-biblio2json.1",
   "scripts": {
     "test": "make test"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vzaccaria/vz-biblio2json.git"
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/vzaccaria/vz-biblio2json",
   "dependencies": {
-	  "zaccaria-cli": "*"
+    "chalk": "^1.1.1",
+    "easy-table": "^1.0.0",
+    "mdtable2json": "^0.1.0",
+    "string-hash": "^1.1.0",
+    "zaccaria-cli": "*"
   },
   "devDependencies": {
     "diy-build": "^1.0.8",
@@ -31,8 +35,8 @@
     "mocha": "*",
     "chai": "*",
     "chai-as-promised": "*",
-	  "mustache": "~2.1.2",
-	  "stupid-replace": "~0.0.3",
-	  "git-hist": "*"
+    "mustache": "~2.1.2",
+    "stupid-replace": "~0.0.3",
+    "git-hist": "*"
   }
 }

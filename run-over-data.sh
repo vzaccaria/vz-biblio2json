@@ -1,0 +1,1 @@
+make && ./index.js check /Users/zaccaria/development/github/documents/curriculum/cv2013/data/biblio.bib /Users/zaccaria/development/github/documents/curriculum/irisPolimi2015/references.bibtex -a /Users/zaccaria/development/github/documents/curriculum/irisPolimi2015/adjust.md
