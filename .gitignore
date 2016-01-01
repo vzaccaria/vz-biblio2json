@@ -2,3 +2,4 @@ node_modules
 lib
 makefile
 /test
+src/.tern-port
