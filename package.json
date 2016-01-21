@@ -25,6 +25,7 @@
     "easy-table": "^1.0.0",
     "mdtable2json": "^0.1.0",
     "string-hash": "^1.1.0",
+    "underscore.string": "^3.2.2",
     "zaccaria-cli": "*"
   },
   "devDependencies": {

@@ -22,6 +22,10 @@ generateProject(_ => {
         _.cmd("hub cm 'update docs and history.md'")
     })
 
+    _.collect("debug", _ => {
+        _.cmd("make && node ./index.js convert ./test/biblio.bib");
+    })
+
     _.collectSeq("all", _ => {
         _.collect("build", _ => {
             _.babel("src/*.js")

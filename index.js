@@ -18,6 +18,7 @@ var $fs = _require.$fs;
 var et = require("easy-table");
 var hash = require("string-hash");
 var chalk = require("chalk");
+var postProcessJson = require("./lib/postJson");
 
 function warning(m) {
     var warning = chalk.yellow.underline;
@@ -197,6 +198,7 @@ var main = function () {
                 }).then(function (it) {
                     it = JSON.parse(it);
                     if (convert) {
+                        it.records = postProcessJson(it.records);
                         console.log(JSON.stringify(it, 0, 4));
                     } else {
                         console.log(et.print(_.map(it.records, function (p) {
