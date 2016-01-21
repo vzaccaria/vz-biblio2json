@@ -1,6 +1,6 @@
 {
   "name": "vz-biblio2json",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "No name given yet",
   "main": "index.js",
   "bin": {
