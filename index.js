@@ -200,7 +200,6 @@ var main = function () {
                     silent: true,
                     async: true
                 }).then(function (it) {
-                    it = it[0];
                     debug(it);
                     debug("got " + it);
                     it = JSON.parse(it);

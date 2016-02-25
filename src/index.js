@@ -179,7 +179,6 @@ var main = () => {
                     silent: true,
                     async: true
                 }).then((it) => {
-                    it = it[0]
                     debug(it)
                     debug(`got ${it}`)
                     it = JSON.parse(it)
