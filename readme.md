@@ -46,6 +46,7 @@ Released under the BSD License.
 
 # Bug fixes
 
+-     add debug package -- [Feb 25th 16](../../commit/854d5bd1de29768ff8577fe1d97d114628a1f84c)
 -     dietrofront on shelljs -- [Feb 25th 16](../../commit/907aa12ee8ef23735bc0ac1a970795bcbc2186ed)
 -     issue with shelljs returning an array instead of a value -- [Feb 25th 16](../../commit/c8e73162e3077bae5173acab59b3526d85390b7f)
 -     improve diff of bibtexes -- [Sep 29th 15](../../commit/0171910cbfc91b53d00dc2bd8740b236a8e6045c)
