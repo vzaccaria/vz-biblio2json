@@ -24,11 +24,10 @@
     "chalk": "^1.1.1",
     "easy-table": "^1.0.0",
     "mdtable2json": "^0.1.0",
+    "shelljs": "^0.6.0",
     "string-hash": "^1.1.0",
     "underscore.string": "^3.2.2",
-    "zaccaria-cli": "*"
-  },
-  "devDependencies": {
+      "zaccaria-cli": "^0.2.0",
     "diy-build": "^1.0.8",
     "babel": "^4.7.16",
     "shelljs": "*",

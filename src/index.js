@@ -7,6 +7,7 @@ var et = require('easy-table')
 var hash = require('string-hash')
 var chalk = require('chalk')
 var postProcessJson = require('./lib/postJson');
+var debug = require('debug')(__filename);
 
 function warning(m) {
     var warning = chalk.yellow.underline
@@ -172,9 +173,15 @@ var main = () => {
             console.log(it)
         } else {
             if (convert || summary) {
-                $s.execAsync(`${__dirname}/tools/bibjson.py ${bibfile}`, {
-                    silent: true
+                let cmd = `${__dirname}/tools/bibjson.py ${bibfile}`
+                debug(`executing '${cmd}'`);
+                $s.execAsync(cmd, {
+                    silent: true,
+                    async: true
                 }).then((it) => {
+                    it = it[0]
+                    debug(it)
+                    debug(`got ${it}`)
                     it = JSON.parse(it)
                     if (convert) {
                         it.records = postProcessJson(it.records);
