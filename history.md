@@ -6,6 +6,7 @@
 
 # Bug fixes
 
+-     env setup for continuous development tests -- [Mar 1st 16](../../commit/18e6cd2d05168c8f4884b5d87a8114cfdcfc0eaa)
 -     add debug package -- [Feb 25th 16](../../commit/854d5bd1de29768ff8577fe1d97d114628a1f84c)
 -     dietrofront on shelljs -- [Feb 25th 16](../../commit/907aa12ee8ef23735bc0ac1a970795bcbc2186ed)
 -     issue with shelljs returning an array instead of a value -- [Feb 25th 16](../../commit/c8e73162e3077bae5173acab59b3526d85390b7f)
