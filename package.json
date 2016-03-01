@@ -29,6 +29,7 @@
     "diy-build": "1.0.8",
     "easy-table": "1.0.0",
     "git-hist": "0.2.0",
+    "lodash": "3.0.0",
     "mdtable2json": "0.1.0",
     "mocha": "2.2.5",
     "mustache": "2.1.2",
