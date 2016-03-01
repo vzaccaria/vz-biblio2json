@@ -8,7 +8,7 @@
   },
   "man": "./man/man1/vz-biblio2json.1",
   "scripts": {
-    "test": "make test"
+      "test": "./node_modules/.bin/babel-node configure.js && make prepare && make test"
   },
   "repository": {
     "type": "git",
