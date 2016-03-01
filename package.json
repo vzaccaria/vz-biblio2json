@@ -1,7 +1,7 @@
 {
   "name": "vz-biblio2json",
   "version": "0.4.0",
-  "description": "No name given yet",
+  "description": "A swiss knife tool to convert bibtex to json",
   "main": "index.js",
   "bin": {
     "vz-biblio2json": "./index.js"
