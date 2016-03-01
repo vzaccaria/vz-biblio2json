@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "authors": [
+                "G. Massari",
+                "E. Paone",
+                "P. Bellasi",
+                "G. Palermo",
+                "V. Zaccaria",
+                "W. Fornaciari",
+                "C. Silvano"
+            ],
+            "title": "Combining application adaptivity and system-wide Resource Management on multi-core platforms",
+            "month": "July",
+            "year": "2014",
+            "booktitle": "Proceedings of SAMOS 2014: XIVth International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation",
+            "pages": "26 to 33",
+            "address": "Samos, Greece",
+            "doi": "10.1109/SAMOS.2014.6893191",
+            "url": "http://dx.doi.org/10.1109/SAMOS.2014.6893191",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        }
+    ],
+    "metadata": {}
+}

@@ -1,0 +1,1159 @@
+@OTHER{
+	11311_892555,
+	author = { S   Xydis  and  G   Palermo  and  V   Zaccaria  and  C   Silvano },
+	title = {SPIRIT: Spectral-Aware Pareto Iterative Refinement Optimization for Supervised High-Level Synthesis},
+	year = {2015},
+	journal = {IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS},
+	volume = {34},
+	abstract = {Supervised high-level synthesis (HLS) is a new class of design problems where exploration strategies play the role of supervisor for tuning an HLS engine. The complexity of the problem is increased due to the large set of tunable parameters exposed by the “new wave” of HLS tools that include not only architectural alternatives but also compiler transformations. In this paper, we developed a novel exploration approach, called spectral-aware Pareto iterative refinement, that exploits response surface models (RSMs) and spectral analysis for predicting the quality of the design points without resorting to costly architectural synthesis procedures. We show that the target solution space can be accurately modeled through RSMs, thus enabling a speedup of the overall exploration without compromising the quality of results. Furthermore, we introduce the usage of spectral techniques to find high variance regions of the design space that require analysis for improving the RSMs prediction accuracy.},
+	keywords = {Pareto optimisation; circuit optimisation; electronic engineering computing; high level synthesis; integrated circuit design; learning (artificial intelligence); spectral analysis; HLS engine tuning; SPIRIT; design points quality prediction; exploration strategy; problem complexity; response surface model; spectral aware Pareto iterative refinement optimization; supervised high level synthesis; Accuracy; Measurement; Optimization; Space exploration; Training; Design space exploration (DSE); design space exploration; high-level synthesis (HLS); machine learning; system level design},
+	url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6930749},
+	doi = {10.1109/TCAD.2014.2363392},	
+	pages = {155--159},
+}
+@OTHER{
+	11311_961333,
+	author = { Gadioli  Davide  and  Libutti  Simone  and  Massari  Giuseppe  and  Paone  Edoardo  and  Scandale  Michele  and  Bellasi  Patrick  and  Palermo  Gianluca  and  Zaccaria  Vittorio  and  Agosta  Giovanni  and  Fornaciari  William  and  Silvano  Cristina },
+	title = {OpenCL application auto-tuning and run-time resource management for multi-core platforms},
+	year = {2014},
+	publisher = {Institute of Electrical and Electronics Engineers Inc.},
+	booktitle = {Proceedings - 2014 IEEE International Symposium on Parallel and Distributed Processing with Applications, ISPA 2014},	
+	abstract = {To support adaptivity of data parallel applications on multi-core platforms, we propose a framework based on the combination of OpenCL application auto-tuning and run-time resource management. The framework addresses computationally intensive multimedia OpenCL applications. For these target applications, we show that application auto-tuning, based on design-time analysis, can become synergistic with run-time resource management. In the proposed framework, run-time decisions are taken by each application, autonomously, to achieve system adaptivity. This paper describes the methodology and related toolchain, defined during the 2PARMA European project, based on the integration of independent tools to provide effective compilation of OpenCL code, multi-objective design space exploration, application monitoring and tuning and system-wide run-time resource management. Experimental results are reported for design optimization of an OpenCL stereo-matching application and then for a resource contention scenario where multiple stereo-matching applications are executed on the same platform with different run-time requirements.},
+	keywords = {OpenCL, Run-Time Management, Embedded computing, application autotuning, system adaptivity, resource management},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6924438},
+	doi = {10.1109/ISPA.2014.25},	
+	pages = {127--133},
+}
+@OTHER{
+	11311_961338,
+	author = { Mariani  Giovanni  and  Palermo  Gianluca  and  Zaccaria  Vittorio  and  Silvano  Cristina },
+	title = {DeSpErate: Speeding-up design space exploration by using predictive simulation scheduling},
+	year = {2014},
+	booktitle = {Proceedings of DATE 2014 - International Conference on Design, Automation and Test in Europe},	
+	abstract = {The design space exploration (DSE) phase is used to tune configurable system parameters and it generally consists of a multiobjective optimization (MOO) problem. It is usually done at pre-design phase and consists of the evaluation of large design spaces where each configuration requires long simulation. Several heuristic techniques have been proposed in the past and the recent trend is reducing the exploration time by using analytic prediction models to approximate the system metrics, effectively pruning sub-optimal configurations from the exploration scope. However, there is still a missing path towards the effective usage of the underlying computing resources used by the DSE process. In this work, we will show that an alternative and almost orthogonal approach - focused on exploiting the available parallelism in terms of computing resources - can be used to better schedule the simulations and to obtain a high speedup with respect to state of the art approaches, without compromising the accuracy of exploration results. Experimental results will be presented by dealing with the DSE problem of a shared memory multi-core system considering a variable number of available parallel resources to support the DSE phase.},
+	keywords = {Design space exploration, simulation, multi-objective optimization, parallel architectures},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6800432},
+	doi = {10.7873/DATE.2014.231},	
+	pages = {1--4},
+}
+@OTHER{
+	11311_961334,
+	author = { Paone  Edoardo  and  Gadioli  Davide  and  Palermo  Gianluca  and  Zaccaria  Vittorio  and  Silvano  Cristina },
+	title = {Evaluating orthogonality between application auto-tuning and run-time resource management for adaptive OpenCL applications},
+	year = {2014},
+	publisher = {Institute of Electrical and Electronics Engineers Inc.},
+	booktitle = {Proceedings of the International Conference on Application-Specific Systems, Architectures and Processors},	
+	abstract = {The ever increasing number of processing units integrated on the same many-core chip delivers computational power that can exceed the performance requirements of a single application. The number of chips (and related power consumption) can thus be reduced to serve multiple applications — a practice which is called resource consolidation. However, this solution requires techniques to partition and assign resources among the applications and to manage unpredictable dynamic workloads.
+To provide the performance requirements in such scenarios, we exploit application auto-tuning, based on design-time analysis, of both application-specific dynamic knobs and computational parallelism. Such features are implemented in a software library, which is used to demonstrate the main contribution of this paper: a light-weight Run-Time Resource Management — RTRM — technique to improve resource sharing for computationally intensive OpenCL applications.
+We evaluate how much the interaction between RTRM and application auto-tuning can become synergistic yet orthogonal. In the proposed approach, run-time adaptation decisions are taken by each application, autonomously. This has two main advantages: i) a non-invasive application design, in terms of source code, and ii) a very low run-time overhead, since it does not require any central coordination of a supervisor nor communication between the applications.
+We carried out an experimental campaign by using a video processing application — an OpenCL stereo-matching implemen- tation — and stressing out resource usage. We proved that, while RTRM is necessary to provide lower variance of the application performance, the application auto-tuning layer is fundamental to trade it off with respect to the computation accuracy.},
+	keywords = {Hardware and Architecture, OpenCL, Application Autotuning, embedded platforms, run-time resource management},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6868651},
+	doi = {10.1109/ASAP.2014.6868651},	
+	pages = {161--168},
+}
+@OTHER{
+	11311_964213,
+	author = { Massari  Giuseppe  and  Paone  Edoardo  and  Bellasi  Patrick  and  Palermo  Gianluca  and  Zaccaria  Vittorio  and  Fornaciari  William  and  Silvano  Cristina },
+	title = {Combining application adaptivity and system-wide Resource Management on multi-core platforms},
+	year = {2014},
+	publisher = {Institute of Electrical and Electronics Engineers Inc.},
+	booktitle = {Proceedings - International Conference on Embedded Computer Systems: Architectures, Modeling and Simulation, SAMOS 2014},	
+	abstract = {To better exploit the capabilities offered by multi-core high-end embedded systems, new parallel programming paradigms, such as OpenCL, combined with effective resource management should be adopted. However, dealing with mixed workloads and time varying scenarios is still an open problem. This paper addresses such challenges by exploiting the synergy between Design Space Exploration and Run-Time Resource Management to achieve effective and flexible system-wide application adaptivity. The proposed approach and related toolset have been validated on a multi-core NUMA platform, showing significant improvements in terms of QoS and resource utilization compared to conventional application-level optimization strategies.},
+	keywords = {Electrical and Electronic Engineering; Hardware and Architecture; Modeling and Simulation},
+	doi = {10.1109/SAMOS.2014.6893191},	
+	pages = {26--33},
+}
+@OTHER{
+	11311_823936,
+	author = { Giovanni  Mariani  and  Vlad-Mihai  Sima  and  Gianluca  Palermo  and  Vittorio  Zaccaria  and  Giacomo  Marchiori  and  Cristina  Silvano  and  Koen  Bertels },
+	title = {Run-time optimization of a dynamically reconfigurable embedded system through performance prediction},
+	year = {2013},
+	booktitle = {2013 23rd International Conference on Field programmable Logic and Applications},	
+	abstract = {A key tool to increase the exploitation of dynamic reconfigurable platforms is the run-time resource manager. This system module coordinates the usage of both software and reconfigurable hardware resources in the context of a multi-programmed environment, by alleviating the operating system's induced overhead. This paper introduces a two-layers run-time resource manager for dynamic reconfigurable platforms. The upper level is composed of several application-level managers (one for each application) that provide the most suitable mapping based on resource constraints and performance prediction. The lower level is composed of a centralized system-level resource manager that assigns the HW/SW resources to each application. We present a video surveillance case study in which the proposed resource management technique outperforms the performance of the state of the art by 28% on average, introducing a computational time overhead within 2%.},
+	keywords = {reconfigurable embedded system; Run Time Management; FPGA},
+	doi = {10.1109/FPL.2013.6645523},	
+	pages = {1--8},
+}
+@OTHER{
+	11311_823928,
+	author = { Giovanni  Mariani  and  Gianluca  Palermo  and  Vittorio  Zaccaria  and  Cristina  Silvano },
+	title = {Design-space exploration and runtime resource management for multicores},
+	year = {2013},
+	journal = {ACM TRANSACTIONS ON EMBEDDED COMPUTING SYSTEMS},
+	volume = {13},
+	abstract = {Application-specific multicore architectures are usually designed by using a configurable platform in which a set of parameters can be tuned to find the best trade-off in terms of the selected figures of merit (such as energy, delay, and area). This multi-objective optimization phase is called Design-Space Exploration (DSE). Among the design-time (hardware) configurable parameters we can find the memory subsystem configuration (such as cache size and associativity) and other architectural parameters such as the instruction-level parallelism of the system processors. Among the runtime (software) configurable parameters we can find the degree of task-level parallelism associated with each application running on the platform.
+
+The contribution of this article is twofold; first, we introduce an evolutionary (NSGA-II-based) methodology for identifying a hardware configuration which is robust with respect to applications and corresponding datasets. Second, we introduce a novel runtime heuristic that exploits design-time identified operating points to provide guaranteed throughput to each application. Experimental results show that the design-time/runtime combined approach improves the runtime performance of the system with respect to existing reference techniques, while meeting the overall power budget.},
+	url = {http://dl.acm.org/citation.cfm?id=2514647},
+	doi = {10.1145/2514641.2514647},	
+	pages = {1--27},
+}
+@OTHER{
+	11311_823937,
+	author = { Amir Hossein  Ashouri  and  Vittorio  Zaccaria  and  Sotirios  Xydis  and  Gianluca  Palermo  and  Cristina  Silvano },
+	title = {A framework for Compiler Level statistical analysis over customized VLIW architecture},
+	year = {2013},
+	booktitle = {2013 IFIP/IEEE 21st International Conference on Very Large Scale Integration (VLSI-SoC)},	
+	abstract = {Very Long Instruction Word (VLIW) application specific processors represent an attractive solution for embedded computing, offering significant computational power with reduced hardware complexity. However, they impose higher compiler complexity since the instructions are executed in parallel based on the static compiler schedule. Therefore, finding a promising set of compiler transformations and defining their effects have a significant impact on the overall system performance. The proposed methodology provides the designer with an integrated framework to automatically (i) generate optimized application-specific VLIW architectural configurations and (ii) analyze compiler level transformations, enabling application-specific compiler tuning over customized VLIW system architectures. We based the aforementioned analysis on a Design of Experiments (DoEs) procedure that captures in a statistical manner the higher order effects among different sets of activated compiler transformations. Applying the proposed methodology onto real-case embedded application scenarios, we show that (i) only a limited set of compiler transformations exposes high confidence level (over 95%) in affecting the performance and (ii) using them we could be able to achieve gains between (16-23)% in comparison to the default optimization levels.},
+	keywords = {VLIW; Design of Experiments; Compiler Optimizations},
+	url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6673262},
+	doi = {10.1109/VLSI-SoC.2013.6673262},	
+	pages = {124--129},
+}
+@OTHER{
+	11311_823932,
+	author = { Sotirios  Xydis  and  Gianluca  Palermo  and  Vittorio  Zaccaria  and  Cristina  Silvano },
+	title = {A Meta-Model Assisted Coprocessor Synthesis Framework for Compiler/Architecture Parameters Customization},
+	year = {2013},
+	booktitle = {Design, Automation & Test in Europe Conference & Exhibition (DATE), 2013},	
+	abstract = {Hardware coprocessors are extensively used in modern heterogeneous systems-on-chip (SoC) designs to provide efficient implementation of application-specific functions. Customized coprocessor synthesis exploits design space exploration to derive Pareto optimal design configurations for a set of targeted metrics. Existing exploration strategies for coprocessor synthesis have been focused on either time consuming iterative scheduling approaches or ad-hoc sampling of the solution space guided by the designer's experience. In this paper, we introduce a meta-model assisted exploration framework that eliminates the aforementioned drawbacks by using response surface models (RSMs) for generating customized coprocessor architectures. The methodology is based on the construction of analytical delay and area models for predicting the quality of the design points without resorting to costly architectural synthesis procedures. Various RSM techniques are evaluated with respect to their accuracy and convergence. We show that the targeted solution space can be accurately modeled through RSMs, thus enabling a speedup of the overall exploration runtime without compromising the quality of results. Comparative experimental results, over a set of real-life benchmarks, prove the effectiveness of the proposed approach in terms of quality improvements of the design solutions and exploration runtime reductions. An MPEG-2 decoder case study describes how the proposed approach can be exploited for customizing the architecture of two hardware accelerated kernels},
+	keywords = {Hardware coprocessors; HLS; response surface models; Design Space Exploration},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6513589},
+	doi = {10.7873/DATE.2013.143},	
+	pages = {659--664},
+}
+@OTHER{
+	11311_828939,
+	author = { E   Paone  and  N   Vahabi  and  V   Zaccaria  and  C   Silvano  and  D   Melpignano  and  G   Haugou  and  T   Lepley },
+	title = {Improving Simulation Speed and Accuracy for Many-Core Embedded Platforms with Ensemble Models},
+	year = {2013},
+	booktitle = {Design, Automation & Test in Europe Conference & Exhibition (DATE), 2013},	
+	abstract = {In this paper, we introduce a novel modeling tech-
+nique to reduce the time associated with cycle-accurate simula-
+tion of parallel applications deployed on many-core embedded
+platforms. We introduce an ensemble model based on artificial
+neural networks that exploits (in the training phase) multiple
+levels of simulation abstraction, from cycle-accurate to cycle-
+approximate, to predict the cycle-accurate results for unknown
+application configurations.
+We show that high-level modeling can be used to significantly
+reduce the number of low-level model evaluations provided that a
+suitable artificial neural network is used to aggregate the results.
+We propose a methodology for the design and optimization of
+such an ensemble model and we assess the proposed approach for
+an industrial simulation framework based on STMicroelectronics
+STHORM (P2012) many-core computing fabric.},
+	doi = {10.7873/DATE.2013.145},	
+	pages = {671--676},
+}
+@OTHER{
+	11311_771897,
+	author = { Giovanni  Mariani  and  Gianluca  Palermo  and  Vittorio  Zaccaria  and  Cristina  Silvano },
+	title = {ARTE: An Application-specific Run-Time managEment framework for multi-cores based on queuing models},
+	year = {2013},
+	journal = {PARALLEL COMPUTING},
+	volume = {39},
+	abstract = {This paper presents an Application-specific Run-Time managEment (ARTE) framework to tackle the problem of managing computational resources in an application specific multi-core system. The ARTE framework run-time goal is to minimize applications’ response times while meeting the applications’ computational demands and fitting within the available power budget.
+
+The approach addresses application specific embedded systems assuming that the set of target applications is known at design-time. In addition, it considers run-time scenarios that are unpredictable due to variable user activity and/or interaction with the external environment. ARTE takes decisions about resource distribution to the active applications at run-time once the system state is known.
+
+ARTE leverages an analytical queuing model at run-time to predict the applications’ response times. The accuracy of this model is enhanced by accounting for contention overhead on the resources shared among the active applications. The analytical nature of the queuing model allows an estimation of the system performance with negligible overhead.
+
+Finally we compared the proposed ARTE framework to state-of-the-art techniques to assess its benefits in terms of systems performance and run-time overhead for the selected set of parallel benchmarks.},
+	keywords = {Multi-cores; Application specific platform; Run-time management; Queuing theory; Design space exploration},
+	url = {http://dx.doi.org/10.1016/j.parco.2013.04.002},
+	url = {http://www.sciencedirect.com/science/article/pii/S016781911300046X},
+	doi = {10.1016/j.parco.2013.04.002},	
+	pages = {504--519},
+}
+@OTHER{
+	11311_663563,
+	author = { Giovanni Mariani  and  Gianluca Palermo  and  Cristina Silvano  and  Vittorio Zaccaria },
+	title = {OSCAR: an Optimization Methodology Exploiting Spatial Correlation in Multi-core Design Spaces},
+	year = {2012},
+	journal = {IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS},
+	volume = {21},
+	abstract = {This paper presents OSCAR, an optimization methodology exploiting spatial correlation of multicore design spaces. This paper builds upon the observation that power consumption and performance metrics of spatially close design configurations (or points) are statistically correlated. We propose to exploit the correlation by using a response surface model (RSM), i.e., a closed-form expression suitable for predicting the quality of nonsimulated design points. This model is useful during the design space exploration (DSE) phase to quickly converge to the Pareto set of the multiobjective problem without executing lengthy simulations. To this end, we introduce a multiobjective optimization heuristic which iteratively updates and queries the RSM to identify the design points with the highest expected improvement. The RSM allows to consolidate the Pareto set by reducing the number of simulations required, thus speeding up the exploration process. We compare the proposed heuristic with state-of-the-art approaches [conventional, RSM-based, and struc- tured design of experiments (DoEs)]. Experimental results show that OSCAR is a faster heuristic with respect to state-of-the-art techniques such as response-surface Pareto iterative refinement ReSPIR and nondominated-sorting genetic algorithm NSGA-II. In fact, OSCAR used a lower number of simulations to produce a similar solution, i.e., an average of 150 simulations instead of 320 simulations (NSGA-II) and 178 simulations (ReSPIR). When the number of design points is fixed to an average of 300, OSCAR achieves less than 0.6% in terms of average distance with respect to the reference solution while NSGA-II achieves 3.4%. Reported results also show that OSCAR can significantly improve structured DoE approaches by slightly increasing the number of experiments.},
+	url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6186864},
+	doi = {10.1109/TCAD.2011.2177457},	
+	pages = {740--753},
+}
+@OTHER{
+	11311_689894,
+	author = { Edoardo  Paone  and  Gianluca  Palermo  and  Vittorio  Zaccaria  and  Cristina  Silvano  and  Diego  Melpignano  and  Germain  Haugou  and  Thierry  Lepley },
+	title = {An exploration methodology for a customizable OpenCL stereo-matching application targeted to an industrial multi-cluster architecture},
+	year = {2012},
+	publisher = {ACM New York, NY, USA},
+	address = {New York, NY, USA},
+	booktitle = {Proceedings of the eighth IEEE/ACM/IFIP international conference on Hardware/software codesign and system synthesis - CODES+ISSS '12},	
+	abstract = {Open Computing Language (OpenCL) is emerging as a standard for parallel programming of heterogeneous hardware accelerators. With respect to device specific languages, OpenCL enables application portability but does not guarantee performance portability, eventually requiring additional tuning of the implementation to a specific platform or to unpredictable dynamic workloads. In this paper, we present a methodology to analyze the customization space of an OpenCL application in order to improve performance portability and to support dynamic adaptation. We formulate our case study by implementing an OpenCL image stereo-matching application (which computes the relative depth of objects from a pair of stereo images) customized to the STMicroelectronics Platform 2012 many-core computing fabric. In particular, we use design space exploration techniques to generate a set of operating points that represent specific configurations of the parameters allowing different trade-offs between performance and accuracy of the algorithm itself. These points give detailed knowledge about the interaction between the application parameters, the underlying architecture and the performance of the system; they could also be used by a run-time manager software layer to meet dynamic Quality-of-Service (QoS) constraints.
+
+To analyze the customization space, we use cycle-accurate simulations for the target architecture. Since the profiling phase of each configuration takes a long simulation time, we designed our methodology to reduce the overall number of simulations by exploiting some important features of the application parameters; our analysis also enables the identification of the parameters that could be explored on a high-level simulation model to reduce the simulation time. The resulting methodology is one order of magnitude more efficient than an exhaustive exploration and, given its randomized nature, it increases the probability to avoid sub-optimal trade-offs.},
+	url = {http://dl.acm.org/ft_gateway.cfm?id=2380523&ftid=1294572&dwn=1&CFID=193229856&CFTOKEN=80442356},
+	url = {http://dx.doi.org/10.1145/2380445.2380523},
+	doi = {10.1145/2380445.2380523},	
+	pages = {503--512},
+}
+@OTHER{
+	11311_664027,
+	author = { Marceglia S  and  Bonacina S  and  Zaccaria V  and  Pagliari C  and  Pinciroli F },
+	title = {How might the iPad change healthcare?},
+	year = {2012},
+	journal = {JOURNAL OF THE ROYAL SOCIETY OF MEDICINE},
+	volume = {105},
+	doi = {10.1258/jrsm.2012.110296},	
+	pages = {233--241},
+}
+@OTHER{
+	11311_664098,
+	author = { Giovanni Mariani  and  Vlad Mihai Sima  and  Gianluca Palermo  and  Vittorio Zaccaria  and  Cristina Silvano  and  Koen Bertels },
+	title = {Using multi-objective design space exploration to enable run-time resource management for reconfigurable architectures},
+	year = {2012},
+	publisher = {EDAA/IEEE},
+	address = {Leuven},
+	booktitle = {Proceedings of DATE 2012},	
+	abstract = {Resource run-time managers have been shown par- ticularly effective for coordinating the usage of the hardware resources by multiple applications, eliminating the necessity of a full-blown operating system. For this reason, we expect that this technology will be increasingly adopted in emerging multi- application reconfigurable systems.
+This paper introduces a fully automated design flow that exploits multi-objective design space exploration to enable run- time resource management for the Molen reconfigurable archi- tecture. The entry point of the design flow is the application source code; our flow is able to heuristically determine a set of candidate hardware/software configurations of the application (i.e., operating points) that trade off the occupation of the reconfigurable fabric (in this case, an FPGA), the load of the master processor and the performance of the application itself. This information enables a run-time manager to exploit more efficiently the available system resources in the context of multiple applications.
+We present the results of an experimental campaign where we applied the proposed design flow to two reference audio appli- cations mapped on the Molen architecture. The analysis proved that the overhead of the design space exploration and operating points extraction with respect to the original Molen flow is within reasonable bounds since the final synthesis time still represents the major contribution. Besides, we have found that there is a high variance in terms of execution time speedup associated with the operating points of the application (characterized by a different usage of the FPGA) which can be exploited by the run-time manager to increase/decrease the quality of service of the application depending on the available resources.},
+	keywords = {FPGA; fully automated design flow; multiobjective design space exploration; operating points extraction; quality of service; run-time resource management; field programmable gate arrays; reconfigurable architectures},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6176578&tag=1},
+	pages = {1379--1384},
+}
+@OTHER{
+	11311_676548,
+	author = { Gianluca  Palermo  and  Cristina  Silvano  and  Vittorio  Zaccaria },
+	title = {A Variability-Aware Robust Design Space Exploration Methodology for On-Chip Multiprocessors Subject to Application-Specific Constraints},
+	year = {2012},
+	journal = {ACM TRANSACTIONS ON EMBEDDED COMPUTING SYSTEMS},
+	volume = {11},
+	abstract = {Manufacturing process variation is dramatically becoming one of the most important challenges related to power and performance optimization for sub-90nm CMOS technologies. Process variability impacts the optimization of the target system metrics, that is, performance and energy consumption by introducing fluctuations and unpredictability. Besides, it impacts the parametric yield of the chip with respect to application level constraints by reducing the number of devices working within normal operating conditions.
+
+The impact of variability on systems with stringent application-specific requirements (such as portable multimedia and critical embedded systems) is much greater than on general-purpose systems given the emphasis on predictability and reduced operating margins. In this market segment, failing to address such a problem within the early design stages of the chip may lead to missing market deadlines and suffering greater economic losses.
+
+In the context of a design space exploration framework for supporting the platform-based design approach, we address the problem of robustness with respect to manufacturing process variations. First, we apply Response Surface Modeling (RSM) techniques to enable an efficient evaluation of the statistical measures of execution time and energy consumption for each system configuration. Then, we apply a robust design space exploration framework to afford the problem of the impact of manufacturing process variations onto the system-level metrics and consequently onto the application-level constraints. We finally provide a comparison of our design space exploration technique with conventional approaches on two different case studies.},
+	keywords = {Multiprocessors Systems-on-Chip; Variability-aware design; Multi-objective Design Space Exploration},
+	url = {http://doi.acm.org/10.1145/2220336.2220341},
+	doi = {10.1145/2220336.2220341},	
+	pages = {1--28},
+}
+@OTHER{
+	11311_690192,
+	author = { C  Silvano  and  W  Fornaciari  and  S  Crespi Reghizzi  and  G  Agosta  and  G  Palermo  and  V  Zaccaria  and  P  Bellasi  and  F  Castro  and  S  Corbetta  and  E  Speziale  and  D  Melpignano  and  J  M  Zins  and  D  Siorpaes  and  H  Hübert  and  B  Stabernack  and  J  Brandenburg  and  M  Palkovic  and  P  Raghavan  and  C  Ykman-Couvreur  and  A  Bartzas  and  D  Soudris  and  T  Kempf  and  G  Ascheid  and  H  Meyr  and  J  Ansari  and  P  Mähönen  and  and B  Vanthournout },
+	title = {Parallel paradigms and run-time management techniques for many-core architectures},
+	year = {2012},
+	publisher = {ACM},
+	booktitle = {Proceedings of the 2012 Interconnection Network Architecture on On-Chip, Multi-Chip Workshop - INA-OCMC '12},	
+	abstract = {The 2PARMA project aims at providing parallel programming
+models and run-time resource management techniques
+to exploit the features of many-core processor architectures,
+by focusing on the definition of parallel programming models
+that combine component-based and single-instruction multiplethread approaches, instruction set virtualisation based on
+portable bytecode, run-time resource management policies
+and mechanisms as well as design space exploration methodologies for Many-core Computing Fabrics.},
+	url = {http://doi.acm.org/10.1145/2107763.2107774},
+	doi = {10.1145/2107763.2107774},	
+	pages = {39--42},
+}
+@OTHER{
+	11311_663576,
+	author = { Giovanni Mariani  and  Gianluca Palermo  and  Vittorio Zaccaria  and  Cristina Silvano },
+	title = {Evaluating Run-time Resource Management Policies for Multi-core Embedded Platforms with the EMME Evaluation Framework},
+	year = {2012},
+	publisher = {GI},
+	journal = {GI-EDITION},
+	booktitle = {Proceedings of the ARCS Workshops 2012},	
+	abstract = {Toady’s embedded computing electronic products are based on multi-core plat- forms and they are capable to concurrently execute different applications.
+For these products it is of paramount importance that a Run-time Resource Man- agement (RRM) system integrated in the Operating System (OS) arbiters about re- source allocation to the active applications. The RRM should take decisions at run- time to maximize platform performance and minimizing non-functional costs such as power consumption or memory requirements. However, embedded system design covers a broad range of applications and the customer requirements are very different depending on the target device. In general there is not an unique RRM that best fits in all possible embedded scenarios.
+This paper presents the EMME Evaluation Framework, an open source tool that provides a methodology and the accompanying infrastructure to quickly explore the effects of different RRM systems for a target use case scenario. The tool aims at the analysis of different figures of merit of the system being designed such as the applications’ response time, system throughput and power consumption.
+Different RRM modules are released with the framework. These modules imple- ment different RRM policies that define how to allocate computing resources to the active applications while fitting in a power budget that is assumed assigned by other layers of the OS.},
+	url = {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6222214},
+	pages = {363--374},
+}
+@OTHER{
+	11311_633856,
+	author = { C  Kavka  and  L  Onesti  and  E  Rigoni  and  A  Turco  and  S  Bocchio  and  F  Castro  and  G  Palermo  and  C  Silvano  and  V  Zaccaria  and  G  Mariani  and  F  Dongrui  and  Z  Hao  and  T  Shibin },
+	title = {Design Space Exploration of Parallel Architectures},
+	year = {2011},
+	publisher = {Springer},
+	address = {New York Dordrecht Heidelberg London},
+	booktitle = {Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, The MULTICUBE Approach},	
+	abstract = {This chapter will present two significant applications of theMULTICUBE design space exploration framework. The first part will present the design space exploration of a low power processor developed by STMicroelectronics by using the
+modeFRONTIER tool to demonstrate the DSE benefits not only in terms of objective quality, but also in terms of impact on the design process within the corporate environment. The second part will describe the application of RSM models developed
+within MULTICUBE to a tiled, multiple-instruction, many-core architecture developed by ICT China. Overall, the results have showed that different models can present a trade-off of accuracy versus computational effort. In fact, throughout the evaluation, we observed that high accuracy models require high  computational time (for both model construction time and prediction time); vice-versa low model construction and prediction time has led to low accuracy.},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Multi-objective Optimisation,
+Embedded Multimedia,
+Embedded Systems,
+Multi-core Architecture,
+Run-time Resource Management,
+Systems-on-Chip,},
+	url = {http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8836-2},
+	doi = {10.1007/978-1-4419-8837-9},	
+	pages = {171--188},
+}
+@OTHER{
+	11311_690189,
+	author = { C  Silvano  and  W   Fornaciari  and  S  Crespi  Reghizzi  and  G   Agosta  and  G   Palermo  and  V   Zaccaria  and  P   Bellasi  and  F   Castro  and  S   Corbetta  and  E   Speziale  and  D   Melpignano  and  J  M   Zins  and  H   Hubert  and  B   Stabernack  and  J   Brandenburg  and  M   Palkovic  and  P   Raghavan  and  C   Ykman-Couvreur  and  I   Anagnostopoulos  and  A   Bartzas  and  D   Soudris  and  T   Kempf  and  G   Ascheid  and  J   Ansari  and  P   Mahonen  and  B   Vanthournout },
+	title = {Invited paper: Parallel programming and run-time resource management framework for many-core platforms: The 2PARMA approach},
+	year = {2011},
+	publisher = {IEEE},
+	booktitle = {Proceedings of 6th International Workshop on Reconfigurable Communication-Centric Systems-on-Chip (ReCoSoC)},	
+	abstract = {Real-time applications, hard or soft, are raising
+the challenge of unpredictability. This is an extremely difficult
+problem in the context of modern, dynamic, multiprocessor
+platforms which, while providing potentially high performance,
+make the task of timing prediction extremely difficult. Also,
+with the growing software content in embedded systems and the
+diffusion of highly programmable and re-configurable platforms,
+software is given an unprecedented degree of control on resource
+utilization. The 2PARMA project aims at overcoming the lack
+of parallel programming models and run-time resource management techniques to exploit the features of many-core processor architectures.
+The main goals of the 2PARMA project are: the definition
+of a parallel programming model combining component-based
+and single-instruction multiple-thread approaches, instruction set
+virtualisation based on portable byte-code, run-time resource
+management policies and mechanisms as well as design space exploration methodologies for Many-core computing architectures.},
+	url = {http://dx.doi.org/10.1109/ReCoSoC.2011.5981522},
+	doi = {10.1109/ReCoSoC.2011.5981522},	
+	pages = {1--7},
+}
+@OTHER{
+	11311_576710,
+	author = { Chantal Ykman-Couvreur  and  Prabhat Avasare  and  Giovanni Mariani  and  Gianluca Palermo  and  Cristina Silvano  and  Vittorio Zaccaria },
+	title = {Linking run-time resource management of embedded multi-core platforms with automated design-time exploration},
+	year = {2011},
+	journal = {IET COMPUTERS & DIGITAL TECHNIQUES},
+	volume = {5},
+	abstract = {Nowadays, owing to unpredictable changes of the environment and workload variation, optimally running multiple applications in terms of quality, performance and power consumption on embedded multi-core platforms is a huge challenge. A lightweight run-time manager, linked with an automated design-time exploration and incorporated in the host processor of the platform, is required to dynamically and efficiently configure the applications according to the available platform resources (e.g. processing elements, memories, communication bandwidth), for minimising the cost (e.g. power consumption), while satisfying the constraints (e.g. deadlines). This study presents a flow linking a design-time design space explorer, coupled with platform simulators at two abstraction levels, with a fast and lightweight priority-based heuristic integrated in the run-time manager to select near-optimal application configurations. To illustrate its feasibility and the very low complexity of the run-time selection, the proposed flow is used to manage the processors and clock frequencies of a multiple-stream MPEG4 encoder chip dedicated to automotive cognitive safety applications.},
+	keywords = {Embedded Platforms; Design Space Exploration; Runtime Resource Management},
+	url = {http://dx.doi.org/10.1049/iet-cdt.2010.0030},
+	doi = {10.1109/18.370159},	
+	pages = {123--135},
+}
+@OTHER{
+	11311_633864,
+	author = { C  Silvano  and  W  Fornaciari  and  G  Palermo  and  V  Zaccaria  and  F  Castro  and  M  Martinez  and  S  Bocchio  and  R  Zafalon  and  P  Avasare  and  G  Vanmeerbeeck  and  C  Ykman-Couvreur  and  M  Wouters  and  C  Kavka  and  L  Onesti  and  A  Turco  and  U  Bondi  and  G  Mariani  and  H  Posadas  and  E  Villar  and  C  Wu  and  F  Dongrui  and  Z  Hao  and  T  Shibin },
+	title = {MULTICUBE: Multi-objective Design Space Exploration of Multi-core Architectures},
+	year = {2011},
+	publisher = {Springer Science+Businness Media},
+	address = {Dordrecht Heidelberg London New York},
+	booktitle = {VLSI 2010 Annual Symposium, Selected Papers},	
+	keywords = {Embedded Systems,
+Design Space Exploration,},
+	url = {http://www.springer.com/engineering/circuits+%26+systems/book/978-94-007-1487-8},
+	doi = {10.1007/978-94-007-1488-5_19},	
+	pages = {47--63},
+}
+@OTHER{
+	11311_633866,
+	author = { C  Silvano  and  W  Fornaciari  and  S  Crespi Reghizzi  and  G  Agosta  and  G  Palermo  and  V  Zaccaria  and  P  Bellasi  and  F  Castro  and  S  Corbetta  and  E  Speziale  and  D  Melpignano  and  J M  Zins  and  D  Siorpaes  and  H  Huebert  and  B  Stabernack  and  J  Brandenburg  and  M  Palkovic  and  P  Raghavan  and  C  Ykman- Couvreur  and  A  Bartzas  and  D  Soudris  and  T  Kempf  and  G  Ascheid  and  H  Meyr  and  J  Ansari  and  P  Ma- honen  and  e B  Vanthournout },
+	title = {Parallel paradigms and run-time management techniques for many-core architectures: 2parma approach},
+	year = {2011},
+	publisher = {IEEE},
+	booktitle = {Proceedings of INDIN 2011, 2011 9th IEEE International Conference on Industrial Informatics},	
+	abstract = {The 2PARMA project aims at overcoming the
+lack of parallel programming models and run-time resource
+management techniques to exploit the features of many-core
+processor architectures. More in detail, the 2PARMA project
+focuses on the definition of a parallel programming model combining component-based and single-instruction multiple-thread
+approaches, instruction set virtualisation based on portable bytecode, run-time resource management policies and mechanisms as well as design space exploration methodologies for Many-core Computing Fabrics.},
+	url = {http://dx.doi.org/10.1109/INDIN.2011.6035001},
+	doi = {10.1109/INDIN.2011.6035001},	
+	pages = {835--840},
+}
+@OTHER{
+	11311_633853,
+	author = { P  Avasare  and  C  Ykman-Couvreur  and  G  Vanmeerbeeck  and  G  Mariani  and  G  Palermo  and  C  Silvano  and  V  Zaccaria },
+	title = {Design Space Exploration Supporting Run-time Resource Management},
+	year = {2011},
+	publisher = {Springer},
+	address = {New York Dordrecht Heidelberg London},
+	booktitle = {Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, The MULTICUBE Approach},	
+	abstract = {Running multiple applications optimally in terms of Quality of Service (e.g. performance and power consumption) on embedded multi-core platforms is a huge challenge. Moreover, current applications exhibit unpredictable changes of the environment and workload conditions which makes the task of running them optimally even more difficult. This dynamic trend in application runs will grow even more in future applications.
+This Chapter presents an automated tool flow which tackles this challenge by a two-step approach: first at design-time, a Design Space Exploration (DSE) tool is coupled with a platform simulator(s) to get optimum operating points for the set of
+target applications. Secondly, at run-time, a lightweight Run-time Resource Manager (RRM) leverages the design-timeDSEresults for deciding an operating configuration to be loaded at run-time for each application. This decision is performed dynamically,
+by taking into consideration available platform resources and the QoS requirements of the specific use-case. To keepRRMexecution and resource overhead at minimum, a very fast optimisation heuristic is integrated. Application of this tool-flowon a real-life multimedia use case will demonstrate a significant speedup in optimisation process while maintaining desired Quality of Service.},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Multi-objective Optimisation,
+Embedded Multimedia,
+Embedded Systems,
+Multi-core Architecture,
+Run-time Resource Management,
+Systems-on-Chip,},
+	url = {http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8836-2},
+	doi = {10.1007/978-1-4419-8837-9},	
+	pages = {93--107},
+}
+@OTHER{
+	11311_633862,
+	author = { C  Silvano  and  W  Fornaciari  and  G  Palermo  and  V  Zaccaria  and  F  Castro  and  M  Martinez  and  S  Bocchio  and  R  Zafalon  and  P  Avasare  and  G  Vanmeerbeeck  and  C  Ykman-Couvreur  and  M  Wouters  and  C  Kavka  and  L  Onesti  and  A  Turco  and  U  Bondi  and  G  Mariani  and  H  Posadas  and  E  Villar  and  C  Wu  and  F  Dongrui  and  Z  Hao },
+	title = {The MULTICUBE Design Flow},
+	year = {2011},
+	publisher = {Springer},
+	address = {New York Dordrecht Heidelberg London},
+	booktitle = {Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, The MULTICUBE Approach},	
+	abstract = {This chapter introduces the design-flow of the MULTICUBE project
+whose main goal is the definition of an automatic multi-objective Design Space Exploration (DSE) framework to be used to tune the parameters of System-on-Chip architectures by taking into account the target set of metrics (e.g. energy, latency,
+throughput, etc.). One of the important goals of the automatic multi-objective DSE framework is to find design trade-offs that best meet system constraints and cost criteria which are indeed strongly dependent on the target application. A set of heuristic
+optimisation algorithms have been defined to reduce the overall optimization time by identifying an approximated Pareto set of parameter configurations with respect to a set of selected figures of merit. Once the approximated Pareto set is built, the
+designer can quickly apply decision criteria to select the best configuration satisfying the constraints. The DSE flow is based on the interaction of two frameworks to be used at design time: the Design Space Exploration Framework, a set of opensource
+and proprietary architectural exploration tools, and the Power/Performance Estimation Framework, a set of modeling and simulation tools (open-source and proprietary) operating at several levels of abstraction. The DSE flow also includes
+the specification of an XML integration interface to connect the exploration and estimation frameworks and a Run-time Resource Manager exploiting, at run-time, the best software configuration alternatives derived at design-time to optimize the usage of system resources},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Multi-objective Optimisation, 
+Embedded Multimedia,
+Embedded Systems,
+Multi-core Architecture,
+Run-time Resource Management,
+Systems-on-Chip,},
+	url = {http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8836-2},
+	doi = {10.1007/978-1-4419-8837-9},	
+	pages = {3--17},
+}
+@OTHER{
+	11311_633857,
+	author = { G  Mariani  and  C  Ykman-Couvreur  and  P  Avasare  and  G  Vanmeerbeeck  and  G  Palermo  and  C  Silvano  and  V  Zaccaria },
+	title = {Design Space Exploration for Run-time Management of a Reconfigurable System for Video Streaming},
+	year = {2011},
+	publisher = {Springer},
+	address = {New York Dordrecht Heidelberg London},
+	booktitle = {Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, The MULTICUBE Approach},	
+	abstract = {This Chapter reports a case study of Design Space Exploration for supporting Run-time Resource Management (RRM). In particular the management of system resources for an MPSoC dedicated to multiple MPEG4 encoding is addressed in the context of an Automotive Cognitive Safety System (ACSS). The run-time management problem is defined as the minimization of the platform power consumption under resource and Quality of Service (QoS) constraints. The Chapter provides an insight of both, design-time and run-time aspects of the problem. During the prelimiary design-time Design Space Exploration (DSE)
+phase, the best configurations of run-time tunable parameters are statically identified for providing the best trade-offs in terms of run-time costs and application QoS. To speed up the optimization process without reducing the quality of final results, a
+multi-simulator framework is used for modeling platform performance. At run-time, the RRM exploits the design-time DSE results for deciding an operating configuration to be loaded for each MPEG4 encoder. This operation is carried out dynamically, by following the QoS requirements of the specific use-case.},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Multi-objective Optimisation,
+Embedded Multimedia,
+Embedded Systems,
+Multi-core Architecture,
+Run-time Resource Management,
+Systems-on-Chip,},
+	url = {http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8836-2},
+	doi = {10.1007/978-1-4419-8837-9},	
+	pages = {189--204},
+}
+@OTHER{
+	11311_633865,
+	author = { C  Silvano  and  W  Fornaciari  and  S  Crespi Reghizzi  and  G  Agosta  and  G  Palermo  and  V  Zaccaria  and  P  Bellasi  and  F  Castro  and  S  Corbetta  and  A  Di Biagio  and  E  Speziale  and  M  Tartara  and  D  Melpignano  and  J M  Zins  and  D  Siorpaes  and  H  Huebert  and  B  Stabernack  and  J  Brandenburg  and  M  Palkovic  and  P  Ra- ghavan  and  C  Ykman-Couvreur  and  A  Bartzas  and  S  Xydis  and  D  Soudris  and  T  Kempf  and  G  Ascheid  and  R  Leupers H  Meyr  and  J  Ansari  and  P  Mahonen  and  e B  Vanthournout },
+	title = {2PARMA: Parallel Paradigms and Run-time Management Techniques for Many-core Architectures.},
+	year = {2011},
+	publisher = {Springer Science+Business Media},
+	address = {Dordrecht Heidelberg London New York},
+	journal = {LECTURE NOTES IN ELECTRICAL ENGINEERING},
+	booktitle = {VLSI 2010 Annual Symposium, Selected Papers},	
+	abstract = {The 2PARMA project focuses on the development of parallel programming models and run-time resource management techniques to exploit the features of many-core processor architectures. The main goals of the 2PARMA project are:
+the definition of a parallel programming model combining component-based and single-instructionmultiple-thread approaches, instruction set virtualisation based on
+portable byte-code, run-time resourcemanagement policies and mechanisms as well as design space exploration methodologies for many-core computing architectures.},
+	keywords = {Embedded Systems,
+Many-core Architectures,},
+	url = {http://www.springer.com/engineering/circuits+%26+systems/book/978-94-007-1487-8},
+	doi = {10.1007/978-94-007-1488-5_19},	
+	pages = {65--79},
+}
+@OTHER{
+	11311_633861,
+	author = { E  Rigoni  and  C  Kavka  and  A  Turco  and  G  Palermo  and  C  Silvano  and  V  Zaccaria  and  G  Mariani },
+	title = {Optimization Algorithms for Design Space Exploration of Embedded Systems},
+	year = {2011},
+	publisher = {Springer},
+	address = {NewYork Dordrecht Heidelberg London},
+	booktitle = {Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, The MULTICUBE Approach},	
+	abstract = {This chapter is dedicated to the optimization algorithms developed in the MULTICUBE project and to their surrounding environment. Two software design space exploration (DSE) tools host the algorithms: Multicube Explorer and modeFRONTIER.
+The description of the proposed algorithms is the central part of the chapter. The focus will be on newly developed algorithms and on ad-hoc extensions of existing techniques in order to face with discrete and categorical design space parameters that are very common when working with embedded systems design.
+This chapter will also provide some fundamental guidelines to build a strategy for testing the performance and accuracy of such algorithms. The aim is mainly to build confidence in optimization techniques, rather than to simply compare one algorithm
+versus another one. The “no-free-lunch theorem for optimization” has to be taken into consideration and therefore the analysis will look forward to robustness and industrial reliability of the results.},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Multi-objective Optimisation,
+Embedded Multimedia,
+Embedded Systems,
+Multi-core Architecture,
+Run-time Resource Management,
+Systems-on-Chip,},
+	url = {http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8836-2},
+	doi = {10.1007/978-1-4419-8837-9},	
+	pages = {51--74},
+}
+@OTHER{
+	11311_633859,
+	author = { G  Palermo  and  C  Silvano  and  V  Zaccaria  and  E  Rigoni  and  C  Kavka  and  A  Turco  and  G  Mariani },
+	title = {Response Surface Modeling for Design Space Exploration of Embedded Systems},
+	year = {2011},
+	publisher = {Springer},
+	address = {NewYork Dordrecht Heidelberg London},
+	booktitle = {Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, The MULTICUBE Approach},	
+	abstract = {A typical design space exploration flow involves an event-based simulator in the loop, often leading to an actual evaluation time that can exceed practical limits for realistic applications. Chip multi-processor architectures further exacerbate this problem given that the actual simulation speed decreases by increasing the number of cores of the chip. Traditional design space exploration lacks of efficient techniques that reduce the number of architectural alternatives to be analyzed. In this chapter,
+we introduce a set of statistical and machine learning techniques that can be used to predict system level metrics by using closed-form analytical expressions instead of lengthy simulations; the latter are called Response Surface Models (RSM). The
+principle of RSM is to exploit a set of simulations generated by one or more Design of Experiments strategies to build a surrogate model to predict the system-level metrics. The response model has the same input and output features of the original simulation-based model but offers significant speed-up by leveraging analytical, closed-form functions which are tuned during model training. The techniques presented in this chapter can be used to improve the performance of traditional design
+space exploration algorithms.},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Multi-objective Optimisation,
+Embedded Multimedia,
+Embedded Systems,
+Multi-core Architecture,
+Run-time Resource Management,
+Systems-on-Chip,},
+	url = {http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8836-2},
+	doi = {10.1007/978-1-4419-8837-9},	
+	pages = {75--92},
+}
+@OTHER{
+	11311_633664,
+	author = { Giovanni Mariani  and  Gianluca Palermo  and  Cristina Silvano  and  Vittorio Zaccaria },
+	title = {ARTE: an Application-specific Run-Time Management Framework for Multi-core Systems},
+	year = {2011},
+	publisher = {IEEE Computer Society Washington, DC, USA},
+	address = {Washington, DC},
+	booktitle = {SASP '11 Proceedings of the 2011 IEEE 9th Symposium on Application Specific Processors},	
+	abstract = {Programmable multi-core and many-core platforms increase exponentially the challenge of task mapping and scheduling, provided that enough task-parallelism does exist for each application. This problem worsens when dealing with small eco- systems such as embedded systems-on-chip. In fact, in this case, the assumption of exploiting a traditional operating system is out of context given the memory available to satisfy the run-time footprint of such a configuration.
+An efficient Run-time Resource Management (RRM) becomes of paramount importance to dispatch tasks to the cores by taking into account the task-parallelization options that each application provides. State-of-the-art approaches to RRM try to allocate re- sources to maximize the instantaneous throughput while meeting a power budget constraint. In this paper, we will show that queuing theory can be an alternative yet effective way of solving resource allocation by presenting ARTE, an Application-specific Run-Time managEment framework. The framework exploits few assumptions about the target many-core computing fabric such as the availability of performance (throughput) information about the platform applications. We will show that this information can be combined, at run-time, with queuing models to enhance the response time of the applications by pounding the actual effect on the system power consumption better than previous approaches.
+Experimental results show that, compared to reference state- of-the-art RRM techniques, ARTE is able to efficiently improve system performance by pro-actively reducing the response time while meeting the same power consumption requirements. Be- sides, we will show that the run-time overhead of ARTE does not significantly impact neither the system performance nor the on-chip-memory occupation.},
+	url = {http://dx.doi.org/10.1109/SASP.2011.5941085},
+	doi = {10.1109/SASP.2011.5941085},	
+	pages = {86--93},
+}
+@OTHER{
+	11311_633666,
+	author = { Debora Matos  and  Gianluca Palermo  and  Vittorio Zaccaria  and  Cezar Reinbrecht  and  Altamiro Susin  and  Cristina Silvano  and  Luigi Carro },
+	title = {Floorplanning-aware design space exploration for application-specific hierarchical networks on-chip},
+	year = {2011},
+	publisher = {ACM New York, NY, USA},
+	address = {New York, NY, USA},
+	booktitle = {Proceedings of the 4th International Workshop on Network on Chip Architectures},	
+	abstract = {Application-specific network-centric architectures (such as Networks on-Chip, NoCs) have recently become an effective solution to sup- port high bandwidth communication in Multiprocessor Systems- on-Chip (MPSoCs). Moreover, the introduction of the hierarchy concept in the NoC design benefits from the main locality nature of the communication in MPSoC architectures. This paper presents a methodology to design Application Specific Hierarchical NoC (ASHiNoC) architectures considering foorplanning information. The presented approach targets heterogeneous clustered architectures where the intra-cluster communication is managed by a low-latency circuit-switched crossbar, while the inter-cluster communications are managed by a high-bandwidth packet-based NoC, allowing reg- ulars topologies. The proposed design flow faces the problem by starting from the cluster selection down-to the foorplanning-aware estimation of the interconnect performances in terms of latency, power, area within each cluster and for the backbone NoC. Exper- imental results show that the AHiNoC architecture is able to guar- antee an interconnection power and latency reduction of 49% and 33% respectively, at a cost of an area increment of 78% with respect to a flat topology version.},
+	url = {http://doi.acm.org/10.1145/2076501.2076508},
+	doi = {10.1145/2076501.2076508},	
+	pages = {31--36},
+}
+@OTHER{
+	11311_571218,
+	author = { C  Silvano  and  W  Fornaciari  and  G  Palermo  and  V  Zaccaria  and  F  Castro  and  M  Martinez  and  S  Bocchio  and  R  Zafalon  and  P  Avasare  and  G  Vanmeerbeeck  and  C  Ykman-Couvreur  and  M  Wouters  and  C  Kavka  and  L  Onesti  and  A  Turco  and  U  Bondi  and  G  Mariani  and  H  Posadas  and  E  Villar  and  C  Wu  and  F  Dongrui  and  Z  Hao  and  T  Shibin },
+	title = {MULTICUBE: Multi-objective design space exploration of multi-core architectures},
+	year = {2010},
+	publisher = {IEEE},
+	booktitle = {Proceedings of ISVLSI 2010, 2010 IEEE Computer Society Annual Symposium on VLSI (ISVLSI),},	
+	abstract = {Technology trends enable the integration of many
+processor cores in a System-on-Chip (SoC). In these complex
+architectures, several architectural parameters can be tuned to
+find the best trade-off in terms of multiple metrics such as energy
+and delay. The main goal of the MULTICUBE project consists
+of the definition of an automatic Design Space Exploration
+framework to support the design of next generation many-core
+architectures.},
+	keywords = {Computer Architectures,
+Many-core Architectures,
+Design Space Exploration,},
+	url = {http://dx.doi.org/10.1109/ISVLSI.2010.67},
+	doi = {10.1109/ISVLSI.2010.67},	
+	pages = {488--493},
+}
+@OTHER{
+	11311_571214,
+	author = { Giovanni Mariani  and  Vittorio Zaccaria  and  Gianluca Palermo  and  Prabhat Avasare  and  Geert Vanmeerbeeck  and  Chantal Ykman-Couvreur  and  Cristina Silvano },
+	title = {An industrial design space exploration framework for supporting run-time resource management on multi-core systems},
+	year = {2010},
+	publisher = {European Design and Automation Association},
+	address = {Leuven},
+	booktitle = {DATE '10 Proceedings of the Conference on Design, Automation and Test in Europe},	
+	abstract = {Current multi-core design methodologies are facing increasing unpredictability in terms of quality due to the actual diversity of the workloads that characterize the deployment scenario. To this end, these systems expose a set of dynamic parameters which can be tuned at run-time to achieve a specified Quality of Service (QoS) in terms of performance. A run-time manager operating system module is in charge of matching the specified QoS with the available platform resources by manipulating the overall degree of task-level parallelism of each application as well as the frequency of operation of each of the system cores.
+
+In this paper, we introduce a design space exploration framework for enabling and supporting enhanced resource management through software re-configuration on an industrial multi-core platform. From one side, the framework operates at design time to identify a set of promising operating points which represent the optimal trade-off in terms of the target power consumption and performance. The operating points are used after the system has been deployed to support an enhanced resource management policy. This is done by a light-weight resource management layer which filters and selects the optimal parallelism of each application and operating frequency of each core to achieve the QoS constraints imposed by the external world and/or the user.
+
+We show how the proposed design-time and run-time techniques can be used to optimally manage the resources of a multiple-stream MPEG4 encoding chip dedicated to automotive cognitive safety tasks.},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5457211},
+	pages = {196--201},
+}
+@OTHER{
+	11311_571216,
+	author = { Giovanni Mariani  and  Gianluca Palermo  and  Vittorio Zaccaria  and  Aleksandar Brankovic  and  Jovana Jovic  and  Cristina Silvano },
+	title = {A Correlation-Based Design Space Exploration Methodology for Multi-Processor Systems-on-Chip},
+	year = {2010},
+	publisher = {ACM/IEEE},
+	address = {New York, NY, USA},
+	booktitle = {Proceedings of the 47th Design Automation Conference},	
+	abstract = {Given the increasing complexity of multi-processor systems-on-chip, a wide range of parameters must be tuned to find the best trade-offs in terms of the selected system figures of merit (such as energy, delay and area). This optimization phase is called Design Space Exploration (DSE) consisting of a Multi-Objective Optimization (MOO) problem. In this paper, we propose an iterative design space exploration methodology exploiting the statistical properties of known system configurations to infer, by means of a correlation-based analysis, the next design points to be analyzed with low-level simulations. In fact, the knowledge of few design points is used to predict the expected improvement of unknown configurations. We show that the correlation of the configurations within the multi-processor design space can be modeled successfully with analytical functions and, thus, speed up the overall exploration phase. This makes the proposed methodology a model-assisted heuristic that, for the first time, exploits the correlation about architectural configurations to converge to the solution of the multi-objective problem.},
+	url = {http://dx.doi.org/10.1145/1837274.1837307},
+	doi = {10.1145/1837274.1837307},	
+	pages = {120--125},
+}
+@OTHER{
+	11311_571217,
+	author = { C  Silvano  and  W  Fornaciari  and  S  Crespi Reghizzi  and  G  Agosta  and  G  Palermo  and  V  Zaccaria  and  P  Bellasi  and  F  Castro  and  S  Corbetta  and  A  Di Biagio  and  E  Speziale  and  M  Tartara  and  D  Siorpaes  and  H  Hübert  and  B   Stabernack  and  J  Brandenburg  and  M  Palkovic  and  P  Raghavan  and  C  Ykman-Couvreur  and  A  Bartzas  and  S  Xydis  and  D  Soudris  and  T  Kempf  and  G  Ascheid  and  R  Leupers  and  H  Meyr  and  J  Ansari  and  P  Mähönen  and  B  Vanthournout },
+	title = {2PARMA: Parallel Paradigms and Run-time Management Techniques for Many-core Architectures},
+	year = {2010},
+	publisher = {IEEE},
+	booktitle = {Proceeding of ISVLSI 2010, 2010 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)},	
+	abstract = {The 2PARMA project focuses on the development of parallel
+programming models and run-time resource management techniques to exploit the features of many-core processor architectures.
+The main goals of the 2PARMA project are: the definition of a
+parallel programming model combining component-based and singleinstruction multiple-thread approaches, instruction set virtualisation based on portable byte-code, run-time resource management policies and mechanisms as well as design space exploration methodologies for many-core computing architectures.},
+	keywords = {Computer Architectures,
+Many-core Architectures,
+Run-time Management Techniques,},
+	url = {http://dx.doi.org/10.1109/ISVLSI.2010.93},
+	doi = {10.1109/ISVLSI.2010.93},	
+	pages = {494--499},
+}
+@OTHER{
+	11311_571213,
+	author = { Arpad Gellert  and  Gianluca Palermo  and  Vittorio Zaccaria  and  Adrian Florea  and  Lucian Vintan  and  Cristina Silvano },
+	title = {Energy-Performance Design Space Exploration of SMT Architectures Exploiting Selective Load Value Predictions},
+	year = {2010},
+	publisher = {European Design and Automation Association},
+	address = {Leuven},
+	booktitle = {DATE '10 Proceedings of the Conference on Design, Automation and Test in Europe},	
+	abstract = {This paper presents a design space exploration of a selective load value prediction scheme suitable for energy-aware Simultaneous Multi-Threaded (SMT) architectures. A load value predictor is an architectural enhancement which speculates over the results of a micro-processor load instruction to speed-up the execution of the following instructions. The proposed architectural enhancement differs from a classic predictor due to an improved selection scheme that allows to activate the predictor only when a miss occurs in the first level of cache. We analyze the effectiveness of the selective predictor in terms of overall energy reduction and performance improvement. To this end, we show how the proposed predictor can produce benefits (in terms of overall cost) when the cache size of the SMT architecture is reduced and we compare it with a classic non-selective load value prediction scheme. The experimental results have been gathered with a state-of-the-art SMT simulator running the SPEC2000 benchmark suite, both in SMT and non-SMT mode.},
+	url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5457197},
+	pages = {271--274},
+}
+@OTHER{
+	11311_571215,
+	author = { Vittorio Zaccaria  and  Gianluca Palermo  and  Giovanni Mariani  and  Fabrizio Castro  and  Cristina Silvano },
+	title = {Multicube Explorer: An Open Source Framework for Design Space Exploration of Chip Multi-Processors},
+	year = {2010},
+	publisher = {VDE Verlag},
+	booktitle = {ARCS Workshops},	
+	abstract = {Given the increasing complexity of Chip Multi-Processors (CMPs), a wide range of architecture parameters must be explored at design time to find the best trade-off in terms of multiple competing objectives (such as energy, delay, bandwidth, area, etc.) The design space of the target architecture is huge because of it should consider all possible combinations of each parameter (number of processors, processor issue width, L1 and L2 cache sizes, etc.). In this complex scenario, the multi-objective exploration of the huge design space of next generation CMPs cannot be anymore based on intuition and past experience of the design architects. An Automatic Design Space Exploration methodology is needed to support systematically the exploration and the quantitative comparison of the design alternatives in terms of multiple competing objectives (Pareto analysis). An overall design space exploration framework is needed to combine all optimizations into a global search space with a common interface to the simulation and evaluation tools. Our work focuses on the definition of an automatic multi-objective Design Space Exploration (DSE) framework for tuning Chip Multi-Processor architectures by evaluating a set of metrics (such as energy and delay) for the next generation embedded computing platforms. Multicube Explorer is an interactive open-source framework to enable the designer to automatically explore a design space of configurations for a parameterized architecture for which an executable model (use case simulator) exists. Multicube Explorer is an advanced multi-objective optimization framework which is entirely command-line/script driven and can be re-targeted to any configurable platform by writing a suitable XML design space definition file and providing a configurable simulator.},
+	url = {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5759023},
+	pages = {325--331},
+}
+@OTHER{
+	11311_501077,
+	author = { G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {Variability-Aware Robust Design Space Exploration of Chip Multiprocessor Architectures},
+	year = {2009},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {IEEE/ACM ASP-DAC 2009, 14th Asia and South Pacific Design Automation Conference},	
+	abstract = {In the context of a design space exploration framework for supporting the platform-based design approach, we address the problem of robustness with respect to manufacturing process variations. First, we introduce response surface modeling techniques to enable an efficient evaluation of the statistical measures of execution time and energy consumption for each system configuration. We then introduce a robust design space exploration framework to afford the problem of the impact of manufacturing process variations onto the system-level metrics and consequently onto the application-level constraints. We finally provide a comparison of our design space exploration technique with conventional approaches.},
+	url = {http://dx.doi.org/10.1109/ASPDAC.2009.4796501},
+	doi = {10.1109/ASPDAC.2009.4796501},	
+	pages = {323--328},
+}
+@OTHER{
+	11311_563292,
+	author = { G  Palermo  and  C  Silvano  V  Zaccaria },
+	title = {ReSPIR: A Response Surface-Based Pareto Iterative Refinement for Application-Specific Design Space Exploration},
+	year = {2009},
+	journal = {IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS},
+	volume = {28},
+	abstract = {Application-specific multiprocessor systems-on-chip (MPSoCs) are usually designed by using a platform-based approach, where a wide range of customizable parameters can be tuned to find the best tradeoff in terms of the selected figures of merit (such as energy, delay, and area). This optimization phase is called design space exploration (DSE), and it usually consists of a multiobjective optimization problem with multiple constraints. So far, several heuristic techniques have been proposed to address the DSE problem for MPSoC, but they are not efficient enough for managing the application-specific constraints and for identifying the Pareto front. In this paper, an efficient DSE methodology for application-specific MPSoC is proposed. The methodology is efficient in the sense that it is capable of finding a set of good candidate architecture configurations by minimizing the number of simulations to be executed. The methodology combines the design of experiments (DoEs) and response surface modeling (RSM) techniques for managing system-level constraints. First, the DoE phase generates an initial plan of experiments used to create a coarse view of the target design space to be explored by simulations. Then, a set of RSM techniques is used to refine the simulation-based exploration by exploiting the application-specific constraints to identify the maximum number of feasible solutions. To trade off the accuracy and efficiency of the proposed techniques, a set of experimental results for the customization of a symmetric shared-memory on-chip multiprocessor with actual workloads has been reported in this paper.},
+	keywords = {INF},
+	doi = {10.1109/TCAD.2009.2028681},	
+	pages = {1816--1829},
+}
+@OTHER{
+	11311_544258,
+	author = { G  MARIANI  and  G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {Multiprocessor System-on-Chip Design Space Exploration based on Multi-level Modeling Techniques},
+	year = {2009},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {IEEE IC-SAMOS'09 - International Conference on Embedded Computer Systems: Architectures, MOdeling, and Simulation},	
+	abstract = {Multi-processor Systems-on-chip are currently designed by using platform-based synthesis techniques. In this approach, a wide range of platform parameters are tuned to find the best trade-offs in terms of the selected system figures of merit (such as energy, delay and area). This optimization phase is called Design Space Exploration (DSE) and it generally consists of a Multi-Objective Optimization (MOO) problem.
+
+The design space of a Multi-processor architecture is too large to be evaluated comprehensively. So far, several heuristic techniques have been proposed to address the MOO problem, but they are characterized by low efficiency to identify the Pareto set. In this paper we propose a methodology for heuristic platform based design based on evolutionary algorithms and multi-level simulation techniques. In particular, we extend the NSGA-II with an approximate neural network meta-model for multiprocessor architectures in order to replace expensive platform simulations with fast meta-model evaluation. The model accuracy and efficiency is improved by exploiting high-level platform simulation techniques. High-level simulation allows us to reduce the overall complexity of the neural network and improving its prediction power.
+
+Experimental results show that the proposed techniques is able to reduce the number of simulations needed for the optimization without decreasing the quality of the obtained Pareto set. Results are compared with state of the art techniques to demonstrate that optimization time due to simulation can be sped up by adopting multi-level simulation techniques.1},
+	url = {http://dx.doi.org/10.1109/ICSAMOS.2009.5289222},
+	doi = {10.1109/ICSAMOS.2009.5289222},	
+	pages = {118--124},
+}
+@OTHER{
+	11311_544260,
+	author = { G  MARIANI  and  G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {Meta-model Assisted Optimization for Design Space Exploration of Multi-Processor Systems-on-Chip},
+	year = {2009},
+	publisher = {IEEE Computer Society Washington, DC, USA},
+	booktitle = {DSD '09 Proceedings of the 2009 12th Euromicro Conference on Digital System Design, Architectures, Methods and Tools},	
+	abstract = {Multi-processor Systems-on-chip are currently designed by using platform-based synthesis techniques. In this approach, a wide range of platform parameters are tuned to find the best trade-offs in terms of the selected system figures of merit (such as energy, delay and area). This optimization phase is called Design Space Exploration (DSE) and it generally consists of a Multi-Objective Optimization (MOO) problem. The design space of a Multi-processor architecture is too large to be evaluated comprehensively. So far, several heuristic techniques have been proposed to address the MOO problem, but they are characterized by low efficiency to identify the Pareto front. In this paper, we address the MPSoC DSE problem by using an NSGA-II modified to be assisted by an Artificial Neural Network (ANN). In particular we exploit statistical methods to compute the prediction confidence intervals for the ANN approximations. These information are adopted in the evolution control strategy in order to carefully select which individuals should be simulated. Experimental results show that the proposed techniques is able to reduce the simulations needed for the optimization without decreasing the quality of the obtained Pareto Front. Results are compared with state of the art techniques to demonstrate that optimization time due to simulation can be speed up by adopting statistical methods during evolution control.},
+	url = {http://dx.doi.org/10.1109/DSD.2009.154},
+	doi = {10.1109/DSD.2009.154},	
+	pages = {383--389},
+}
+@OTHER{
+	11311_563284,
+	author = { A  D  Choudhury  and  G  Palermo  and  C  Silvano  and  V  Zaccaria },
+	title = {Yield Enhancement by Robust Application-specific Mapping on Network-on-Chips},
+	year = {2009},
+	publisher = {ACM New York, NY, USA},
+	address = {New York, NY, USA},
+	booktitle = {NoCArc '09 Proceedings of the 2nd International Workshop on Network on Chip Architectures},	
+	abstract = {The current technological defect densities and production yields are a motivating factor supporting the introduction of design-for-manufacturability techniques during the high-level design of complex, embedded systems based on network-on-chips (NoCs). In this context, we tackle the problem of mapping the IPs of a multi-processing system to the NoC nodes, by taking into account the effective robustness of the system with respect to permanent faults in the interconnection network due to manufacturing defects. In particular, we introduce an application specific methodology for identifying optimal NoCs mappings which minimize the variance of the system power and latency and maximizes the probability that the actual system will work when deployed, even in presence of faulty NoC links. We provide experimental results by comparing the proposed methodology with conventional mapping approaches, by highlighting benefits and drawbacks of both techniques.},
+	url = {http://dx.doi.org/10.1145/1645213.1645223},
+	doi = {10.1145/1645213.1645223},	
+	pages = {37--42},
+}
+@OTHER{
+	11311_544259,
+	author = { G  MARIANI  and  G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {A Design Space Exploration Methodology Supporting Run-Time Resource Management for Multi-Processors System on-Chip},
+	year = {2009},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {Proceedings of IEEE 7th Symposium on Application Specific Processors, 2009. SASP '09.},	
+	abstract = {Application specific multi-processor systems-on-chip are currently designed by using platform-based synthesis techniques. In this approach, a wide range of platform parameters are tuned either at design-time or at run-time, to provide the best trade-offs in terms of the selected system figures of merit (such as power and throughput) for a dynamic application-specific workload. Among the design-time (hardware) configurable parameters we can find the memory sub-system configuration (e.g. cache size and associativity) and other architectural parameters such as the instruction-level parallelism of the system processors. Among the run-time (software) configurable parameters we can find the overall degree of task-level parallelism associated with each application running on the chip. Typically, while the design-time exploration is performed in the early development stages for a set of static parameters, the tuning of the run-time parameters is performed dynamically by a run-time management software module after the system has been deployed. In this paper, we introduce a methodology for identifying a hardware configuration which is robust with respect to the variable workload scenario introduced by the run-time management. Moreover, the proposed methodology is aimed at providing useful information about the optimal operating points of the applications in terms of task-level parallelism. The proposed methodology is based on the NSGA-II evolutionary heuristic algorithm assisted by an artificial neural network (ANN). We then introduce a run-time management policy capable to exploit the above information to maximize the performance of the system under power budget constraints. Experimental results show that the proposed technique is able to reduce the overall design space exploration time yet providing a near-optimal solution, in terms of hardware parameters, to enable an innovative and efficient run-time management policy.},
+	url = {http://dx.doi.org/10.1109/SASP.2009.5226331},
+	doi = {10.1109/SASP.2009.5226331},	
+	pages = {21--28},
+}
+@OTHER{
+	11311_501075,
+	author = { G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {Robust Optimization of SoC Architectures: A Multi-Scenario Approach},
+	year = {2008},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {Proceedings of IEEE/ACM/IFIP Workshop on Embedded Systems for Real-Time Multimedia, 2008. ESTImedia 2008.},	
+	abstract = {Multimedia and computational intensive applications are more and more pushing towards high-performance, low-power consumption and limited area occupation making the concept of optimality multi-objective. In the context of a design space exploration framework to support the platform-based design approach, we address the problem of robust optimization of a parameterized system-on-chip platform towards a set of objective functions. The concept of robustness deals with the uncertainty of the scenarios for which the system is optimized. The problem of the robust optimization has been treated as a minimization of a geometric mean of the objective functions computed over each uncertainty scenario and it is solved with a multi-criteria decision technique. The resulting robust solution is characterized by a multi-objective optimality over the set of considered scenarios. Experimental results have been gathered from two virtual platforms in a multi-scenario approach.},
+	url = {http://dx.doi.org/10.1109/ESTMED.2008.4696986},
+	doi = {10.1109/ESTMED.2008.4696986},	
+	pages = {7--12},
+}
+@OTHER{
+	11311_501072,
+	author = { G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {An Efficient Design Space Exploration Methodology for On-Chip Multiprocessors Subject to Application-Specific Constraints},
+	year = {2008},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {Application Specific Processors, 2008. SASP 2008. Symposium on},	
+	abstract = {Multi-processor system on-chip (MPSoC) architectures represent an emerging paradigm for developing customized, application specific solutions meeting time-to-market, performance and power consumption constraints. Application-specific MPSoCs are usually designed by using a platform-based approach, where a wide range of customizable parameters must be tuned to find the best trade-offs in terms of the selected figures of merit (such as energy, delay and area). This optimization phase is called design space exploration (DSE) and it generally consists of a multi-objective optimization (MOO) problem with multiple constraints. The design space for an application-specific MPSoC architecture consists of several parameters, mainly related to micro-architecture, memory hierarchy, and interconnection network. The total amount of possible architecture configurations is too large to be comprehensively evaluated. So far, several heuristic techniques have been proposed to address the DSE problem for MPSoC, but they are not efficient in handling constraints and identifying the Pareto front. In this paper, an efficient DSE methodology for application-specific MPSoC is proposed. The methodology combines design of experiments (DoEs) and response surface modeling (RSM) techniques to a new technique for handling system-level constraints. First, the DoE phase generates an initial plan of experiments used to create a coarse view of the target design space. Then, a set of RSM techniques are used to refine the exploration by exploiting application-specific constraints to identify the maximum number of feasible solutions. To trade-off accuracy and efficiency of the proposed techniques, a set of experimental results with actual workloads are reported in the paper.},
+	url = {http://dx.doi.org/10.1109/SASP.2008.4570789},
+	doi = {10.1109/SASP.2008.4570789},	
+	pages = {75--82},
+}
+@OTHER{
+	11311_501074,
+	author = { G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {An Efficient Design Space Exploration Methodology for Multiprocessor SoC Architectures based on Response Surface Methods},
+	year = {2008},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {Proceeding of International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation, 2008. SAMOS 2008.},	
+	abstract = {Multi-processor system on-chip (MPSoC) architectures are currently designed by using a platform-based approach. In this approach, a wide range of platform parameters must be tuned to find the best trade-offs in terms of the selected figures of merit (such as energy, delay and area). This optimization phase is called design space exploration (DSE) and it generally consists of a multi-objective optimization (MOO) problem. The design space for an MPSoC architecture is too large to be evaluated comprehensively. So far, several heuristic techniques have been proposed to address the MOO problem for MPSoC, but they are characterized by low efficiency to identify the Pareto front. In this paper, an efficient DSE methodology is proposed leveraging traditional Design of Experiments (DoE) and response surface modeling (RSM) techniques. In particular, the DoE phase generates an initial plan of experiments used to create a coarse view of the target design space; a set of RSM techniques are then used to refine the exploration. This process is iteratively repeated until the target criterion (e.g. number of simulations) is satisfied. A set of experimental results are reported to trade-off accuracy and efficiency of the proposed techniques with actual workloads.},
+	url = {http://dx.doi.org/10.1109/ICSAMOS.2008.4664858},
+	doi = {10.1109/ICSAMOS.2008.4664858},	
+	pages = {150--157},
+}
+@OTHER{
+	11311_501081,
+	author = { G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {Discrete Particle Swarm Optimization for Multi-objective Design Space Exploration},
+	year = {2008},
+	publisher = {IEEE (Institute of Electrical and Electronics Engineers)},
+	booktitle = {Euromicro Proceedings of DSD'08 - Conference on Digital System Design},	
+	abstract = {Platform-based design represents the most widely used approach to design System-On-Chip (SOC) applications. In this context, the Design Space Exploration (DSE) phase consists of optimally configure a parameterized SOC platform in terms of system-level requirements depending on the target application. In this paper, we introduce the Discrete Particle Swarm Optimization methodology (DPSO) for supporting the DSE of an hardware platform. The proposed technique aims at efficiently profiling the target application and deriving an approximated Pareto set of system configurations with respect to the selected figures of merit. Once the approximated Pareto set has been built, the designer can quickly select the best system configuration satisfying the constraints. Experimental results show that the proposed DPSO technique can speed up the design space exploration time up to 5X with an accuracy of up to 70% with respect to a full search exploration for the selected benchmarks.},
+	url = {http://dx.doi.org/10.1109/DSD.2008.21},
+	doi = {10.1109/DSD.2008.21},	
+	pages = {641--644},
+}
+@OTHER{
+	11311_501080,
+	author = { G  MARIANI  and  G  PALERMO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {An Efficient Design Space Exploration Methodology for Multi-Cluster VLIW Architectures based on Artificial Neural Networks},
+	year = {2008},
+	publisher = {IFIP International Federation for Information Processing},
+	booktitle = {IFIP VLSI-SoC 2008, International Conference on Very Large Scale Integration of System-on-Chip},	
+	pages = {213--218},
+}
+@OTHER{
+	11311_553287,
+	author = { BONA A  and  SAMI M G  and  D  SCIUTO  and  SILVANO C  and  ZACCARIA V  and  ZAFALON R },
+	title = {Reducing the complexity of instruction-level power models for VLIW processors},
+	year = {2006},
+	journal = {DESIGN AUTOMATION FOR EMBEDDED SYSTEMS},
+	volume = {10, No.1},
+	abstract = {Aim of this paper is to propose a high-level power exploration framework based
+on an instruction-level energy model for VLIW (Very Long InstructionWord) architectures.
+More specifically, the present paper deals with the reduction of the complexity of the energy
+model of K-issueVLIWprocessors from exponential with respect to the number of operations
+within the Instruction Set O(|I SA|K ) to quadratic (O(K ∗ |I SA|2)). The complexity of the
+energy model has been further simplified by automatically clustering the operations in the ISA
+with respect to their average energy. Globally, the proposed approach reduces the complexity
+of the characterization problem for a K-issue VLIW processor to quadratic (O(K ∗ |C|2))
+with respect to the number of operation clusters. In this way, a more efficient characterization
+of the VLIW core power consumption can been achieved, while preserving the accuracy of
+the power estimates. The proposed model has been further extended to provide early power
+figures and energy/performance trade-offs for multi-cluster VLIW architectures composed of
+multiple data-path units and a single instruction cache control unit. The proposed high-level
+power estimation methodology has been applied to the Lx 4-issue VLIW pipelined processor
+provided by STMicroelectronics.},
+	doi = {10.1007/s10617-006-9045-5},	
+	pages = {49--67},
+}
+@OTHER{
+	11311_553409,
+	author = { G  Bertoni  and  L  Breveglieri  and  M  Monchiero  and  G  Palermo  and  V  Zaccaria },
+	title = {A power attack methodology to AES based on induced cache misses: procedure, evaluation and possible countermeasures},
+	year = {2006},
+	publisher = {Nova Science  Publishers},
+	booktitle = {New Trends in Cryptographic Systems},	
+	abstract = {The need for fast but secure cryptographic systems is growing bigger. Therefore, dedicated hardware for cryptography is becoming a key issue for designers. With the spread of reconfigurable hardware such as FPGAs, embedded cryptographic hardware became cost-effective. Nevertheless, it is worthy to note that nowadays, even hardwired cryptographic algorithms are not safe. Attacks based on power consumption and electromagnetic Analysis, such as SPA, DPA and EMA have been successfully used to retrieve secret information stored in cryptographic devices. Besides performance in terms of area and throughput, designer of embedded cryptographic hardware must worry about the leakage of their implementations.
+This paper deals with the leakage that occurs in the SW computation of AES on platforms equipepd with a cache memory through the miss events, which may allow to infer the secret key.},
+	url = {https://www.novapublishers.com/catalog/index.php},
+	url = {https://www.novapublishers.com/catalog/product_info.php?products_id=4213},
+	pages = {33--46},
+}
+@OTHER{
+	11311_555095,
+	author = { M  Monchiero  and  G  Palermo  and  M  Sami  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {Low-Power Branch Prediction Techniques for VLIW Architectures: A Compiler-Hints Based Approach},
+	year = {2005},
+	journal = {INTEGRATION},
+	volume = {38},
+	abstract = {The paper introduces a dynamic branch prediction scheme suitable for energy-aware Very Long Instruction Word (VLIW) processors. The proposed technique is based on a compiler hint mechanism to filter the accesses to the branch predictor blocks. We define a configurable hint instruction which anticipates
+some static information about the upcoming branch to reduce the hardware involved in the prediction, thus, the energy consumption. To analyze the effectiveness of the proposed low-power branch prediction scheme, we combined it with some well-known dynamic branch prediction techniques suitable for VLIW processors. The analyzed branch predictors are characterized by simple hardware implementations,
+matching the low-power characteristics of the target VLIW processors. Experimental results have been
+carried out on Lx, an industrial 4-issue VLIW architecture.},
+	keywords = {Microprocessor Architectures,
+VLIW Processors,
+Branch prediction,
+Low-power Design,},
+	url = {http://dx.doi.org/10.1016/j.vlsi.2004.07.012},
+	doi = {10.1016/j.vlsi.2004.07.012},	
+	pages = {515--524},
+}
+@OTHER{
+	11311_552791,
+	author = { G  Palermo  and  C  Silvano  and  V  Zaccaria },
+	title = {Multi-Objective Design Space Exploration of  Embedded Systems},
+	year = {2005},
+	journal = {JOURNAL OF EMBEDDED COMPUTING},
+	volume = {1},
+	abstract = {In this paper, we address the problem of the efficient exploration of the architectural design space for parameterized embedded systems. The exploration problem is multi-objective (e.g., energy and delay), so the main goal of this work is to find a good approximation of the Pareto-optimal configurations representing the best energy/delay trade-offs by varying the architectural parameters of the target system. In particular, the paper presents a Design Space Exploration (DSE) framework to simulate the target system and to dynamically profile the target applications. In the proposed DSE framework, a set of heuristic algorithms have been analyzed to reduce the overall exploration time by computing an approximated Pareto set of configurations with respect to the selected figures of merit. Once the approximated Pareto set has been built, the designer can quickly select the best system configuration satisfying the constraints. Experimental results, derived from the application of the proposed DSE framework to a superscalar architecture, show that the exploration time can be reduced by three orders of magnitude with respect to the full search approach, while maintaining a good level of accuracy.},
+	keywords = {Computer Architectures,
+Design Space Exploration,
+Low-power Design,
+Platform-based Design,
+Multi-objective Optimisation,
+Embedded Systems,},
+	url = {http://iospress.metapress.com/content/1yd2pya4avy0799x/},
+	pages = {305--316},
+}
+@OTHER{
+	11311_258189,
+	author = { G  Bertoni  and  L  Breveglieri  and  M  Monchiero  and  G  Palermo  and  V  Zaccaria },
+	title = {AES power attack based on induced cache miss and countermeasure},
+	year = {2005},
+	publisher = {IEEE Computer Society Press},
+	volume = {1},
+	booktitle = {Proceedings of the International Conference on Information Technology: Coding and Computing, 2005 (ITCC 2005)},	
+	abstract = {This paper presents a new attack against a software implementation of the Advanced Encryption Standard. The attack aims at flushing elements of the SBOX from the cache, thus inducing a cache miss during the encryption phase. The power trace is then used to detect when the cache miss occurs; if the miss happens in the first round of the AES then the information can be used to recover part of the secret key. The attack has been simulated using the Wattch simulation framework and a simple software implementation of AES (using a single table for the SBOX). The attack can be easily extended to more sophisticated versions of AES with more than one table. Eventually, we present a simple countermeasure which does not require randomization.},
+	keywords = {INF; cryptography; AES; differential power analysis; cache miss; countermeasure},
+	url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=1428526&contentType=Conference+Publications&queryText%3DAES+power+attack+based+on+induced+cache+miss+and+countermeasure},
+	doi = {10.1109/ITCC.2005.62},	
+	pages = {586--591},
+}
+@OTHER{
+	11311_245368,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria  and  D  Pau  and  R  Zafalon },
+	title = {Processor Architecture},
+	year = {2005},
+	abstract = {An architecture for a pipeline processor circuit, preferably of the VLIW type, comprises a plurality of stages and a network of forwarding paths which connect pairs of said stages, as well as a register file for operand write-back. An optimization-of-power-consumption function is provided via inhibition of writing and subsequent readings in said register file of operands retrievable from said forwarding network on account of their reduced liveness length.},
+	keywords = {Microprocessor Architeectures,
+Low-power Design,},
+}
+@OTHER{
+	11311_689417,
+	author = { A   Bona  and  V   Zaccaria  and  R   Zafalon },
+	title = {System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip},
+	year = {2004},
+	publisher = {Springer US},
+	booktitle = {Ultra Low-Power Electronics and Design, E. Macii (ed.)},	
+	abstract = {bookc},
+	keywords = {notfoundincineca; bookc},
+	pages = {233--254},
+}
+@OTHER{
+	11311_689420,
+	author = { Andrea  Bona  and  Vittorio  Zaccaria  and  Roberto  Zafalon },
+	title = {Low Effort, High Accuracy Network-on-Chip Power Macro ModelingIntegrated Circuit and System Design. Power and Timing Modeling, Optimization and Simulation},
+	year = {2004},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	booktitle = {Lecture Notes in Computer ScienceIntegrated Circuit and System Design. Power and Timing Modeling, Optimization and Simulation},	
+	doi = {10.1007/978-3-540-30205-6_56},	
+	pages = {541--552},
+}
+@OTHER{
+	11311_271816,
+	author = { M  Monchiero  and  G  Palermo  and  M  Sami  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {Power-Aware Branch Prediction Techniques: A Compiler-Hints Based Approach for VLIW Processors},
+	year = {2004},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	booktitle = {Proceedings of GLSVLSI 2004: Great Lakes Symposium on VLSI},	
+	abstract = {Main goal of the paper is introducing a dynamic branch prediction scheme suitable for energy-aware VLIW (Very Long Instruction Word) processors. The proposed technique is based on a compiler hint mechanism to filter the accesses to the branch predictor blocks. Experimental results have been carried out on Lx/ST200, an industrial 4-issue VLIW architecture. We gathered two sets of results: First, by introducing the proposed low-power branch prediction technique in the Lx processor, which features fully static branch prediction, a significant improvement of the energy-delay metric has been observed. Second, we evaluated filtering efficacy of the proposed method and we found that it gets an access reduction to the branch prediction unit of 93% with respect to a processor directly derived from Lx, featuring cycle-by-cycle prediction, corresponding to an average 9% energy reduction of the whole processor power budget.},
+	url = {http://dx.doi.org/10.1145/988952.989058},
+	doi = {10.1145/988952.989058},	
+	pages = {440--443},
+}
+@OTHER{
+	11311_689419,
+	author = { A   Bona  and  V   Zaccaria  and  R   Zafalon },
+	title = {System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip},
+	year = {2004},
+	address = {Paris - France},
+	booktitle = {Proceedings of DATE 2004: IEEE Design, Automation and Test Conference in Europe},	
+	abstract = {conference},
+	keywords = {notfoundincineca; conference},
+	url = {http://dx.doi.org/10.1109/DATE.2004.1269258},
+	doi = {10.1109/DATE.2004.1269258},	
+	pages = {318--323},
+}
+@OTHER{
+	11311_262568,
+	author = { G  Palermo  and  C  Silvano  and  S  Valsecchi  and  V  Zaccaria },
+	title = {A System-Level Methodology for Fast Multi-Objective Design Space Exploration},
+	year = {2003},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	booktitle = {Proceedings of the 13th ACM Great Lakes symposium on VLSI},	
+	abstract = {In this paper, we address the problem of the efficient exploration of the architectural design space for parameterized systems. Since the design space is multi-objective, our aim is to find all the Pareto-optimal configurations that represent the best design trade-offs by varying the architectural parameters of the target system. In particular, the paper proposes a Design Space Exploration (DSE) framework based on a random search algorithm that has been tuned to efficiently derive Pareto-optimal curves. The reported design space exploration results have shown a reduction of the simulation time of up to two orders of magnitude with respect to full search strategy, while maintaining an average accuracy within 3%.},
+	url = {http://dx.doi.org/10.1145/764808.764833},
+	doi = {10.1145/764808.764833},	
+	pages = {92--95},
+}
+@OTHER{
+	11311_253124,
+	author = { G  Bertoni  and  A  Bircan  and  L  Breveglieri  and  P  Fragneto  and  M  Macchetti  and  V  Zaccaria },
+	title = {About the performances of the advanced encryption standard in embedded systems with cache memory},
+	year = {2003},
+	publisher = {IEEE Computer Society Press},
+	volume = {5},
+	booktitle = {Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS 2003)},	
+	abstract = {Modem networked embedded systems represent a growing market segment in which security is becoming an essential requirement. The Advanced Encryption Standard (AES) specification is becoming the default choice for such type of systems; however, a proper software implementation of AES is of fundamental importance in order to achieve significant performance. Current implementations presented in the literature differ in terms of the amount of look-up tables used for precomputing the functions of the encryption/decryption phase. This raises some questions regarding which AES implementation is optimal for a specific system configuration that, up to now, has been only empirically solved. In this work, we present an analytical model to study and evaluate the performance of the possible AES implementations in the early phases of system development. We then show that the proposed high-level timing model captures, with significant accuracy, the actual performance of current AES applications and thus it can be used for the early evaluation of optimal AES implementations and to support the design space exploration phase. Validating experiments have been carried out on the Lx architecture, a scalable and customizable VLIW architecture developed by STMicroelectronics and HP Labs. Some final considerations are eventually reported about the relevant characteristics of the analyzed implementations and the role of the cache memory.},
+	keywords = {INF; cryptography; AES cipher; performance evaluation; embedded system},
+	url = {http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1206212&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F8570%2F27139%2F01206212.pdf%3Farnumber%3D1206212},
+	doi = {10.1109/ISCAS.2003.1206212},	
+	pages = {145--148},
+}
+@OTHER{
+	11311_271781,
+	author = { G  Palermo  and  C  Silvano  and  V  Zaccaria },
+	title = {A Flexible Framework for Fast Multi-Objective Design Space Exploration of Embedded Systems},
+	year = {2003},
+	publisher = {Springer Berlin Heidelberg},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {2799},
+	booktitle = {Proceedings of PATMOS 2003: IEEE International Workshop on Power and Timing Modeling, Optimization and Simulation},	
+	abstract = {The evaluation of the best system-level architecture in terms of energy and performance is of mainly importance for a broad range of embedded SOC platforms. In this paper, we address the problem of the efficient exploration of the architectural design space for parameterized microprocessor-based systems. The architectural design space is multi-objective, so our aim is to find all the Pareto-optimal configurations representing the best power-performance design trade-offs by varying the architectural parameters of the target system. In particular, the paper presents a Design Space Exploration (DSE) framework tuned to efficiently derive Pareto-optimal curves. The main characteristics of the proposed framework consist of its flexibility and modularity, mainly in terms of target architecture, related system-level executable models, exploration algorithms and system-level metrics. The analysis of the proposed framework has been carried out for a parameterized superscalar architecture executing a selected set of benchmarks. The reported results have shown a reduction of the simulation time of up to three orders of magnitude with respect to the full search strategy, while maintaining a good level of accuracy (under 4% on average).},
+	url = {http://dx.doi.org/10.1007/978-3-540-39762-5_31},
+	url = {http://link.springer.com/content/pdf/10.1007%2F978-3-540-39762-5_31},
+	doi = {10.1007/978-3-540-39762-5_31},	
+	pages = {249--258},
+}
+@OTHER{
+	11311_271783,
+	author = { G  Palermo  and  C  Silvano  and  V  Zaccaria },
+	title = {Power-Performance System-Level Exploration of a MicroSPARC2-based Embedded Architecture},
+	year = {2003},
+	publisher = {IEEE Computer Society Washington, DC, USA},
+	address = {Washington, DC, USA},
+	booktitle = {Proceedings of DATE 2003 Designers Forum: IEEE Design, Automation and Test Conference},	
+	abstract = {This paper describes the architectural exploration of the system-level parameters for a MicroSPARC2-based embedded system. The overall goal of the exploration task is to quickly identify the best architecture of the embedded system in terms of both energy and delay parameters, avoiding the comprehensive analysis of the architectural design space. The Energy-Delay Product (EDP) has been adopted as the evaluation metric to compare the alternative architectures in terms of different cache memory and bus subsystems. The exploration phase adopts an iterative local-search algorithm based on the sensitivity analysis of the cost function with respect to the tuning parameters of system architecture. The exploration targets the architectural optimisation of the parameters related to the cache memory and the bus sub-systems of an embedded architecture based on the MicroSPARC2 architecture executing the set of Mediabench benchmarks for multimedia applications. The experimental results ha ve shown a reduction up to nine orders of magnitude ofthe n umber of design alternatives analyzed during the exploration phase.},
+	url = {http://dx.doi.org/10.1109/DATE.2003.10236},
+	doi = {10.1109/DATE.2003.10236},	
+	pages = {182--187},
+}
+@OTHER{
+	11311_254169,
+	author = { L  Salvemini  M  Sami  and  D  Sciuto  and  C  Silvano  V  Zaccaria  R  Zafalon },
+	title = {A Methodology for the Efficient Architectural Exploration of Energy-Delay Trade-offs for Embedded Systems},
+	year = {2003},
+	doi = {10.1145/952532.952664},	
+	pages = {672--678},
+}
+@OTHER{
+	11311_271782,
+	author = { G  Palermo  and  M  Sami  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {Branch Prediction Techniques for Low-Power VLIW Processors},
+	year = {2003},
+	publisher = {ACM},
+	booktitle = {Proceedings of GLSVLSI 2003: Great Lakes Symposium on VLSI},	
+	abstract = {Main goal of the paper is to introduce a branch prediction scheme suitable for energy-efficient VLIW (Very Long Instruction Word) processors aiming at reducing the energy associated with the prediction phase by filtering the accesses to the branch predictor block. To analyze the effectiveness of the proposed low-power branch prediction scheme, we combined it to some well-known dynamic branch prediction techniques suitable for VLIW processors. Experimental results have been carried out on Lx, a 4-issue VLIW architecture with 6-stage pipeline. The proposed solution implies a performance improvement of 7% on average and an average energy reduction of 15%.},
+	url = {http://dx.doi.org/10.1145/764808.764866},
+	doi = {10.1145/764808.764866},	
+	pages = {225--228},
+}
+@OTHER{
+	11311_255518,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria },
+	title = {Power Estimation and Optimization Methodologies for VLIW-Based Embedded Systems},
+	year = {2003},
+	publisher = {Kluwer Academic Publisher},
+	address = {Boston},
+}
+@OTHER{
+	11311_240458,
+	author = { A  Bona  and  M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {An instruction-level methodology for power estimation and optimization of embedded VLIW cores},
+	year = {2002},
+	publisher = {IEEE Press Piscataway, NJ, USA ©2000},
+	booktitle = {Proceedings of DATE 2002: IEEE Design, Automation and Test Conference in Europe},	
+	url = {http://dx.doi.org/10.1109/DATE.2002.998484},
+	doi = {10.1109/DATE.2002.998484},	
+	pages = {1128--1128},
+}
+@OTHER{
+	11311_240457,
+	author = { A  Bona  and  M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {Energy Estimation and Optimization of Embedded VLIW Processors based on Instruction Clustering},
+	year = {2002},
+	publisher = {ACM New York, NY, USA ©2002},
+	booktitle = {DAC '02 Proceedings of the 39th annual Design Automation Conference},	
+	abstract = {This paper extends the state of the art by improving the energy characterization efficiency of state-of-the-art ILP (instruction level parallelism) processors. Furthermore, the paper proposes a spatial scheduling algorithm based on a low-power reordering of the parallel operations within the same long instruction.},
+	url = {http://dx.doi.org/10.1145/513918.514137},
+	doi = {10.1145/513918.514137},	
+	pages = {886--891},
+}
+@OTHER{
+	11311_256819,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {Low-Power Data Forwarding for VLIW Embedded Architectures},
+	year = {2002},
+	journal = {IEEE TRANSACTIONS ON VERY LARGE SCALE INTEGRATION (VLSI) SYSTEMS},
+	volume = {10},
+	abstract = {Proposes a low-power approach to the design of embedded very long instruction word (VLIW) processor architectures based on the forwarding (or bypassing) hardware, which provides operands from interstage pipeline registers directly to the inputs of the function units. The power optimization technique exploits the forwarding paths to avoid the power cost of writing/reading short-lived variables to/from the register file (RF). Such optimization is justified by the fact that, in application-specific embedded systems, a significant number of variables are short-lived, that is, their liveness (from first definition to last use) spans only few instructions. Values of short-lived variables can thus be accessed directly through the forwarding registers, avoiding writeback to the RF by the producer instruction and successive read from the RF by the consumer instruction. The decision concerning the enabling of the RF writeback phase is taken at compile time by the compiler static scheduling algorithm. This approach implies a minimal overhead on the complexity of the processor control logic and, thus, no critical path increase. The application of the proposed solution to a VLIW embedded core has shown an average RF power saving of 7.8% with respect to the unoptimized approach on the given set of target benchmarks.},
+	keywords = {Microprocessor Architectures,
+VLIW Processors,
+Pipelined Processors,
+Compilers,
+Low-power design,
+Embedded Systems,},
+	url = {http://doi.ieeecomputersociety.org/10.1109/TVLSI.2002.801617},
+	doi = {10.1109/TVLSI.2002.801617},	
+	pages = {614--622},
+}
+@OTHER{
+	11311_569401,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria  and  D  Pau  and  R  Zafalon },
+	title = {Processor architecture with variable-stage pipeline},
+	year = {2002},
+	abstract = {An architecture for a pipeline processor circuit, preferably of the VLIW type, comprises a plurality of stages ( IF, ID; EX, MEM, WB) and a network of forwarding paths (EX-EX, MEM-EX, MEM-ID) which connect pairs of said stages, as well as a register file (RF) for operand write-back. An optimization of power consumption function is provided via inhibition of writing (Write Inhibit) and subsequent readings in said Register File (RF) of operands retrievable from said forwarding network on account of their reduced liveness length},
+	keywords = {Microprocessor Architectures,
+Low-Power Design,},
+}
+@OTHER{
+	11311_557164,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria },
+	title = {An Instruction-Level Energy Model for Embedded VLIW Architectures},
+	year = {2002},
+	journal = {IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS},
+	volume = {21},
+	abstract = {In this paper, an instruction-level energy model is
+proposed for the data-path of very long instruction word (VLIW)
+pipelined processors that can be used to provide accurate power
+consumption information during either an instruction-level
+simulation or power-oriented scheduling at compile time. The
+analytical model takes into account several software-level parameters (such as instruction ordering, pipeline stall probability,
+and instruction cache miss probability) as well as microarchitectural-level ones (such as pipeline stage power consumption per instruction) providing an efficient pipeline-aware instruction-level power estimation, whose accuracy is very close to those given by RT or gate-level simulations. The problem of instruction-level power characterization of a K-issue VLIW processor is O(N**2K ) where N is the number of operations in the ISA and K is the number of parallel instructions composing the very long instruction. One of the advantages of the proposed model consists of reducing the complexity of the characterization problem to O( K x N**2). The proposed model has been used to characterize a four-issue VLIW core with a six-stage pipeline, and its accuracy and efficiency has been compared with respect to energy estimates derived by gate-level simulation. Experimental results (carried out on a set of embedded DSP benchmarks) have demonstrated an average error in accuracy of 4.8% of the instruction-level estimation engine with respect to the gate-level engine. The average simulation speed-up of the instruction-level power estimation engine with respect to the gate-level engine is of four orders of magnitude approximately.},
+	keywords = {VLIW Processors; Instruction Set Simulators; Energy-Models},
+	url = {http://doi.ieeecomputersociety.org/10.1109/TCAD.2002.801105},
+	doi = {10.1109/TCAD.2002.801105},	
+	pages = {998--1010},
+}
+@OTHER{
+	11311_557600,
+	author = { L  Benini  and  D  Bruni  and  M  Chinosi  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {A Framework for Modeling and Estimating the Energy Dissipation of VLIW-based Embedded Systems},
+	year = {2002},
+	journal = {DESIGN AUTOMATION FOR EMBEDDED SYSTEMS},
+	volume = {7},
+	abstract = {This paper describes a technique for modeling and estimating the power consumptionat the system-level for embedded VLIW (Very Long Instruction Word) architectures. The method is based on a hierarchy of dynamic power estimation engines: from the instruction-level down to the gate/transistor-level. Power macro-models have been developed for the main components of the system: theVLIW core, the register file, the instruction and data caches. The main goals to define a system-level simulation framework for the dynamic profiling of the power behavior during the software execution, providing also a break-down of the power contributions due to the single components of the system. The proposed approach has been applied to the Lx family of scalable embedded VLIWprocessors, jointly designed by STMicroelectronics and HPLabs. Experimental results, carried out over a set of benchmarks for embedded multimedia applications, have demonstrated an average accuracy of 5% of the instruction-level estimation engine with respect to the RTL engine, with an average speed-up of four orders of magnitude.},
+	keywords = {Microprocessor Architctures,
+VLIW Architectures,
+Embedded systems,
+Power Modeling and Estimation,},
+	url = {http://dx.doi.org/10.1023/A:1019722105713},
+	doi = {10.1023/A:1019722105713},	
+	pages = {183--203},
+}
+@OTHER{
+	11311_557323,
+	author = { W  FORNACIARI  and  D  SCIUTO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {A Sensitivity-Based Design Space Exploration Methodology for Embedded Systems},
+	year = {2002},
+	journal = {DESIGN AUTOMATION FOR EMBEDDED SYSTEMS},
+	volume = {7},
+	abstract = {In this paper, we propose a system-level design methodology for the efficient exploration of the architectural parameters of the memory sub-systems, from the energy-delay joint perspective. The aim is to find the best configuration of the memory hierarchy without performing the exhaustive analysis of the parameters space. The target system architecture includes the processor, separated instruction and data caches, the main memory, and the system buses. To achieve a fast convergence toward the near-optimal configuration, the proposed methodology adopts an iterative local-search algorithm based on the sensitivity analysis of the cost function with respect to the tuning parameters of the memory sub-system architecture. The exploration strategy is based on the Energy-Delay Product (EDP) metric taking into consideration both performance and energy constraints. The effectiveness of the proposed methodology has been demonstrated through the design space exploration of a real-world case study: the optimization of the memory hierarchy of a MicroSPARC2-based system executing the set of Mediabench benchmarks for multimedia applications. Experimental results have shown an optimization speedup of 2 orders of magnitude with respect to the full search approach, while the near-optimal system-level configuration is characterized by a distance from the optimal full search configuration in the range of 2%.},
+	keywords = {Computer Architectures,
+Design space exploration,
+Power and performance optimization,
+Embedded Systems,},
+	url = {http://dx.doi.org/10.1023/A:1019791213967},
+	doi = {10.1023/A:1019791213967},	
+	pages = {7--33},
+}
+@OTHER{
+	11311_271581,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {Exploiting Data Forwarding to Reduce the Power Budget of VLIW Embedded Processors},
+	year = {2001},
+	publisher = {IEEE Press Piscataway, NJ, USA ©2000},
+	booktitle = {Proceedings of DATE 2001: IEEE Design, Automation and Test Conference in Europe},	
+	url = {http://dx.doi.org/10.1109/DATE.2001.915034},
+	doi = {10.1109/DATE.2001.915034},	
+	pages = {252--257},
+}
+@OTHER{
+	11311_258170,
+	author = { W  Fornaciari  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria },
+	title = {A Design Framework to Efficiently Explore Energy-Delay Tradeoffs},
+	year = {2001},
+	publisher = {ACM New York, NY, USA ©2001},
+	booktitle = {Proceedings of CODES 2001: 9th ACM/IEEE International Symposium on Hardware/Software Co-Design},	
+	abstract = {This paper proposes a system-level design methodology for the efficient exploration of the memory architecture from the energy-delay combined perspective. The aim is to find a sub-optimal configuration of the memory hierarchy without performing the exhaustive analysis of the parameters space},
+	url = {http://dx.doi.org/10.1145/371636.371752},
+	doi = {10.1145/371636.371752},	
+	pages = {260--265},
+}
+@OTHER{
+	11311_271580,
+	author = { L  Benini  and  D  Bruni  and  M  Chinosi  and  C  Silvano  and  V  Zaccaria  and  R  Zafalon },
+	title = {A Power Modeling and Estimation Framework for VLIW-based Embedded Systems},
+	year = {2001},
+	abstract = {This paper extends previous work by proposing a comprehensive framework for modeling and estimating the system-level power consumption for an embedded industrial parallel processor. The experimental results have demonstrated an average accuracy of 5\% of the instruction-level estimation engine with respect to the RTL engine, with an average speed-up of four orders of magnitude.},
+	pages = {1--10},
+}
+@OTHER{
+	11311_244600,
+	author = { W  Fornaciari  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria },
+	title = {Fast System-Level Exploration of Memory Architectures Driven by Energy-Delay Metrics},
+	year = {2001},
+	publisher = {IEEE Press Piscataway},
+	volume = {IV},
+	booktitle = {Proceedings of ISCAS 2001: IEEE Int. Symposium on Circuits and Systems},	
+	url = {http://dx.doi.org/10.1109/ISCAS.2001.922284},
+	doi = {10.1109/ISCAS.2001.922284},	
+	pages = {502--505},
+}
+@OTHER{
+	11311_264181,
+	author = { W  Fornaciari  and  V  Piuri  and  V  Zaccaria },
+	title = {An Agent-based Approach to Full Interoperability and Allocation Transparency in Distributed File Systems},
+	year = {2001},
+	pages = {153--162},
+}
+@OTHER{
+	11311_254588,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria },
+	title = {Power Exploration for Embedded VLIW Architectures},
+	year = {2000},
+	publisher = {IEEE},
+	address = {Piscataway, NJ},
+	booktitle = {Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD 2000)},	
+	url = {http://dx.doi.org/10.1109/ICCAD.2000.896522},
+	doi = {10.1109/ICCAD.2000.896522},	
+	pages = {498--503},
+}
+@OTHER{
+	11311_245623,
+	author = { M  Sami  and  D  Sciuto  and  C  Silvano  and  V  Zaccaria },
+	title = {Instruction-Level Power Estimation for Embedded VLIW Cores},
+	year = {2000},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	booktitle = {Proceedings of the Eighth International Workshop on Hardware/Software Codesign, CODES 2000},	
+	abstract = {This paper introduces a power estimation methodology operating at the instruction-level which is tightly related to the characteristics of the paralel system architecture, mainly in terms of one or more target processors, the memory sub-system, the system-level buses and the coprocessors.},
+	url = {http://doi.acm.org/10.1145/334012.334019},
+	doi = {10.1145/334012.334019},	
+	pages = {34--38},
+}
+@OTHER{
+	11311_500814,
+	author = { M  SAMI  and  D  SCIUTO  and  C  SILVANO  and  V  ZACCARIA },
+	title = {Power Reduction on VLIW Processors through Data Forwarding},
+	year = {2000},
+	pages = {1--5},
+}
