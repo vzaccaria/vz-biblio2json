@@ -1,5 +1,5 @@
 # vz-biblio2json
-> No name given yet
+> A swiss knife tool to convert bibtex to json
 
 ## Install
 
@@ -46,6 +46,9 @@ Released under the BSD License.
 
 # Bug fixes
 
+-     remove readLocal -- [Mar 16th 16](../../commit/9d5963c1f30188eb6b9c828e775adf13f763a4cd)
+-     add missing test directory -- [Mar 1st 16](../../commit/c22fe2e08aadb4c505233b5e1c8a40844c049951)
+-     add lodash dependency -- [Mar 1st 16](../../commit/0ee7b6b9b4f2525a6e747af27131dcbc45721ad2)
 -     env setup for continuous development tests -- [Mar 1st 16](../../commit/18e6cd2d05168c8f4884b5d87a8114cfdcfc0eaa)
 -     add debug package -- [Feb 25th 16](../../commit/854d5bd1de29768ff8577fe1d97d114628a1f84c)
 -     dietrofront on shelljs -- [Feb 25th 16](../../commit/907aa12ee8ef23735bc0ac1a970795bcbc2186ed)
