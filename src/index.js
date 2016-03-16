@@ -164,7 +164,7 @@ function getRules(filename) {
 }
 
 var main = () => {
-    $f.readLocal('docs/usage.md').then(it => {
+    $fs.readFileAsync(`${__dirname}/docs/usage.md`, 'utf-8').then(it => {
         var options = getOptions(it)
         var {
             help, convert, bibfile, summary, bib1, bib2, check, adjust, adjustfile

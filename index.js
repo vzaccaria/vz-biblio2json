@@ -178,7 +178,7 @@ function getRules(filename) {
 }
 
 var main = function () {
-    $f.readLocal("docs/usage.md").then(function (it) {
+    $fs.readFileAsync("" + __dirname + "/docs/usage.md", "utf-8").then(function (it) {
         var options = getOptions(it);
         var help = options.help;
         var convert = options.convert;
