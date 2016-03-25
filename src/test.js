@@ -1,13 +1,13 @@
 /*eslint quotes: [0] */
 
-var chai = require('chai')
+let chai = require('chai')
 chai.use(require('chai-as-promised'))
-var should = chai.should()
+let should = chai.should()
 
-var z		= require('zaccaria-cli')
-var promise = z.$b
-var fs		= z.$fs
-var $s = require('shelljs')
+let z		= require('zaccaria-cli')
+let promise = z.$b
+let fs		= z.$fs
+let $s = require('shelljs')
 
 /**
  * Promised version of shelljs exec
@@ -35,11 +35,15 @@ function exec(cmd) {
 describe('#command', () => {
   "use strict"
   it('should show help', () => {
-    var usage = fs.readFileSync(`${__dirname}/../docs/usage.md`, 'utf8')
+    let usage = fs.readFileSync(`${__dirname}/../docs/usage.md`, 'utf8')
     return exec(`${__dirname}/../index.js -h`).should.eventually.contain(usage)
   })
     it('should convert a small file', () => {
-        var tv = $s.cat(`${__dirname}/../test/small.json`)
+        let tv = $s.cat(`${__dirname}/../test/small.json`)
       return exec(`${__dirname}/../index.js convert ${__dirname}/../test/small.bib`).should.eventually.contain(tv)
+  })
+    it('should convert a big file', () => {
+        let tv = $s.cat(`${__dirname}/../test/big.json`)
+      return exec(`${__dirname}/../index.js convert ${__dirname}/../test/big.bib`).should.eventually.contain(tv)
   })
 })

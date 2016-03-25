@@ -104,7 +104,12 @@ function fix_type(r) {
     r.type = _.first(fkw)
     r.justAccepted = _.includes(r.keyword, 'accepted')
     r.justApplied = _.includes(r.keyword, 'application')
-    r.patentNumber = r.number
+    if(r.type === 'patent') {
+        r.patentNumber = r.number
+    }
+    if(r.type === 'techreport') {
+        r.reportNumber = r.number
+    }
     return r
 }
 
@@ -154,7 +159,7 @@ let process = function(data) {
             "journal", "booktitle","volume", "pages",
             "institution", "publisher", "address",
             "doi", "isbn", "issn", "url",
-            "justApplied", "justAccepted", "patentNumber",
+            "justApplied", "justAccepted", "patentNumber", "reportNumber",
             "keyword", // needed by react utils for webpage generation
             "type" // needed by markdown generation
         ]);

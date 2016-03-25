@@ -1,0 +1,2393 @@
+{
+    "records": [
+        {
+            "authors": [
+                "S. Xydis",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "SPIRIT: Spectral-Aware Pareto Iterative Refinement Optimization for Supervised High-Level Synthesis",
+            "month": "January",
+            "year": "2015",
+            "journal": {
+                "name": "IEEE Transactions on Computer Aided Design of Integrated Circuits",
+                "id": "IEEETransactionsonComputerAidedDesignofIntegratedCircuits"
+            },
+            "volume": "34",
+            "pages": "155 to 159",
+            "doi": "10.1109/TCAD.2014.2363392",
+            "issn": "02780070",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "trans",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "G. Massari",
+                "E. Paone",
+                "P. Bellasi",
+                "G. Palermo",
+                "V. Zaccaria",
+                "W. Fornaciari",
+                "C. Silvano"
+            ],
+            "title": "Combining application adaptivity and system-wide Resource Management on multi-core platforms",
+            "month": "July",
+            "year": "2014",
+            "booktitle": "Proceedings of SAMOS 2014: XIVth International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation",
+            "pages": "26 to 33",
+            "address": "Samos, Greece",
+            "doi": "10.1109/SAMOS.2014.6893191",
+            "url": "http://dx.doi.org/10.1109/SAMOS.2014.6893191",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "D. Gadioli",
+                "S. Libutti",
+                "G. Massari",
+                "E. Paone",
+                "M. Scandale",
+                "P. Bellasi",
+                "G. Palermo",
+                "V. Zaccaria",
+                "G. Agosta",
+                "W. Fornaciari",
+                "C. Silvano"
+            ],
+            "title": "OpenCL Application Auto-tuning and Run-Time Resource Management for Multi-core Platforms",
+            "month": "August",
+            "year": "2014",
+            "booktitle": "Proceedings of ISPA 2014: IEEE International Symposium on Parallel and Distributed Processing with Applications",
+            "pages": "127 to 133",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "address": "Milan, Italy",
+            "doi": "10.1109/ISPA.2014.25",
+            "url": "http://dx.doi.org/10.1109/ISPA.2014.25",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "E. Paone",
+                "D. Gadioli",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "Evaluating orthogonality between application auto-tuning and run-time resource management for adaptive OpenCL applications",
+            "month": "June",
+            "year": "2014",
+            "booktitle": "Proceedings of ASAP 2014: IEEE 25th International Conference on Application-Specific Systems, Architectures and Processors",
+            "pages": "161 to 168",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "address": "Zurich, Switzerland",
+            "doi": "10.1109/ASAP.2014.6868651",
+            "url": "http://dx.doi.org/10.1109/ASAP.2014.6868651",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Massari",
+                "E. Paone",
+                "M. Scandale",
+                "P. Bellasi",
+                "G. Palermo",
+                "V. Zaccaria",
+                "G. Agosta",
+                "W. Fornaciari",
+                "C. Silvano"
+            ],
+            "title": "Data Parallel Application Adaptivity and System-Wide Resource Management in Many-Core Architectures",
+            "month": "April",
+            "year": "2014",
+            "booktitle": "Proceedings of ARC 2014: Reconfigurable Computing: Architectures, Tools, and Applications - 10th International Symposium",
+            "pages": "345 to 352",
+            "address": "Vilamoura, Portugal",
+            "doi": "10.1007/978-3-319-05960-0_39",
+            "url": "http://dx.doi.org/10.1007/978-3-319-05960-0_39",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "V. Sima",
+                "G. Palermo",
+                "V. Zaccaria",
+                "G. Marchiri",
+                "C. Silvano",
+                "K. Bertels"
+            ],
+            "title": "Run-time Optimization of a Dynamically Reconfigurable Embedded System Through Performance Prediction",
+            "month": "September",
+            "year": "2013",
+            "booktitle": "Proceedings of FPL 2013: International Conference on Field Programmable Logic and Applications",
+            "pages": "1 to 8",
+            "address": "Porto, Portugal",
+            "doi": "10.1109/FPL.2013.6645523",
+            "isbn": "9781479900046",
+            "url": "http://dl.acm.org/citation.cfm?id=2485450",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "DeSpErate: Speeding-up Design Space Exploration by using Predictive Simulation Scheduling",
+            "month": "March",
+            "year": "2014",
+            "booktitle": "Proceedings of DATE 2014: International Conference on Design, Automation and Test in Europe",
+            "pages": "1 to 4",
+            "address": "Dresden, Germany",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "S. Crespi Reghizzi",
+                "G. Agosta",
+                "G. Palermo",
+                "V. Zaccaria",
+                "P. Bellasi",
+                "F. Castro",
+                "S. Corbetta",
+                "E. Speziale",
+                "D. Melpignano",
+                "J. Zins",
+                "H. Hubert",
+                "B. Stabernack",
+                "J. Brandenburg",
+                "M. Palkovic",
+                "P. Raghavan",
+                "C. Ykman-couvreur",
+                "I. Anagnostopoulos",
+                "A. Bartzas",
+                "D. Soudris",
+                "T. Kempf",
+                "G. Ascheid",
+                "J. Ansari",
+                "P. Mahonen",
+                "B. Vanthournout"
+            ],
+            "title": "Parallel paradigms and run-time management techniques for many-core architectures: the 2PARMA approach",
+            "month": "January",
+            "year": "2012",
+            "booktitle": "Proceedings of INA-OCMC 2012: Interconnection Network Architecture: On-Chip, Multi-Chip",
+            "pages": "39 to 42",
+            "address": "Paris, France",
+            "doi": "10.1145/2107763.2107774",
+            "isbn": "9781450310109",
+            "url": "http://dx.doi.org/10.1109/ReCoSoC.2011.5981522",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "A. Ashouri",
+                "V. Zaccaria",
+                "S. Xydis",
+                "G. Palermo",
+                "C. Silvano"
+            ],
+            "title": "A Framework for Compiler Level Statistical Analysis over Customized VLIW Architecture",
+            "month": "October",
+            "year": "2013",
+            "booktitle": "Proceedings of VLSI-SoC 2013: International Conference on Very Large Scale Integration and System-on-Chip",
+            "pages": "124 to 129",
+            "address": "Instanbul, Turkey",
+            "doi": "10.1109/VLSI-SoC.2013.6673262",
+            "isbn": "9781479905225",
+            "url": "http://dl.acm.org/citation.cfm?id=2485450",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "ARTE: An Application-specific Run-Time managEment framework for multi-cores based on queuing models",
+            "month": "September",
+            "year": "2013",
+            "journal": {
+                "identifier": [
+                    {
+                        "type": "issn",
+                        "id": "0167-8191"
+                    }
+                ],
+                "name": "Parallel Computing",
+                "id": "ParallelComputing"
+            },
+            "volume": "39",
+            "pages": "504 to 519",
+            "publisher": "Elsevier - The Netherlands",
+            "issn": "01678191",
+            "url": "http://dx.doi.org/10.1016/j.parco.2013.04.002",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "journal",
+                "notfoundincineca"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "E. Paone",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano",
+                "D. Melpignano",
+                "G. Haugou",
+                "T. Lepley"
+            ],
+            "title": "An Exploration Methodology for a Customizable OpenCL Stereo-Matching Application Targeted to an Industrial Multi-Cluster Architecture",
+            "year": "2012",
+            "booktitle": "Proceedings of CODES+ISSS 2012: International Conference on Hardware/Software codesign and System Synthesis",
+            "pages": "503 to 512",
+            "publisher": "ACM New York, NY - USA",
+            "doi": "10.1145/2380445.2380523",
+            "isbn": "9781450314268",
+            "url": "http://dx.doi.org/10.1145/2380445.2380523",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "E. Paone",
+                "N. Vahabi",
+                "V. Zaccaria",
+                "C. Silvano",
+                "D. Melpignano",
+                "G. Haugou",
+                "T. Lepley"
+            ],
+            "title": "Improving Simulation Speed and Accuracy for Many-Core Embedded Platforms with Ensemble Models",
+            "month": "March",
+            "year": "2013",
+            "booktitle": "Proceedings of DATE 2013: International Conference on Design, Automation and Test in Europe",
+            "pages": "671 to 676",
+            "isbn": "9783981537000",
+            "url": "http://dl.acm.org/citation.cfm?id=2485452",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "S. Xydis",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "A Meta-Model Assisted Coprocessor Synthesis Framework for Compiler/Architecture Parameters Customization",
+            "month": "March",
+            "year": "2013",
+            "booktitle": "Proceedings of DATE 2013: International Conference on Design, Automation and Test in Europe",
+            "pages": "659 to 664",
+            "doi": "10.7873/DATE.2013.143",
+            "isbn": "9783981537000",
+            "url": "http://dl.acm.org/citation.cfm?id=2485450",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "conference",
+                "notfoundincineca"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "Design Space Exploration and Run-time Resource Management for Multi-cores",
+            "month": "September",
+            "year": "2013",
+            "journal": {
+                "name": "ACM Transactions on Embedded Computing Systems (TECS)",
+                "id": "ACMTransactionsonEmbeddedComputingSystems(TECS)"
+            },
+            "volume": "13",
+            "pages": "20:1 to 20:27",
+            "publisher": "ACM New York, NY - USA",
+            "doi": "10.1145/2520000.2514647",
+            "issn": "15399087",
+            "url": "http://dx.doi.org/10.1145/2520000.2514647",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "journal",
+                "notfoundincineca",
+                "trans"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "A. Pagni",
+                "F. Lucini",
+                "D. Pau",
+                "A. Borneo",
+                "V. Zaccaria"
+            ],
+            "title": "Process for translating instructions for an arm-type processor into instructions for a LX-type processor; relative translator device and computer program product",
+            "month": "2004/02/10",
+            "year": "2007",
+            "volume": "10776024",
+            "publisher": "EP 1028370A2 (Aug, 2000) ; US 2002/0138712 A1 (Sep, 2002) Yoshida 712/205; US 5852726 A (Dec, 1998) Lin et al. 712/200; US 5925123 A (Jul, 1999) Tremblay et al. 712/212; US 5951674 A (Sep, 1999) Moreno 712/210; US 6496922 B1 (Dec, 2002) Borrill 712/209; US 6934832 B1 (Aug, 2005) Van Dyke et al. 712/244; WO 02/086699 A2 (Oct, 2002)",
+            "address": "US",
+            "url": "http://www.patentlens.net/patentlens/patent/US_7243213/en/",
+            "justApplied": false,
+            "justAccepted": false,
+            "patentNumber": "7243213",
+            "keyword": [
+                "patent"
+            ],
+            "type": "patent"
+        },
+        {
+            "authors": [
+                "A. Pagni",
+                "F. Lucini",
+                "D. Pau",
+                "A. Borneo",
+                "V. Zaccaria"
+            ],
+            "title": "Process for translating instructions for an arm-type processor into instructions for a LX-type processor; relative translator device and computer program product",
+            "month": "2004/02/10",
+            "year": "2004",
+            "volume": "10776024",
+            "address": "US",
+            "url": "http://www.patentlens.net/patentlens/patent/US_2004_0225869_A1/en/",
+            "justApplied": true,
+            "justAccepted": false,
+            "patentNumber": "0225869",
+            "keyword": [
+                "patent",
+                "application"
+            ],
+            "type": "patent"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "D. Pau",
+                "R. Zafalon"
+            ],
+            "title": "Processor architecture",
+            "month": "2001/10/11",
+            "year": "2002",
+            "volume": "09976241",
+            "address": "US",
+            "url": "http://www.patentlens.net/patentlens/patent/US_2002_0124155_A1/en/",
+            "justApplied": true,
+            "justAccepted": false,
+            "patentNumber": "0124155",
+            "keyword": [
+                "patent",
+                "application"
+            ],
+            "type": "patent"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "D. Pau",
+                "R. Zafalon"
+            ],
+            "title": "Processor architecture",
+            "month": "2001/10/11",
+            "year": "2005",
+            "volume": "09976241",
+            "publisher": "EP 0569312A2 (Nov, 1993) ; US 4228497 A (Oct, 1980) Gupta et al. 364/200; US 5784320 A (Jul, 1998) Johnson 365/189.01; US 5799165 A (Aug, 1998) Favor et al. 712/214; US 5809325 A (Sep, 1998) Hinton et al. 712/32; US 6247134 B1 (Jun, 2001) Sproch et al. 713/320; US 6633971 B2 (Oct, 2003) Peng et al. 712/218; US 6738966 B1 (May, 2004) Tanaka 717/140",
+            "address": "US",
+            "url": "http://www.patentlens.net/patentlens/patent/US_6889317/en/",
+            "justApplied": false,
+            "justAccepted": false,
+            "patentNumber": "6889317",
+            "keyword": [
+                "patent"
+            ],
+            "type": "patent"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "S. Crespi Reghizzi",
+                "G. Agosta",
+                "G. Palermo",
+                "V. Zaccaria",
+                "P. Bellasi",
+                "F. Castro",
+                "S. Corbetta",
+                "E. Speziale",
+                "D. Melpignano",
+                "J. Zins",
+                "H. Hubert",
+                "B. Stabernack",
+                "J. Brandenburg",
+                "M. Palkovic",
+                "P. Raghavan",
+                "C. Ykman-couvreur",
+                "I. Anagnostopoulos",
+                "A. Bartzas",
+                "D. Soudris",
+                "T. Kempf",
+                "G. Ascheid",
+                "J. Ansari",
+                "P. Mahonen",
+                "B. Vanthournout"
+            ],
+            "title": "Invited paper: Parallel programming and run-time resource management framework for many-core platforms: The 2PARMA approach",
+            "month": "June",
+            "year": "2011",
+            "booktitle": "Proceedings of ReCoSoC 2011: Reconfigurable Communication-centric Systems-on-Chip",
+            "pages": "1 to 7",
+            "doi": "10.1109/ReCoSoC.2011.5981522",
+            "url": "http://dx.doi.org/10.1109/ReCoSoC.2011.5981522",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "Evaluating Run-time Resource Management Policies for Multi-core Embedded Platforms with the EMME Evaluation Framework",
+            "month": "February",
+            "year": "2012",
+            "booktitle": "Proceedings of the ARCS Workshops 2012",
+            "pages": "363 to 374",
+            "isbn": "9781467319133",
+            "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6222214",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "S. Marceglia",
+                "S. Bonacina",
+                "V. Zaccaria",
+                "C. Pagliari",
+                "F. Pinciroli"
+            ],
+            "title": "How might the iPad change healthcare?",
+            "month": "June",
+            "year": "2012",
+            "journal": {
+                "identifier": [
+                    {
+                        "type": "issn",
+                        "id": "0141-0768"
+                    }
+                ],
+                "name": "Journal of the Royal Society of Medicine",
+                "id": "JournaloftheRoyalSocietyofMedicine"
+            },
+            "volume": "105",
+            "pages": "233 to 241",
+            "publisher": "SAGE Publications",
+            "doi": "10.1258/jrsm.2012.110296",
+            "issn": "01410768",
+            "url": "http://dx.doi.org/10.1258/jrsm.2012.110296",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "An Instruction-Level Energy Model for Embedded VLIW Architectures",
+            "month": "September",
+            "year": "2002",
+            "journal": {
+                "name": "IEEE Transactions on Computer Aided Design of Integrated Circuits",
+                "id": "IEEETransactionsonComputerAidedDesignofIntegratedCircuits"
+            },
+            "volume": "22",
+            "pages": "998 to 1010",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "doi": "10.1109/TCAD.2002.801105",
+            "issn": "02780070",
+            "url": "http://dx.doi.org/10.1109/TCAD.2002.801105",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "trans",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Power-Performance System-Level Exploration of a MicroSPARC2-Based Embedded Architecture",
+            "day": "3-7",
+            "month": "March",
+            "year": "2003",
+            "booktitle": "Proceedings of DATE 2003 Designers Forum: IEEE Design, Automation and Test Conference in Europe",
+            "pages": "20182",
+            "address": "Munich, Germany",
+            "doi": "10.1109/DATE.2003.10236",
+            "url": "http://dx.doi.org/10.1109/DATE.2003.10236",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "D. Matos",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Reinbrecht",
+                "A. Susin",
+                "C. Silvano",
+                "L. Carro"
+            ],
+            "title": "Floorplanning-aware design space exploration for application-specific hierarchical networks on-chip",
+            "day": "4-5",
+            "month": "December",
+            "year": "2011",
+            "booktitle": "Proceedings of NoCArc 2011: 4th International Workshop on Network on Chip Architectures",
+            "pages": "31 to 36",
+            "address": "Porto Alegre, Brazil",
+            "doi": "10.1145/2076501.2076508",
+            "url": "http://dx.doi.org/10.1145/2076501.2076508",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "S. Crespi Reghizzi",
+                "G. Agosta",
+                "G. Palermo",
+                "V. Zaccaria",
+                "P. Bellasi",
+                "F. Castro",
+                "S. Corbetta",
+                "E. Speziale",
+                "D. Melpignano",
+                "J. Zins",
+                "D. Siorpaes",
+                "H. Huebert",
+                "B. Stabernack",
+                "J. Brandenburg",
+                "M. Palkovic",
+                "P. Raghavan",
+                "C. Ykman-couvreur",
+                "A. Bartzas",
+                "D. Soudris",
+                "T. Kempf",
+                "G. Ascheid",
+                "H. Meyr",
+                "J. Ansari",
+                "P. Mahonen",
+                "B. Vanthournout"
+            ],
+            "title": "Parallel Paradigms and Run-time Management Techniques for Many-core Architectures: 2PARMA Approach",
+            "day": "26-29",
+            "month": "July",
+            "year": "2011",
+            "booktitle": "Proceedings of INDIN 2011: IEEE Conference on Industrial Informatics",
+            "pages": "835 to 840",
+            "address": "Caparicia, Lisbon Portugal",
+            "doi": "10.1109/INDIN.2011.6035001",
+            "url": "http://dx.doi.org/10.1109/INDIN.2011.6035001",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "G. Palermo",
+                "V. Zaccaria",
+                "F. Castro",
+                "M. Martinez",
+                "S. Bocchio",
+                "R. Zafalon",
+                "P. Avasare",
+                "G. Vanmeerbeeck",
+                "C. Ykman-couvreur",
+                "M. Wouters",
+                "C. Kavka",
+                "L. Onesti",
+                "A. Turco",
+                "U. Bondi",
+                "G. Mariani",
+                "H. Posadas",
+                "E. Villar",
+                "C. Wu",
+                "F. Dongrui",
+                "Z. Hao",
+                "T. Shibin"
+            ],
+            "title": "MULTICUBE: Multi-Objective Design Space Exploration of Multi-Core Architectures",
+            "year": "2011",
+            "booktitle": "Lecture Notes in Electrical Engineering, Vol. 57 - Selected Papers from VLSI 2010 Annual Symposium, N. Voros et al. (Eds.)",
+            "pages": "47 to 63",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9789400714878",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "S. Crespi Reghizzi",
+                "G. Agosta",
+                "G. Palermo",
+                "V. Zaccaria",
+                "P. Bellasi",
+                "F. Castro",
+                "S. Corbetta",
+                "A. Di Biagio",
+                "E. Speziale",
+                "M. Tartara",
+                "D. Melpignano",
+                "J. Zins",
+                "D. Siorpaes",
+                "H. Huebert",
+                "B. Stabernack",
+                "J. Brandenburg",
+                "M. Palkovic",
+                "P. Raghavan",
+                "C. Ykman-couvreur",
+                "A. Bartzas",
+                "S. Xydis",
+                "D. Soudris",
+                "T. Kempf",
+                "G. Ascheid",
+                "R. Meyr",
+                "J. Ansari",
+                "P. Mahonen",
+                "B. Vanthournout"
+            ],
+            "title": "2PARMA: Parallel Paradigms and Run-time Management Techniques for Many-Core Architectures",
+            "year": "2011",
+            "booktitle": "Lecture Notes in Electrical Engineering, Vol. 57 - Selected Papers from VLSI 2010 Annual Symposium, N. Voros et al. (Eds.)",
+            "pages": "65 to 79",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9789400714878",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "C. Ykman-couvreur",
+                "P. Avasare",
+                "G. Vanmeerbeeck",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Design Space Exploration for Run-time Management of a Reconfigurable System for Video Streaming",
+            "year": "2011",
+            "booktitle": "Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, Cristina Silvano, William Fornaciari, Eugenio Villar (Eds.)",
+            "pages": "189 to 204",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9781441988362",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "C. Kavka",
+                "L. Onesti",
+                "E. Rigoni",
+                "A. Turco",
+                "S. Bocchio",
+                "F. Castro",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria",
+                "G. Mariani",
+                "F. Dongrui",
+                "Z. Hao",
+                "T. Shibin"
+            ],
+            "title": "Design Space Exploration of Parallel Architectures",
+            "year": "2011",
+            "booktitle": "Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, Cristina Silvano, William Fornaciari, Eugenio Villar (Eds.)",
+            "pages": "171 to 187",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9781441988362",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "P. Avasare",
+                "C. Ykman-couvreur",
+                "G. Vanmeerbeeck",
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Design Space Exploration Supporting Run-Time Resource Management",
+            "year": "2011",
+            "booktitle": "Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, Cristina Silvano, William Fornaciari, Eugenio Villar (Eds.)",
+            "pages": "93 to 107",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9781441988362",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria",
+                "E. Rigoni",
+                "C. Kavka",
+                "A. Turco",
+                "G. Mariani"
+            ],
+            "title": "Response Surface Modeling for Design Space Exploration of Embedded Systems",
+            "year": "2011",
+            "booktitle": "Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, Cristina Silvano, William Fornaciari, Eugenio Villar (Eds.)",
+            "pages": "75 to 91",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9781441988362",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "E. Rigoni",
+                "C. Kavka",
+                "A. Turco",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria",
+                "G. Mariani"
+            ],
+            "title": "Optimization Algorithms for Design Space Exploration of Embedded Systems",
+            "year": "2011",
+            "booktitle": "Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, Cristina Silvano, William Fornaciari, Eugenio Villar (Eds.)",
+            "pages": "51 to 73",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9781441988362",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "G. Palermo",
+                "V. Zaccaria",
+                "F. Castro",
+                "M. Martinez",
+                "S. Bocchio",
+                "R. Zafalon",
+                "P. Avasare",
+                "G. Vanmeerbeeck",
+                "C. Ykman-couvreur",
+                "M. Wouters",
+                "C. Kavka",
+                "L. Onesti",
+                "A. Turco",
+                "U. Bondi",
+                "G. Mariani",
+                "H. Posadas",
+                "E. Villar",
+                "C. Wu",
+                "F. Dongrui",
+                "Z. Hao"
+            ],
+            "title": "The MULTICUBE Design Flow",
+            "year": "2011",
+            "booktitle": "Multi-objective Design Space Exploration of Multiprocessor SoC Architectures, Cristina Silvano, William Fornaciari, Eugenio Villar (Eds.)",
+            "pages": "3 to 17",
+            "publisher": "Springer Science+Businness Media",
+            "isbn": "9781441988362",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "ARTE: an Application-specific Run-Time Management Framework for Multi-core Systems",
+            "day": "5-6",
+            "month": "June",
+            "year": "2011",
+            "booktitle": "Proceedings of SASP 2011: IEEE Symposium on Application Specific Processors",
+            "pages": "86 to 93",
+            "address": "San Diego, CA - USA",
+            "doi": "10.1109/SASP.2011.5941085",
+            "url": "http://dx.doi.org/10.1109/SASP.2011.5941085",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "C. Ykman-couvreur",
+                "P. Avasare",
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Linking run-time resource management of embedded multi-core platforms with automated design-time exploration",
+            "month": "March",
+            "year": "2011",
+            "journal": {
+                "name": "Computers Digital Techniques, IET",
+                "id": "ComputersDigitalTechniquesIET"
+            },
+            "volume": "5",
+            "pages": "123 to 135",
+            "doi": "10.1049/iet-cdt.2010.0030",
+            "issn": "17518601",
+            "url": "http://dx.doi.org/10.1049/iet-cdt.2010.0030",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "A Variability-Aware Robust Design Space Exploration Methodology for on-Chip Multiprocessors Subject to Application Specific Constraints",
+            "month": "July",
+            "year": "2012",
+            "journal": {
+                "name": "ACM Transactions in Embedded Computing Systems",
+                "id": "ACMTransactionsinEmbeddedComputingSystems"
+            },
+            "volume": "11",
+            "pages": "29:1 to 29:28",
+            "publisher": "ACM New York, NY - USA",
+            "doi": "10.1145/2220336.2220341",
+            "issn": "15399087",
+            "url": "http://dx.doi.org/10.1145/2220336.2220341",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal",
+                "trans"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "G. Palermo",
+                "V. Zaccaria",
+                "F. Castro",
+                "M. Martinez",
+                "S. Bocchio",
+                "R. Zafalon",
+                "P. Avasare",
+                "G. Vanmeerbeeck",
+                "C. Ykman-couvreur",
+                "M. Wouters",
+                "C. Kavka",
+                "L. Onesti",
+                "A. Turco",
+                "U. Bondi",
+                "G. Mariani",
+                "H. Posadas",
+                "E. Villar",
+                "C. Wu",
+                "F. Dongrui",
+                "Z. Hao",
+                "T. Shibin"
+            ],
+            "title": "MULTICUBE: Multi-Objective Design Space Exploration of Multi-Core Architectures",
+            "day": "5-7",
+            "month": "July",
+            "year": "2010",
+            "booktitle": "Proceedings of ISVLSI 2010: IEEE Annual Symposium on VLSI",
+            "pages": "488 to 493",
+            "address": "Lixouri, Kefalonia - Greece",
+            "doi": "10.1109/ISVLSI.2010.67",
+            "url": "http://dx.doi.org/10.1109/ISVLSI.2010.67",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "W. Fornaciari",
+                "S. Crespi Reghizzi",
+                "G. Agosta",
+                "G. Palermo",
+                "V. Zaccaria",
+                "P. Bellasi",
+                "F. Castro",
+                "S. Corbetta",
+                "A. Di Biagio",
+                "E. Speziale",
+                "M. Tartara",
+                "D. Siorpaes",
+                "H. Huebert",
+                "B. Stabernack",
+                "J. Brandenburg",
+                "M. Palkovic",
+                "P. Raghavan",
+                "C. Ykman-couvreur",
+                "A. Bartzas",
+                "S. Xydis",
+                "D. Soudris",
+                "T. Kempf",
+                "G. Ascheid",
+                "R. Meyr",
+                "J. Ansari",
+                "P. Mahonen",
+                "B. Vanthournout"
+            ],
+            "title": "2PARMA: Parallel Paradigms and Run-time Management Techniques for Many-Core Architectures",
+            "day": "5-7",
+            "month": "July",
+            "year": "2010",
+            "booktitle": "Proceedings of ISVLSI 2010: IEEE Annual Symposium on VLSI",
+            "pages": "494 to 499",
+            "address": "Lixouri, Kefalonia - Greece",
+            "doi": "/10.1109/ISVLSI.2010.93",
+            "url": "http://dx.doi.org//10.1109/ISVLSI.2010.93",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "A. Brankovic",
+                "J. Jovic",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "A Correlation-based Design Space Exploration Methodology for Multi-Processor Systems-on-Chip",
+            "day": "13-18",
+            "month": "June",
+            "year": "2010",
+            "booktitle": "Proceedings of DAC 2010: Design Automation Conference",
+            "pages": "120 to 125",
+            "address": "Anaheim, CA - USA",
+            "doi": "10.1145/1837274.1837307",
+            "url": "http://dx.doi.org/10.1145/1837274.1837307",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "V. Zaccaria",
+                "G. Palermo",
+                "F. Castro",
+                "C. Silvano",
+                "G. Mariani"
+            ],
+            "title": "Multicube Explorer: An Open Source Framework for Design Space Exploration of Chip Multi-Processors",
+            "day": "22",
+            "month": "February",
+            "year": "2010",
+            "booktitle": "Proceedings of 2PARMA: Workshop on Parallel Programming and Run-time Management Techniques for Many-core Architectures",
+            "pages": "325 to 331",
+            "address": "Hannover, Germany",
+            "isbn": "9783800732227",
+            "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5759023",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "A. Gellert",
+                "A. Florea",
+                "L. Vintan",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano"
+            ],
+            "title": "Energy-Performance Design Space Exploration of SMT Architectures Exploiting Selective Load Value Predictions",
+            "day": "8-12",
+            "month": "March",
+            "year": "2010",
+            "booktitle": "Proceedings of DATE 2010: IEEE Design, Automation and Test Conference in Europe",
+            "pages": "271 to 274",
+            "address": "Dresden, Germany",
+            "isbn": "9783981080162",
+            "url": "http://delivery.acm.org/10.1145/1880000/1870992/p271-gellert.pdf",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "P. Avasare",
+                "G. Vanmeerbeeck",
+                "C. Ykman-couvreur",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "An industrial design space exploration framework for supporting run-time resource management on multi-core systems",
+            "day": "8-12",
+            "month": "March",
+            "year": "2010",
+            "booktitle": "Proceedings of DATE 2010: IEEE Design, Automation and Test Conference in Europe",
+            "pages": "196 to 201",
+            "address": "Dresden, Germany",
+            "isbn": "9783981080162",
+            "url": "http://delivery.acm.org/10.1145/1880000/1870973/p196-mariani.pdf",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "A. Choudury",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Yield Enhancement by Robust Application-specific Mapping on Network-on-Chips",
+            "day": "12",
+            "month": "December",
+            "year": "2009",
+            "booktitle": "Proceedings of NoCArc '09: International Workshop on Network on Chip Architectures",
+            "pages": "37 to 42",
+            "address": "New York, NY - USA",
+            "doi": "10.1145/1645213.1645223",
+            "url": "http://dx.doi.org/10.1145/1645213.1645223",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "ReSPIR: A Response Surface-based Pareto Iterative Refinement for Application-Specific Design Space Exploration",
+            "month": "December",
+            "year": "2009",
+            "journal": {
+                "name": "IEEE Transactions on Computer Aided Design of Integrated Circuits",
+                "id": "IEEETransactionsonComputerAidedDesignofIntegratedCircuits"
+            },
+            "volume": "28",
+            "pages": "1816 to 1829",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "doi": "10.1109/TCAD.2009.2028681",
+            "issn": "02780070",
+            "url": "http://dx.doi.org/10.1109/TCAD.2009.2028681",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "trans",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "A Design Space Exploration Methodology Supporting Run-Time Resource Management for Multi-Processors System on-Chip",
+            "day": "27-28",
+            "month": "July",
+            "year": "2009",
+            "booktitle": "Proceedings of IEEE Symposium on Application Specific Processors 2009",
+            "pages": "21 to 28",
+            "address": "San Francisco, CA - USA",
+            "doi": "10.1109/SASP.2009.5226331",
+            "url": "http://dx.doi.org/10.1109/SASP.2009.5226331",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Meta-model Assisted Optimization for Design Space Exploration of Multi-Processor Systems-on-Chip",
+            "day": "27-29",
+            "month": "August",
+            "year": "2009",
+            "booktitle": "Proceedings of Euromicro Conference on Digital System Design (DSD)",
+            "pages": "383 to 389",
+            "address": "Patras, Greece",
+            "doi": "10.1109/DSD.2009.154",
+            "url": "http://dx.doi.org/10.1109/DSD.2009.154",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Multiprocessor System-on-Chip Design Space Exploration based on Multi-level Modeling Techniques",
+            "day": "20-23",
+            "month": "July",
+            "year": "2009",
+            "booktitle": "Proceedings of IEEE IC-SAMOS'09 - International Conference on Embedded Computer Systems: Architectures, MOdeling, and Simulation",
+            "pages": "118 to 124",
+            "address": "Samos, Greece",
+            "doi": "10.1109/ICSAMOS.2009.5289222",
+            "url": "http://dx.doi.org/10.1109/ICSAMOS.2009.5289222",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "A DoE/RSM-based Strategy for an Efficient Design Space Exploration targeted to CMPs",
+            "day": "25",
+            "month": "January",
+            "year": "2009",
+            "booktitle": "Proceedings of RAPIDO 2009: Workshop on Rapid Simulation and Performance Evaluation: Methods and Tools",
+            "address": "Paphos, Cyprus",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Variability-Aware Robust Design Space Exploration of Chip Multiprocessor Architectures",
+            "day": "19-22",
+            "month": "January",
+            "year": "2009",
+            "booktitle": "Proceedings of IEEE/ACM ASPDAC 2009: Asia and South Pacific Design Automation Conference",
+            "pages": "323 to 328",
+            "address": "Yokohama, Japan",
+            "doi": "10.1109/ASPDAC.2009.4796501",
+            "url": "http://dx.doi.org/10.1109/ASPDAC.2009.4796501",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "V. Zaccaria"
+            ],
+            "title": "Data Flow Deadlock Avoidance for Streaming Applications Mapped on Network-on-Chips",
+            "day": "8",
+            "month": "November",
+            "year": "2008",
+            "booktitle": "Workshop on Streaming Systems: From Web and Enterprise to Multicore (in conjunction with IEEE/ACM Micro-41), Como, Italy",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Robust Optimization of SoC Architectures: A Multi-Scenario Approach",
+            "day": "23-24",
+            "month": "October",
+            "year": "2008",
+            "booktitle": "Proceedings of ESTIMEDIA 2008: IEEE/ACM/IFIP Workshop on Embedded Systems for Real-Time Multimedia",
+            "pages": "7 to 12",
+            "address": "Atlanta, GA - USA",
+            "doi": "10.1109/ESTMED.2008.4696986",
+            "url": "http://dx.doi.org/10.1109/ESTMED.2008.4696986",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "An Efficient Design Space Exploration Methodology for Multi-Cluster VLIW Architectures based on Artificial Neural Networks",
+            "day": "13-15",
+            "month": "October",
+            "year": "2008",
+            "booktitle": "Proceedings of IFIP VLSI-SOC 2008: International Conference on Very Large Scale Integration",
+            "pages": "213 to 218",
+            "address": "Rhodes Island, Greece",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Discrete Particle Swarm Optimization for Multi-objective Design Space Exploration",
+            "day": "2-5",
+            "month": "September",
+            "year": "2008",
+            "booktitle": "Proceedings of DSD 2008: IEEE Euromicro Conference on Digital System Design Architectures, Methods and Tools",
+            "pages": "641 to 644",
+            "address": "Parma, Italy",
+            "doi": "10.1109/DSD.2008.21",
+            "url": "http://dx.doi.org/10.1109/DSD.2008.21",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "An Efficient Design Space Exploration Methodology for Multiprocessor SoC Architectures based on Response Surface Methods",
+            "day": "21-24",
+            "month": "July",
+            "year": "2008",
+            "booktitle": "Proceedings of IC-SAMOS 2008: International Conference on Embedded Computer Systems Architectures, Modeling and Simulation",
+            "pages": "150 to 157",
+            "address": "Samos, Greece",
+            "doi": "10.1109/ICSAMOS.2008.4664858",
+            "url": "http://dx.doi.org/10.1109/ICSAMOS.2008.4664858",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "An Efficient Design Space Exploration Methodology for On-Chip Multiprocessors Subject to Application-Specific Constraints",
+            "day": "8-9",
+            "month": "June",
+            "year": "2008",
+            "booktitle": "Proceedings of SASP 2008: IEEE Symposium on Application Specific Processors",
+            "pages": "75 to 82",
+            "address": "Anaheim, CA - USA",
+            "doi": "10.1109/SASP.2008.4570789",
+            "url": "http://dx.doi.org/10.1109/SASP.2008.4570789",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Reducing the Complexity of Instruction-Level Power Models for VLIW Processors",
+            "month": "July",
+            "year": "2006",
+            "journal": {
+                "name": "Design Automation for Embedded Systems",
+                "id": "DesignAutomationforEmbeddedSystems"
+            },
+            "volume": "10",
+            "pages": "49 to 67",
+            "publisher": "Springer - The Netherlands",
+            "doi": "10.1007/s10617-006-9045-5",
+            "issn": "09295585",
+            "url": "http://dx.doi.org/10.1007/s10617-006-9045-5",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "G. Bertoni",
+                "L. Breveglieri",
+                "M. Monchiero",
+                "G. Palermo",
+                "V. Zaccaria"
+            ],
+            "title": "A Power Attack Methodology to AES Based on Induced Cache Misses: Procedure, Evaluation and Possible Countermeasures",
+            "year": "2006",
+            "booktitle": "New Trends in Cryptographic Systems, N. Nedjah and L.M. Mourelle (Eds.)",
+            "pages": "37 to 52",
+            "publisher": "Nova Science Publishers",
+            "isbn": "159454977X",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "L. Benini",
+                "D. Bruni",
+                "M. Chinosi",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "A Power Modeling and Estimation Framework for VLIW-based Embedded Systems",
+            "day": "26-28",
+            "month": "September",
+            "year": "2001",
+            "booktitle": "Proceedings of PATMOS 2001: IEEE International Workshop on Power and Timing Modeling, Optimization and Simulation",
+            "address": "Yverdon-les-Bains, Switzerland",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip",
+            "day": "16-20",
+            "month": "February",
+            "year": "2004",
+            "booktitle": "Proceedings of DATE 2004: IEEE Design, Automation and Test Conference in Europe",
+            "volume": "3",
+            "pages": "318 to 323",
+            "address": "Paris - France",
+            "doi": "10.1109/DATE.2004.1269258",
+            "url": "http://dx.doi.org/10.1109/DATE.2004.1269258",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Energy estimation and optimization of embedded VLIW processors based on instruction clustering",
+            "day": "10-14",
+            "month": "June",
+            "year": "2002",
+            "booktitle": "Proceedings of DAC 2002: Design Automation Conference",
+            "pages": "886 to 891",
+            "address": "New Orleans, LA - USA",
+            "doi": "10.1145/513918.514137",
+            "url": "http://dx.doi.org/10.1145/513918.514137",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Instruction-Level Power Estimation for Embedded VLIW Cores",
+            "day": "3-5",
+            "month": "May",
+            "year": "2000",
+            "booktitle": "Proceedings of CODES-2000: 8th ACM/IEEE International Workshop on Hardware/Software Co-Design",
+            "pages": "34 to 38",
+            "address": "San Diego, CA - USA",
+            "doi": "10.1145/334012.334019",
+            "url": "http://doi.acm.org/10.1145/334012.334019",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Bertoni",
+                "V. Zaccaria",
+                "L. Breveglieri",
+                "M. Monchiero",
+                "G. Palermo"
+            ],
+            "title": "AES Power Attack Based on Induced Cache Miss and Countermeasure",
+            "day": "4-6",
+            "month": "April",
+            "year": "2005",
+            "booktitle": "Proceedings of ITCC 2005: International conference on Information Technology",
+            "pages": "586 to 591",
+            "address": "Las Vegas, NV - USA",
+            "doi": "10.1109/ITCC.2005.62",
+            "url": "http://dx.doi.org/10.1109/ITCC.2005.62",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Multi-Objective Design Space Exploration of Embedded Systems",
+            "year": "2005",
+            "journal": {
+                "name": "Journal of Embedded Computing",
+                "id": "JournalofEmbeddedComputing"
+            },
+            "volume": "1",
+            "pages": "305 to 316",
+            "publisher": "IOS Press - The Netherlands",
+            "issn": "17404460",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "W. Fornaciari",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "A Design Framework to Efficiently Explore Energy-Delay Tradeoffs",
+            "day": "25-27",
+            "month": "April",
+            "year": "2001",
+            "booktitle": "Proceedings of CODES 2001: 9th ACM/IEEE International Symposium on Hardware/Software Co-Design",
+            "pages": "260 to 265",
+            "address": "Copenhagen, Denmark",
+            "doi": "10.1145/371636.371752",
+            "url": "http://dx.doi.org/10.1145/371636.371752",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "C. Silvano",
+                "M. Monchiero",
+                "G. Palermo",
+                "M. Sami",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Low-Power Branch Prediction Techniques for VLIW Architectures: A Compiler-Hints Based Approach",
+            "month": "January",
+            "year": "2005",
+            "journal": {
+                "name": "Integration, The VLSI Journal",
+                "id": "IntegrationTheVLSIJournal"
+            },
+            "volume": "38",
+            "pages": "515 to 524",
+            "publisher": "Elsevier - The Netherlands",
+            "doi": "10.1016/j.vlsi.2004.07.012",
+            "url": "http://dx.doi.org/10.1016/j.vlsi.2004.07.012",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "M. Monchiero",
+                "G. Palermo",
+                "M. Sami",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Power-Aware Branch Prediction Techniques: A Compiler-Hints Based Approach for VLIW Processors",
+            "day": "26-28",
+            "month": "April",
+            "year": "2004",
+            "booktitle": "Proceedings of GLSVLSI 2004: Great Lakes Symposium on VLSI",
+            "pages": "440 to 443",
+            "address": "Boston, MA - USA",
+            "doi": "10.1145/988952.989058",
+            "url": "http://dx.doi.org/10.1145/988952.989058",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip",
+            "year": "2004",
+            "booktitle": "Ultra Low-Power Electronics and Design, E. Macii (ed.)",
+            "pages": "233 to 254",
+            "publisher": "Springer US",
+            "isbn": "1402080751",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "bookc"
+            ],
+            "type": "bookchapter"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Low Effort, High Accuracy Network-on-Chip Power Macro Modeling",
+            "day": "15-17",
+            "month": "September",
+            "year": "2004",
+            "booktitle": "Proceedings of PATMOS 2004: IEEE International Workshop on Power and Timing Modeling, Optimization and Simulation",
+            "pages": "541 to 552",
+            "address": "Isle of Santorini, Greece",
+            "doi": "10.1007/978-3-540-30205-6_56",
+            "url": "http://dx.doi.org/10.1007/978-3-540-30205-6_56",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "A Flexible Framework for Fast Multi-Objective Design Space Exploration of Embedded Systems",
+            "day": "10-12",
+            "month": "September",
+            "year": "2003",
+            "booktitle": "Proceedings of PATMOS 2003: IEEE International Workshop on Power and Timing Modeling, Optimization and Simulation",
+            "pages": "249 to 258",
+            "address": "Torino, Italy",
+            "doi": "10.1007/978-3-540-39762-5_31",
+            "url": "http://dx.doi.org/10.1007/978-3-540-39762-5_31",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "G. Bertoni",
+                "A. Bircan",
+                "L. Breveglieri",
+                "P. Fragneto",
+                "M. Macchetti",
+                "V. Zaccaria"
+            ],
+            "title": "About the performance of the advanced encryption standard in embedded systems with cache memory",
+            "day": "25-29",
+            "month": "May",
+            "year": "2003",
+            "booktitle": "Proceedings of ISCAS 2003: IEEE Int. Symposium on Circuits and Systems",
+            "volume": "V",
+            "pages": "145 to 148",
+            "address": "Bangkok, Thailand",
+            "doi": "10.1109/ISCAS.2003.1206212",
+            "url": "http://dx.doi.org/10.1109/ISCAS.2003.1206212",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "S. Valsecchi",
+                "V. Zaccaria"
+            ],
+            "title": "A System-Level Methodology for Fast Multi-Objective Design Space Exploration",
+            "day": "28-29",
+            "month": "April",
+            "year": "2003",
+            "booktitle": "Proceedings of GLSVLSI 2003: Great Lakes Symposium on VLSI",
+            "pages": "92 to 95",
+            "address": "Washington, DC - USA",
+            "doi": "10.1145/764808.764833",
+            "url": "http://dx.doi.org/10.1145/764808.764833",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Branch Prediction Techniques for Low-Power VLIW Processors",
+            "day": "28-29",
+            "month": "April",
+            "year": "2003",
+            "booktitle": "Proceedings of GLSVLSI 2003: Great Lakes Symposium on VLSI",
+            "pages": "225 to 228",
+            "address": "Washington, DC - USA",
+            "doi": "10.1145/764808.764866",
+            "url": "http://dx.doi.org/10.1145/764808.764866",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "V. Zaccaria",
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano"
+            ],
+            "title": "Power Estimation and Optimization Methodologies for VLIW-based Embedded Systems",
+            "month": "April",
+            "year": "2003",
+            "pages": "203",
+            "publisher": "Kluwer Academic Publishers - Boston/Dordrecht/London",
+            "isbn": "1402073771",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "book"
+            ],
+            "type": "book"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "V. Sima",
+                "G. Palermo",
+                "V. Zaccaria",
+                "C. Silvano",
+                "K. Bertels"
+            ],
+            "title": "Using multi-objective design space exploration to enable run-time resource management for reconfigurable architectures",
+            "day": "12-16",
+            "month": "March",
+            "year": "2012",
+            "booktitle": "Proceedings of DATE 2012: IEEE Design, Automation and Test Conference in Europe",
+            "pages": "1379 to 1384",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "address": "Dresden, Germany",
+            "isbn": "9781457721458",
+            "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6176578",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "L. Salvemini",
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "A Methodology for the Efficient Architectural Exploration of Energy-Delay Trade-offs for Embedded Systems",
+            "day": "9-12",
+            "month": "March",
+            "year": "2003",
+            "booktitle": "Proceedings of SAC 2003: Symposium on Applied Computing",
+            "pages": "672 to 678",
+            "address": "Melbourne, FL - USA",
+            "doi": "10.1145/952532.952664",
+            "isbn": "1581136242",
+            "url": "http://dx.doi.org/10.1145/952532.952664",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "notfoundincineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "L. Benini",
+                "D. Bruni",
+                "M. Chinosi",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "A Framework for Modeling and Estimating the Energy Dissipation of VLIW-based Embedded Systems",
+            "month": "October",
+            "year": "2002",
+            "journal": {
+                "name": "Design Automation for Embedded Systems",
+                "id": "DesignAutomationforEmbeddedSystems"
+            },
+            "volume": "7",
+            "pages": "183 to 203",
+            "publisher": "Kluwer Academic Publishers - Boston",
+            "doi": "10.1023/A:1019722105713",
+            "issn": "09295585",
+            "url": "http://dx.doi.org/10.1023/A:1019722105713",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "G. Mariani",
+                "G. Palermo",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "OSCAR: an Optimization Methodology Exploiting Spatial Correlation in Multi-core Design Spaces",
+            "month": "May",
+            "year": "2012",
+            "journal": {
+                "name": "IEEE Transactions on Computer Aided Design of Integrated Circuits",
+                "id": "IEEETransactionsonComputerAidedDesignofIntegratedCircuits"
+            },
+            "volume": "31",
+            "pages": "740 to 753",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "doi": "10.1109/TCAD.2011.2177457",
+            "issn": "02780070",
+            "url": "http://dx.doi.org/10.1109/TCAD.2011.2177457",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "trans",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Power Exploration for Embedded VLIW Architectures",
+            "day": "5-9",
+            "month": "November",
+            "year": "2000",
+            "booktitle": "Proceedings of ICCAD-2000: IEEE/ACM Int. Conference on Computer Aided Design",
+            "pages": "498 to 503",
+            "address": "San Jose, CA - USA",
+            "doi": "10.1109/ICCAD.2000.896522",
+            "url": "http://dx.doi.org/10.1109/ICCAD.2000.896522",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "W. Fornaciari",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "A Sensitivity-Based Design Space Exploration Methodology for Embedded Systems",
+            "month": "September",
+            "year": "2002",
+            "journal": {
+                "name": "Design Automation for Embedded Systems",
+                "id": "DesignAutomationforEmbeddedSystems"
+            },
+            "volume": "7",
+            "pages": "7 to 33",
+            "publisher": "Kluwer Academic Publishers - Boston",
+            "doi": "10.1023/A:1019791213967",
+            "issn": "09295585",
+            "url": "http://dx.doi.org/10.1023/A:1019791213967",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Low-Power Data Forwarding for VLIW Embedded Architectures",
+            "month": "October",
+            "year": "2002",
+            "journal": {
+                "name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "id": "IEEETransactionsonVeryLargeScaleIntegration(VLSI)Systems"
+            },
+            "volume": "10",
+            "pages": "614 to 622",
+            "publisher": "IEEE - Piscataway, NJ - USA",
+            "doi": "10.1109/TVLSI.2002.801617",
+            "issn": "10638210",
+            "url": "http://dx.doi.org/10.1109/TVLSI.2002.801617",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "trans",
+                "journal"
+            ],
+            "type": "journal"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "An instruction-level methodology for power estimation and optimization of embedded VLIW cores",
+            "day": "4-8",
+            "month": "March",
+            "year": "2002",
+            "booktitle": "Proceedings of DATE 2002: IEEE Design, Automation and Test Conference in Europe",
+            "pages": "1128 to 1128",
+            "address": "Paris, France",
+            "doi": "10.1109/DATE.2002.998484",
+            "url": "http://dx.doi.org/10.1109/DATE.2002.998484",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "V. Zaccaria"
+            ],
+            "title": "Power exploration methodologies for VLIW-based systems",
+            "year": "2002",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "thesis"
+            ],
+            "type": "thesis"
+        },
+        {
+            "authors": [
+                "A. Bona",
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "An Instruction-Level Methodology for Power Estimation and Optimization of Embedded VLIW Cores",
+            "month": "November",
+            "year": "2001",
+            "institution": "Dipartimento di Elettronica e Informazione - Politecnico di Milano",
+            "justApplied": false,
+            "justAccepted": false,
+            "reportNumber": "2001.95",
+            "keyword": [
+                "techreport"
+            ],
+            "type": "techreport"
+        },
+        {
+            "authors": [
+                "W. Fornaciari",
+                "V. Piuri",
+                "A. Prestileo",
+                "V. Zaccaria"
+            ],
+            "title": "An Agent-based Approach to Full Interoperability and Allocation Transparency in Distributed File Systems",
+            "day": "14-16",
+            "month": "August",
+            "year": "2001",
+            "booktitle": "Proceedings of MATA 2001: Third International Workshop On Mobile Agents For Telecommunication Applications",
+            "pages": "153 to 162",
+            "address": "Monreal, Canada",
+            "doi": "10.1007/3-540-44651-6_15",
+            "url": "http://dx.doi.org/10.1007/3-540-44651-6_15",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "workshop"
+            ],
+            "type": "workshop"
+        },
+        {
+            "authors": [
+                "W. Fornaciari",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "Fast System-Level Exploration of Memory Architectures Driven by Energy-Delay Metrics",
+            "day": "6-9",
+            "month": "May",
+            "year": "2001",
+            "booktitle": "Proceedings of ISCAS 2001: IEEE Int. Symposium on Circuits and Systems",
+            "volume": "4",
+            "pages": "502 to 505",
+            "address": "Sydney, Australia",
+            "doi": "10.1109/ISCAS.2001.922284",
+            "url": "http://dx.doi.org/10.1109/ISCAS.2001.922284",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria",
+                "R. Zafalon"
+            ],
+            "title": "Exploiting Data Forwarding to Reduce the Power Budget of VLIW Embedded Processors",
+            "day": "13-16",
+            "month": "March",
+            "year": "2001",
+            "booktitle": "Proceedings of DATE 2001: IEEE Design, Automation and Test Conference in Europe",
+            "pages": "252 to 257",
+            "address": "Munich, Germany",
+            "doi": "10.1109/DATE.2001.915034",
+            "url": "http://dx.doi.org/10.1109/DATE.2001.915034",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "cineca",
+                "conference"
+            ],
+            "type": "conference"
+        },
+        {
+            "authors": [
+                "V. Zaccaria"
+            ],
+            "title": "Workload Characterization for Dynamic Power Management",
+            "month": "November",
+            "year": "2000",
+            "institution": "Dipartimento di Elettronica e Informazione - Politecnico di Milano",
+            "justApplied": false,
+            "justAccepted": false,
+            "reportNumber": "2000.42",
+            "keyword": [
+                "techreport"
+            ],
+            "type": "techreport"
+        },
+        {
+            "authors": [
+                "V. Zaccaria"
+            ],
+            "title": "Power Exploration Methodologies for VLIW-based Systems",
+            "day": "10-14",
+            "month": "June",
+            "year": "2002",
+            "booktitle": "DAC 2002 Ph.D. Forum",
+            "address": "New Orleans, LA - USA",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "forum"
+            ],
+            "type": "talk"
+        },
+        {
+            "authors": [
+                "V. Zaccaria"
+            ],
+            "title": "Power estimation and optimization techniques for VLIW processors",
+            "month": "September",
+            "year": "2000",
+            "address": "Hewlett-Packard Labs in Cambridge, MA - USA",
+            "justApplied": false,
+            "justAccepted": false,
+            "keyword": [
+                "talk"
+            ],
+            "type": "talk"
+        },
+        {
+            "authors": [
+                "V. Zaccaria"
+            ],
+            "title": "ADFS - An Agent Based Distributed File System",
+            "month": "June",
+            "year": "2000",
+            "institution": "Dipartimento di Elettronica e Informazione - Politecnico di Milano",
+            "justApplied": false,
+            "justAccepted": false,
+            "reportNumber": "2000.19",
+            "keyword": [
+                "techreport"
+            ],
+            "type": "techreport"
+        },
+        {
+            "authors": [
+                "M. Sami",
+                "D. Sciuto",
+                "C. Silvano",
+                "V. Zaccaria"
+            ],
+            "title": "On VLIW Instruction Level Power Estimation",
+            "month": "December",
+            "year": "1999",
+            "institution": "Dipartimento di Elettronica e Informazione - Politecnico di Milano",
+            "justApplied": false,
+            "justAccepted": false,
+            "reportNumber": "99-074",
+            "keyword": [
+                "techreport"
+            ],
+            "type": "techreport"
+        }
+    ],
+    "metadata": {}
+}
