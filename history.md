@@ -6,6 +6,7 @@
 
 # Bug fixes
 
+-     use patent number only for patents -- [Mar 25th 16](../../commit/a5b4b2dca35f9f7e4b75c15ea92737d4ec601a0d)
 -     use updated zaccaria-cli -- [Mar 16th 16](../../commit/ced5312854329de267f24373676994a36c910ed3)
 -     remove readLocal -- [Mar 16th 16](../../commit/9d5963c1f30188eb6b9c828e775adf13f763a4cd)
 -     add missing test directory -- [Mar 1st 16](../../commit/c22fe2e08aadb4c505233b5e1c8a40844c049951)
