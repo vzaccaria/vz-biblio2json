@@ -1,5 +1,6 @@
 let _ = require('lodash');
 let $ = require('underscore.string');
+let $m = require('moment');
 
 // Normalization patterns.
 
@@ -12,34 +13,63 @@ let patt = {
     }
 };
 
-let months = [
-    { short: "jan" , long: "January"   } ,
-    { short: "feb" , long: "February"  } ,
-    { short: "mar" , long: "March"     } ,
-    { short: "apr" , long: "April"     } ,
-    { short: "may" , long: "May"       } ,
-    { short: "jun" , long: "June"      } ,
-    { short: "jul" , long: "July"      } ,
-    { short: "aug" , long: "August"    } ,
-    { short: "sep" , long: "September" } ,
-    { short: "oct" , long: "October"   } ,
-    { short: "nov" , long: "November"  } ,
-    { short: "dec" , long: "December" }
-];
+let months = [{
+    short: "jan",
+    long: "January"
+}, {
+    short: "feb",
+    long: "February"
+}, {
+    short: "mar",
+    long: "March"
+}, {
+    short: "apr",
+    long: "April"
+}, {
+    short: "may",
+    long: "May"
+}, {
+    short: "jun",
+    long: "June"
+}, {
+    short: "jul",
+    long: "July"
+}, {
+    short: "aug",
+    long: "August"
+}, {
+    short: "sep",
+    long: "September"
+}, {
+    short: "oct",
+    long: "October"
+}, {
+    short: "nov",
+    long: "November"
+}, {
+    short: "dec",
+    long: "December"
+}];
 
-let fix_month = function(r) {
-    if(_.isUndefined(r.month)) {
-        return r
+let fix_date = function(r) {
+    if (_.isUndefined(r.year)) {
+        throw `Sorry, year undefined for ${JSON.stringify(r)}`
     }
-    let mn = _.find(months, (v, k) => {
-        return $.include(r.month.toLowerCase(), v.short);
-    })
-    if(_.isUndefined(mn)) {
+
+    if (!_.isUndefined(r.month)) {
+        let mn = _.find(months, (v, k) => {
+            return $.include(r.month.toLowerCase(), v.short);
+        })
+        if (!_.isUndefined(mn)) {
+            r.month = mn.long;
+        }
+        r.timestamp = $m(`${r.month} ${r.year}`, "MMMM YYYY").unix();
         return r
     } else {
-        r.month = mn.long;
+        r.timestamp = $m(r.year, "YYYY").unix();
         return r
     }
+    // Dead code here
 };
 
 let strip = function(s) {
@@ -52,16 +82,16 @@ let fix_identifier = function(r) {
     grouped = _.mapValues(grouped, (i) => {
         return _.first(i).id
     })
-    if(!_.isUndefined(grouped.isbn)) {
+    if (!_.isUndefined(grouped.isbn)) {
         grouped.isbn = grouped.isbn.replace(/ISBN:?/g, "");
         grouped.isbn = grouped.isbn.replace(/ISSN:?/g, "");
         grouped.isbn = grouped.isbn.replace(/\s/g, "");
         grouped.isbn = grouped.isbn.replace(/-/g, "");
-        if(grouped.isbn.length == 8) {
+        if (grouped.isbn.length == 8) {
             grouped.issn = grouped.isbn
             delete grouped.isbn
         } else {
-            if(grouped.isbn.length !== 10 && grouped.isbn.length !== 13) {
+            if (grouped.isbn.length !== 10 && grouped.isbn.length !== 13) {
                 grouped.isbn = undefined;
             }
         }
@@ -104,10 +134,10 @@ function fix_type(r) {
     r.type = _.first(fkw)
     r.justAccepted = _.includes(r.keyword, 'accepted')
     r.justApplied = _.includes(r.keyword, 'application')
-    if(r.type === 'patent') {
+    if (r.type === 'patent') {
         r.patentNumber = r.number
     }
-    if(r.type === 'techreport') {
+    if (r.type === 'techreport') {
         r.reportNumber = r.number
     }
     return r
@@ -123,10 +153,12 @@ function fix_author(a) {
     let name = a.name
     let components = $.words(name, ",");
     let first_name = $.capitalize($.clean(components[1]), true);
-    let last_name  = $.capitalize($.clean(components[0]), true);
+    let last_name = $.capitalize($.clean(components[0]), true);
 
     if (_.isPlainObject(patt[last_name])) {
-        ({name} = patt[last_name]);
+        ({
+            name
+        } = patt[last_name]);
     } else {
         if (first_name != null) {
             name = $.clean(`${first_name.charAt(0)}. ${last_name}`);
@@ -150,18 +182,19 @@ let process = function(data) {
     data = _.map(data, function(d) {
         d = fix_names(d);
         d = fix_identifier(d);
-        d = fix_month(d);
+        d = fix_date(d);
         d = fix_type(d);
         d.url = d["bdsk-url-1"]
         d = _.pick(d, [
             "authors", "title",
             "day", "month", "year",
-            "journal", "booktitle","volume", "pages",
+            "journal", "booktitle", "volume", "pages",
             "institution", "publisher", "address",
             "doi", "isbn", "issn", "url",
             "justApplied", "justAccepted", "patentNumber", "reportNumber",
             "keyword", // needed by react utils for webpage generation
-            "type" // needed by markdown generation
+            "type", // needed by markdown generation
+            "timestamp"
         ]);
         return d;
     });

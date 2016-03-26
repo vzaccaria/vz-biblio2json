@@ -18,13 +18,15 @@
             "pages": "155 to 159",
             "doi": "10.1109/TCAD.2014.2363392",
             "issn": "02780070",
+            "url": "http://dx.doi.org/10.1109/TCAD.2014.2363392",
             "justApplied": false,
             "justAccepted": false,
             "keyword": [
                 "trans",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1420066800
         },
         {
             "authors": [
@@ -50,7 +52,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1404165600
         },
         {
             "authors": [
@@ -81,7 +84,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1406844000
         },
         {
             "authors": [
@@ -106,7 +110,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1401573600
         },
         {
             "authors": [
@@ -134,7 +139,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1396303200
         },
         {
             "authors": [
@@ -161,7 +167,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1377986400
         },
         {
             "authors": [
@@ -182,7 +189,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1393628400
         },
         {
             "authors": [
@@ -228,7 +236,8 @@
                 "notfoundincineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1325372400
         },
         {
             "authors": [
@@ -253,7 +262,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1380578400
         },
         {
             "authors": [
@@ -286,7 +296,8 @@
                 "journal",
                 "notfoundincineca"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1377986400
         },
         {
             "authors": [
@@ -312,7 +323,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1325372400
         },
         {
             "authors": [
@@ -337,7 +349,8 @@
                 "notfoundincineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1362092400
         },
         {
             "authors": [
@@ -360,7 +373,8 @@
                 "conference",
                 "notfoundincineca"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1362092400
         },
         {
             "authors": [
@@ -389,7 +403,8 @@
                 "notfoundincineca",
                 "trans"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1377986400
         },
         {
             "authors": [
@@ -400,7 +415,7 @@
                 "V. Zaccaria"
             ],
             "title": "Process for translating instructions for an arm-type processor into instructions for a LX-type processor; relative translator device and computer program product",
-            "month": "2004/02/10",
+            "month": "July",
             "year": "2007",
             "volume": "10776024",
             "publisher": "EP 1028370A2 (Aug, 2000) ; US 2002/0138712 A1 (Sep, 2002) Yoshida 712/205; US 5852726 A (Dec, 1998) Lin et al. 712/200; US 5925123 A (Jul, 1999) Tremblay et al. 712/212; US 5951674 A (Sep, 1999) Moreno 712/210; US 6496922 B1 (Dec, 2002) Borrill 712/209; US 6934832 B1 (Aug, 2005) Van Dyke et al. 712/244; WO 02/086699 A2 (Oct, 2002)",
@@ -412,30 +427,8 @@
             "keyword": [
                 "patent"
             ],
-            "type": "patent"
-        },
-        {
-            "authors": [
-                "A. Pagni",
-                "F. Lucini",
-                "D. Pau",
-                "A. Borneo",
-                "V. Zaccaria"
-            ],
-            "title": "Process for translating instructions for an arm-type processor into instructions for a LX-type processor; relative translator device and computer program product",
-            "month": "2004/02/10",
-            "year": "2004",
-            "volume": "10776024",
-            "address": "US",
-            "url": "http://www.patentlens.net/patentlens/patent/US_2004_0225869_A1/en/",
-            "justApplied": true,
-            "justAccepted": false,
-            "patentNumber": "0225869",
-            "keyword": [
-                "patent",
-                "application"
-            ],
-            "type": "patent"
+            "type": "patent",
+            "timestamp": 1183240800
         },
         {
             "authors": [
@@ -447,31 +440,7 @@
                 "R. Zafalon"
             ],
             "title": "Processor architecture",
-            "month": "2001/10/11",
-            "year": "2002",
-            "volume": "09976241",
-            "address": "US",
-            "url": "http://www.patentlens.net/patentlens/patent/US_2002_0124155_A1/en/",
-            "justApplied": true,
-            "justAccepted": false,
-            "patentNumber": "0124155",
-            "keyword": [
-                "patent",
-                "application"
-            ],
-            "type": "patent"
-        },
-        {
-            "authors": [
-                "M. Sami",
-                "D. Sciuto",
-                "C. Silvano",
-                "V. Zaccaria",
-                "D. Pau",
-                "R. Zafalon"
-            ],
-            "title": "Processor architecture",
-            "month": "2001/10/11",
+            "month": "May",
             "year": "2005",
             "volume": "09976241",
             "publisher": "EP 0569312A2 (Nov, 1993) ; US 4228497 A (Oct, 1980) Gupta et al. 364/200; US 5784320 A (Jul, 1998) Johnson 365/189.01; US 5799165 A (Aug, 1998) Favor et al. 712/214; US 5809325 A (Sep, 1998) Hinton et al. 712/32; US 6247134 B1 (Jun, 2001) Sproch et al. 713/320; US 6633971 B2 (Oct, 2003) Peng et al. 712/218; US 6738966 B1 (May, 2004) Tanaka 717/140",
@@ -483,7 +452,8 @@
             "keyword": [
                 "patent"
             ],
-            "type": "patent"
+            "type": "patent",
+            "timestamp": 1114898400
         },
         {
             "authors": [
@@ -527,7 +497,8 @@
                 "notfoundincineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1306879200
         },
         {
             "authors": [
@@ -549,7 +520,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1328050800
         },
         {
             "authors": [
@@ -584,7 +556,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1338501600
         },
         {
             "authors": [
@@ -613,7 +586,8 @@
                 "trans",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1030831200
         },
         {
             "authors": [
@@ -636,7 +610,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1046473200
         },
         {
             "authors": [
@@ -663,7 +638,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1322694000
         },
         {
             "authors": [
@@ -710,7 +686,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1309471200
         },
         {
             "authors": [
@@ -750,7 +727,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -797,7 +775,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -821,7 +800,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -851,7 +831,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -875,7 +856,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -899,7 +881,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -923,7 +906,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -962,7 +946,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1293836400
         },
         {
             "authors": [
@@ -986,7 +971,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1306879200
         },
         {
             "authors": [
@@ -1015,7 +1001,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1298934000
         },
         {
             "authors": [
@@ -1043,7 +1030,8 @@
                 "journal",
                 "trans"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1341093600
         },
         {
             "authors": [
@@ -1086,7 +1074,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1277935200
         },
         {
             "authors": [
@@ -1134,7 +1123,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1277935200
         },
         {
             "authors": [
@@ -1160,7 +1150,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1275343200
         },
         {
             "authors": [
@@ -1185,7 +1176,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1264978800
         },
         {
             "authors": [
@@ -1211,7 +1203,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1267398000
         },
         {
             "authors": [
@@ -1238,7 +1231,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1267398000
         },
         {
             "authors": [
@@ -1262,7 +1256,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1259622000
         },
         {
             "authors": [
@@ -1290,7 +1285,8 @@
                 "trans",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1259622000
         },
         {
             "authors": [
@@ -1314,7 +1310,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1246399200
         },
         {
             "authors": [
@@ -1338,7 +1335,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1249077600
         },
         {
             "authors": [
@@ -1362,7 +1360,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1246399200
         },
         {
             "authors": [
@@ -1382,7 +1381,8 @@
                 "notfoundincineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1230764400
         },
         {
             "authors": [
@@ -1405,7 +1405,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1230764400
         },
         {
             "authors": [
@@ -1421,7 +1422,8 @@
             "keyword": [
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1225494000
         },
         {
             "authors": [
@@ -1444,7 +1446,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1222812000
         },
         {
             "authors": [
@@ -1466,7 +1469,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1222812000
         },
         {
             "authors": [
@@ -1489,7 +1493,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1220220000
         },
         {
             "authors": [
@@ -1512,7 +1517,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1214863200
         },
         {
             "authors": [
@@ -1535,7 +1541,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1212271200
         },
         {
             "authors": [
@@ -1565,7 +1572,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1151704800
         },
         {
             "authors": [
@@ -1587,7 +1595,8 @@
                 "cineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1136070000
         },
         {
             "authors": [
@@ -1610,7 +1619,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 999295200
         },
         {
             "authors": [
@@ -1634,7 +1644,8 @@
                 "notfoundincineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1075590000
         },
         {
             "authors": [
@@ -1660,7 +1671,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1022882400
         },
         {
             "authors": [
@@ -1684,7 +1696,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 957132000
         },
         {
             "authors": [
@@ -1709,7 +1722,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1112306400
         },
         {
             "authors": [
@@ -1733,7 +1747,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1104534000
         },
         {
             "authors": [
@@ -1757,7 +1772,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 986076000
         },
         {
             "authors": [
@@ -1786,7 +1802,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1104534000
         },
         {
             "authors": [
@@ -1812,7 +1829,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1080770400
         },
         {
             "authors": [
@@ -1832,7 +1850,8 @@
                 "notfoundincineca",
                 "bookc"
             ],
-            "type": "bookchapter"
+            "type": "bookchapter",
+            "timestamp": 1072911600
         },
         {
             "authors": [
@@ -1855,7 +1874,8 @@
                 "notfoundincineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1093989600
         },
         {
             "authors": [
@@ -1878,7 +1898,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 1062367200
         },
         {
             "authors": [
@@ -1905,7 +1926,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1051740000
         },
         {
             "authors": [
@@ -1929,7 +1951,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1049148000
         },
         {
             "authors": [
@@ -1953,7 +1976,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1049148000
         },
         {
             "authors": [
@@ -1974,7 +1998,8 @@
                 "cineca",
                 "book"
             ],
-            "type": "book"
+            "type": "book",
+            "timestamp": 1049148000
         },
         {
             "authors": [
@@ -2001,7 +2026,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1330556400
         },
         {
             "authors": [
@@ -2028,7 +2054,8 @@
                 "notfoundincineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1046473200
         },
         {
             "authors": [
@@ -2058,7 +2085,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1033423200
         },
         {
             "authors": [
@@ -2087,7 +2115,8 @@
                 "trans",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1335823200
         },
         {
             "authors": [
@@ -2111,7 +2140,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 973033200
         },
         {
             "authors": [
@@ -2139,7 +2169,8 @@
                 "cineca",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1030831200
         },
         {
             "authors": [
@@ -2169,7 +2200,8 @@
                 "trans",
                 "journal"
             ],
-            "type": "journal"
+            "type": "journal",
+            "timestamp": 1033423200
         },
         {
             "authors": [
@@ -2195,7 +2227,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 1014937200
         },
         {
             "authors": [
@@ -2208,7 +2241,8 @@
             "keyword": [
                 "thesis"
             ],
-            "type": "thesis"
+            "type": "thesis",
+            "timestamp": 1009839600
         },
         {
             "authors": [
@@ -2229,7 +2263,8 @@
             "keyword": [
                 "techreport"
             ],
-            "type": "techreport"
+            "type": "techreport",
+            "timestamp": 1004569200
         },
         {
             "authors": [
@@ -2253,7 +2288,8 @@
                 "cineca",
                 "workshop"
             ],
-            "type": "workshop"
+            "type": "workshop",
+            "timestamp": 996616800
         },
         {
             "authors": [
@@ -2278,7 +2314,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 988668000
         },
         {
             "authors": [
@@ -2303,7 +2340,8 @@
                 "cineca",
                 "conference"
             ],
-            "type": "conference"
+            "type": "conference",
+            "timestamp": 983401200
         },
         {
             "authors": [
@@ -2319,7 +2357,8 @@
             "keyword": [
                 "techreport"
             ],
-            "type": "techreport"
+            "type": "techreport",
+            "timestamp": 973033200
         },
         {
             "authors": [
@@ -2336,7 +2375,8 @@
             "keyword": [
                 "forum"
             ],
-            "type": "talk"
+            "type": "talk",
+            "timestamp": 1022882400
         },
         {
             "authors": [
@@ -2351,7 +2391,8 @@
             "keyword": [
                 "talk"
             ],
-            "type": "talk"
+            "type": "talk",
+            "timestamp": 967759200
         },
         {
             "authors": [
@@ -2367,7 +2408,8 @@
             "keyword": [
                 "techreport"
             ],
-            "type": "techreport"
+            "type": "techreport",
+            "timestamp": 959810400
         },
         {
             "authors": [
@@ -2386,7 +2428,8 @@
             "keyword": [
                 "techreport"
             ],
-            "type": "techreport"
+            "type": "techreport",
+            "timestamp": 944002800
         }
     ],
     "metadata": {}
