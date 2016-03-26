@@ -1,6 +1,7 @@
 
 # New features
 
+-     add approximate timestamp to each entry -- [Mar 26th 16](../../commit/7c393cd14601f9d52f1d14458bf2ad06be2a0f74)
 -     post process json for better integration with liquid -- [Jan 21st 16](../../commit/b9cfb71dcdde501d253a20b2bcfdac19c9ad8300)
 -     add internal rules to prune small publications -- [Sep 29th 15](../../commit/265d2d5676825250bc3725a0a9868f842ac19677)
 
