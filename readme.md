@@ -47,6 +47,7 @@ Released under the BSD License.
 
 # Bug fixes
 
+-     avoid comparison of timestamps in tests -- [Mar 29th 16](../../commit/bd931ee5fa004670d982dfa50d4d5caa3eb190d3)
 -     add moment dependency -- [Mar 29th 16](../../commit/a1a57b3f8ee8a738b1b0aa4544638eb13052f653)
 -     use patent number only for patents -- [Mar 25th 16](../../commit/a5b4b2dca35f9f7e4b75c15ea92737d4ec601a0d)
 -     use updated zaccaria-cli -- [Mar 16th 16](../../commit/ced5312854329de267f24373676994a36c910ed3)
