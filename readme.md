@@ -47,6 +47,7 @@ Released under the BSD License.
 
 # Bug fixes
 
+-     add moment dependency -- [Mar 29th 16](../../commit/a1a57b3f8ee8a738b1b0aa4544638eb13052f653)
 -     use patent number only for patents -- [Mar 25th 16](../../commit/a5b4b2dca35f9f7e4b75c15ea92737d4ec601a0d)
 -     use updated zaccaria-cli -- [Mar 16th 16](../../commit/ced5312854329de267f24373676994a36c910ed3)
 -     remove readLocal -- [Mar 16th 16](../../commit/9d5963c1f30188eb6b9c828e775adf13f763a4cd)
