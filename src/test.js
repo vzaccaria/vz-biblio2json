@@ -8,6 +8,7 @@ let z = require('zaccaria-cli')
 let promise = z.$b
 let fs = z.$fs
 let $s = require('shelljs')
+let _ = z._
 
 /**
  * Promised version of shelljs exec
@@ -30,6 +31,13 @@ function exec(cmd) {
     })
 }
 
+function removeTimestamp(t) {
+    _.map(t.records, (i) => {
+        i.timestamp = 0
+    })
+    return t
+}
+
 /*global describe, it, before, beforeEach, after, afterEach */
 
 describe('#command', () => {
@@ -40,10 +48,12 @@ describe('#command', () => {
     })
     it('should convert a small file', () => {
         let tv = JSON.parse($s.cat(`${__dirname}/../test/small.json`));
-        return exec(`${__dirname}/../index.js convert ${__dirname}/../test/small.bib`).then(JSON.parse).should.eventually.deep.equal(tv)
+        tv = removeTimestamp(tv)
+        return exec(`${__dirname}/../index.js convert ${__dirname}/../test/small.bib`).then(JSON.parse).then(removeTimestamp).should.eventually.deep.equal(tv)
     })
     it('should convert a big file', () => {
         let tv = JSON.parse($s.cat(`${__dirname}/../test/big.json`));
-        return exec(`${__dirname}/../index.js convert ${__dirname}/../test/big.bib`).then(JSON.parse).should.eventually.deep.equal(tv)
+        tv = removeTimestamp(tv)
+        return exec(`${__dirname}/../index.js convert ${__dirname}/../test/big.bib`).then(JSON.parse).then(removeTimestamp).should.eventually.deep.equal(tv)
     })
 })
