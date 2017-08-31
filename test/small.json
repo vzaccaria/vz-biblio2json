@@ -25,7 +25,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1404165600
+            "timestamp": 1404165600,
+            "id": "C51"
         }
     ],
     "metadata": {}

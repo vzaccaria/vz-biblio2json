@@ -26,7 +26,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1420066800
+            "timestamp": 1420066800,
+            "id": "J15"
         },
         {
             "authors": [
@@ -53,7 +54,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1404165600
+            "timestamp": 1404165600,
+            "id": "C51"
         },
         {
             "authors": [
@@ -85,7 +87,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1406844000
+            "timestamp": 1406844000,
+            "id": "C50"
         },
         {
             "authors": [
@@ -111,7 +114,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1401573600
+            "timestamp": 1401573600,
+            "id": "C49"
         },
         {
             "authors": [
@@ -140,7 +144,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1396303200
+            "timestamp": 1396303200,
+            "id": "C48"
         },
         {
             "authors": [
@@ -168,7 +173,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1377986400
+            "timestamp": 1377986400,
+            "id": "C45"
         },
         {
             "authors": [
@@ -190,7 +196,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1393628400
+            "timestamp": 1393628400,
+            "id": "C47"
         },
         {
             "authors": [
@@ -237,7 +244,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1325372400
+            "timestamp": 1325372400,
+            "id": "C46"
         },
         {
             "authors": [
@@ -263,7 +271,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1380578400
+            "timestamp": 1380578400,
+            "id": "C44"
         },
         {
             "authors": [
@@ -297,7 +306,8 @@
                 "notfoundincineca"
             ],
             "type": "journal",
-            "timestamp": 1377986400
+            "timestamp": 1377986400,
+            "id": "J14"
         },
         {
             "authors": [
@@ -324,7 +334,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1325372400
+            "timestamp": 1325372400,
+            "id": "C43"
         },
         {
             "authors": [
@@ -350,7 +361,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1362092400
+            "timestamp": 1362092400,
+            "id": "C42"
         },
         {
             "authors": [
@@ -374,7 +386,8 @@
                 "notfoundincineca"
             ],
             "type": "conference",
-            "timestamp": 1362092400
+            "timestamp": 1362092400,
+            "id": "C41"
         },
         {
             "authors": [
@@ -404,7 +417,8 @@
                 "trans"
             ],
             "type": "journal",
-            "timestamp": 1377986400
+            "timestamp": 1377986400,
+            "id": "J13"
         },
         {
             "authors": [
@@ -428,7 +442,8 @@
                 "patent"
             ],
             "type": "patent",
-            "timestamp": 1183240800
+            "timestamp": 1183240800,
+            "id": "P2"
         },
         {
             "authors": [
@@ -453,7 +468,8 @@
                 "patent"
             ],
             "type": "patent",
-            "timestamp": 1114898400
+            "timestamp": 1114898400,
+            "id": "P1"
         },
         {
             "authors": [
@@ -498,7 +514,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1306879200
+            "timestamp": 1306879200,
+            "id": "C40"
         },
         {
             "authors": [
@@ -521,7 +538,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1328050800
+            "timestamp": 1328050800,
+            "id": "S5"
         },
         {
             "authors": [
@@ -557,7 +575,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1338501600
+            "timestamp": 1338501600,
+            "id": "J12"
         },
         {
             "authors": [
@@ -587,7 +606,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1030831200
+            "timestamp": 1030831200,
+            "id": "J1"
         },
         {
             "authors": [
@@ -611,7 +631,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1046473200
+            "timestamp": 1046473200,
+            "id": "C11"
         },
         {
             "authors": [
@@ -639,7 +660,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1322694000
+            "timestamp": 1322694000,
+            "id": "C38"
         },
         {
             "authors": [
@@ -687,7 +709,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1309471200
+            "timestamp": 1309471200,
+            "id": "C37"
         },
         {
             "authors": [
@@ -728,7 +751,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L5.4"
         },
         {
             "authors": [
@@ -776,7 +800,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L5.5"
         },
         {
             "authors": [
@@ -801,7 +826,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L4.9"
         },
         {
             "authors": [
@@ -832,7 +858,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L4.8"
         },
         {
             "authors": [
@@ -857,7 +884,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L4.5"
         },
         {
             "authors": [
@@ -882,7 +910,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L4.4"
         },
         {
             "authors": [
@@ -907,7 +936,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L4.3"
         },
         {
             "authors": [
@@ -947,7 +977,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1293836400
+            "timestamp": 1293836400,
+            "id": "L4.1"
         },
         {
             "authors": [
@@ -972,7 +1003,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1306879200
+            "timestamp": 1306879200,
+            "id": "C36"
         },
         {
             "authors": [
@@ -1002,7 +1034,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1298934000
+            "timestamp": 1298934000,
+            "id": "J10"
         },
         {
             "authors": [
@@ -1031,7 +1064,8 @@
                 "trans"
             ],
             "type": "journal",
-            "timestamp": 1341093600
+            "timestamp": 1341093600,
+            "id": "J9"
         },
         {
             "authors": [
@@ -1075,7 +1109,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1277935200
+            "timestamp": 1277935200,
+            "id": "C34"
         },
         {
             "authors": [
@@ -1124,7 +1159,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1277935200
+            "timestamp": 1277935200,
+            "id": "C35"
         },
         {
             "authors": [
@@ -1151,7 +1187,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1275343200
+            "timestamp": 1275343200,
+            "id": "C33"
         },
         {
             "authors": [
@@ -1177,7 +1214,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1264978800
+            "timestamp": 1264978800,
+            "id": "C32"
         },
         {
             "authors": [
@@ -1204,7 +1242,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1267398000
+            "timestamp": 1267398000,
+            "id": "C31"
         },
         {
             "authors": [
@@ -1232,7 +1271,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1267398000
+            "timestamp": 1267398000,
+            "id": "C30"
         },
         {
             "authors": [
@@ -1257,7 +1297,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1259622000
+            "timestamp": 1259622000,
+            "id": "C29"
         },
         {
             "authors": [
@@ -1286,7 +1327,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1259622000
+            "timestamp": 1259622000,
+            "id": "J8"
         },
         {
             "authors": [
@@ -1311,7 +1353,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1246399200
+            "timestamp": 1246399200,
+            "id": "C28"
         },
         {
             "authors": [
@@ -1336,7 +1379,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1249077600
+            "timestamp": 1249077600,
+            "id": "C27"
         },
         {
             "authors": [
@@ -1361,7 +1405,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1246399200
+            "timestamp": 1246399200,
+            "id": "C26"
         },
         {
             "authors": [
@@ -1382,7 +1427,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1230764400
+            "timestamp": 1230764400,
+            "id": "C25"
         },
         {
             "authors": [
@@ -1406,7 +1452,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1230764400
+            "timestamp": 1230764400,
+            "id": "C24"
         },
         {
             "authors": [
@@ -1423,7 +1470,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1225494000
+            "timestamp": 1225494000,
+            "id": "S1"
         },
         {
             "authors": [
@@ -1447,7 +1495,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1222812000
+            "timestamp": 1222812000,
+            "id": "C23"
         },
         {
             "authors": [
@@ -1470,7 +1519,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1222812000
+            "timestamp": 1222812000,
+            "id": "C22"
         },
         {
             "authors": [
@@ -1494,7 +1544,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1220220000
+            "timestamp": 1220220000,
+            "id": "C21"
         },
         {
             "authors": [
@@ -1518,7 +1569,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1214863200
+            "timestamp": 1214863200,
+            "id": "C20"
         },
         {
             "authors": [
@@ -1542,7 +1594,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1212271200
+            "timestamp": 1212271200,
+            "id": "C19"
         },
         {
             "authors": [
@@ -1573,7 +1626,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1151704800
+            "timestamp": 1151704800,
+            "id": "J6"
         },
         {
             "authors": [
@@ -1596,7 +1650,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1136070000
+            "timestamp": 1136070000,
+            "id": "L2"
         },
         {
             "authors": [
@@ -1620,7 +1675,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 999295200
+            "timestamp": 999295200,
+            "id": "C3"
         },
         {
             "authors": [
@@ -1645,7 +1701,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1075590000
+            "timestamp": 1075590000,
+            "id": "C16"
         },
         {
             "authors": [
@@ -1672,7 +1729,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1022882400
+            "timestamp": 1022882400,
+            "id": "C9"
         },
         {
             "authors": [
@@ -1697,7 +1755,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 957132000
+            "timestamp": 957132000,
+            "id": "C1"
         },
         {
             "authors": [
@@ -1723,7 +1782,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1112306400
+            "timestamp": 1112306400,
+            "id": "C18"
         },
         {
             "authors": [
@@ -1748,7 +1808,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1104534000
+            "timestamp": 1104534000,
+            "id": "J7"
         },
         {
             "authors": [
@@ -1773,7 +1834,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 986076000
+            "timestamp": 986076000,
+            "id": "C5"
         },
         {
             "authors": [
@@ -1803,7 +1865,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1104534000
+            "timestamp": 1104534000,
+            "id": "J5"
         },
         {
             "authors": [
@@ -1830,7 +1893,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1080770400
+            "timestamp": 1080770400,
+            "id": "C17"
         },
         {
             "authors": [
@@ -1851,7 +1915,8 @@
                 "bookc"
             ],
             "type": "bookchapter",
-            "timestamp": 1072911600
+            "timestamp": 1072911600,
+            "id": "L3"
         },
         {
             "authors": [
@@ -1875,7 +1940,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1093989600
+            "timestamp": 1093989600,
+            "id": "L1"
         },
         {
             "authors": [
@@ -1899,7 +1965,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 1062367200
+            "timestamp": 1062367200,
+            "id": "C15"
         },
         {
             "authors": [
@@ -1927,7 +1994,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1051740000
+            "timestamp": 1051740000,
+            "id": "C14"
         },
         {
             "authors": [
@@ -1952,7 +2020,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1049148000
+            "timestamp": 1049148000,
+            "id": "C13"
         },
         {
             "authors": [
@@ -1977,7 +2046,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1049148000
+            "timestamp": 1049148000,
+            "id": "C12"
         },
         {
             "authors": [
@@ -1999,7 +2069,8 @@
                 "book"
             ],
             "type": "book",
-            "timestamp": 1049148000
+            "timestamp": 1049148000,
+            "id": "B1"
         },
         {
             "authors": [
@@ -2027,7 +2098,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1330556400
+            "timestamp": 1330556400,
+            "id": "C39"
         },
         {
             "authors": [
@@ -2055,7 +2127,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1046473200
+            "timestamp": 1046473200,
+            "id": "C10"
         },
         {
             "authors": [
@@ -2086,7 +2159,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1033423200
+            "timestamp": 1033423200,
+            "id": "J3"
         },
         {
             "authors": [
@@ -2116,7 +2190,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1335823200
+            "timestamp": 1335823200,
+            "id": "J11"
         },
         {
             "authors": [
@@ -2141,7 +2216,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 973033200
+            "timestamp": 973033200,
+            "id": "C2"
         },
         {
             "authors": [
@@ -2170,7 +2246,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1030831200
+            "timestamp": 1030831200,
+            "id": "J4"
         },
         {
             "authors": [
@@ -2201,7 +2278,8 @@
                 "journal"
             ],
             "type": "journal",
-            "timestamp": 1033423200
+            "timestamp": 1033423200,
+            "id": "J2"
         },
         {
             "authors": [
@@ -2228,7 +2306,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 1014937200
+            "timestamp": 1014937200,
+            "id": "C8"
         },
         {
             "authors": [
@@ -2242,7 +2321,8 @@
                 "thesis"
             ],
             "type": "thesis",
-            "timestamp": 1009839600
+            "timestamp": 1009839600,
+            "id": "H1"
         },
         {
             "authors": [
@@ -2264,7 +2344,8 @@
                 "techreport"
             ],
             "type": "techreport",
-            "timestamp": 1004569200
+            "timestamp": 1004569200,
+            "id": "R2"
         },
         {
             "authors": [
@@ -2289,7 +2370,8 @@
                 "workshop"
             ],
             "type": "workshop",
-            "timestamp": 996616800
+            "timestamp": 996616800,
+            "id": "C7"
         },
         {
             "authors": [
@@ -2315,7 +2397,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 988668000
+            "timestamp": 988668000,
+            "id": "C6"
         },
         {
             "authors": [
@@ -2341,7 +2424,8 @@
                 "conference"
             ],
             "type": "conference",
-            "timestamp": 983401200
+            "timestamp": 983401200,
+            "id": "C4"
         },
         {
             "authors": [
@@ -2358,7 +2442,8 @@
                 "techreport"
             ],
             "type": "techreport",
-            "timestamp": 973033200
+            "timestamp": 973033200,
+            "id": "R1"
         },
         {
             "authors": [
@@ -2376,7 +2461,8 @@
                 "forum"
             ],
             "type": "talk",
-            "timestamp": 1022882400
+            "timestamp": 1022882400,
+            "id": "forum1"
         },
         {
             "authors": [
@@ -2392,7 +2478,8 @@
                 "talk"
             ],
             "type": "talk",
-            "timestamp": 967759200
+            "timestamp": 967759200,
+            "id": "S2"
         },
         {
             "authors": [
@@ -2409,7 +2496,8 @@
                 "techreport"
             ],
             "type": "techreport",
-            "timestamp": 959810400
+            "timestamp": 959810400,
+            "id": "R4"
         },
         {
             "authors": [
@@ -2429,7 +2517,8 @@
                 "techreport"
             ],
             "type": "techreport",
-            "timestamp": 944002800
+            "timestamp": 944002800,
+            "id": "R3"
         }
     ],
     "metadata": {}
