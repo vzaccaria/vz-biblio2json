@@ -70,7 +70,7 @@ let fix_date = function(r) {
   }
 
   if (!_.isUndefined(r.month)) {
-    let mn = _.find(months, (v, k) => {
+    let mn = _.find(months, v => {
       return $.include(r.month.toLowerCase(), v.short);
     });
     if (!_.isUndefined(mn)) {
@@ -84,10 +84,6 @@ let fix_date = function(r) {
   }
 
   // Dead code here
-};
-
-let strip = function(s) {
-  return $.words(s)[1];
 };
 
 let fix_identifier = function(r) {
@@ -168,9 +164,7 @@ function fix_author(a) {
   let last_name = $.capitalize($.clean(components[0]), true);
 
   if (_.isPlainObject(patt[last_name])) {
-    ({
-      name
-    } = patt[last_name]);
+    ({ name } = patt[last_name]);
   } else {
     if (first_name != null) {
       name = $.clean(`${first_name.charAt(0)}. ${last_name}`);
@@ -195,6 +189,7 @@ let process = function(data) {
     d = fix_date(d);
     d = fix_type(d);
     d.url = d["bdsk-url-1"];
+    console.log(d.annote);
     d = _.pick(d, [
       "authors",
       "title",
@@ -219,7 +214,8 @@ let process = function(data) {
       "keyword", // needed by react utils for webpage generation
       "type", // needed by markdown generation
       "timestamp",
-      "id"
+      "id",
+      "annote"
     ]);
     return d;
   });
