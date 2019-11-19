@@ -189,7 +189,6 @@ let process = function(data) {
     d = fix_date(d);
     d = fix_type(d);
     d.url = d["bdsk-url-1"];
-    console.log(d.annote);
     d = _.pick(d, [
       "authors",
       "title",
