@@ -7,39 +7,39 @@
 
 
 .PHONY: docs
-docs: k-hjpuv9f3 k-erqf6mq9 k-h2r6ouof k-75vqay0m k-5k4o7aob k-qjos1srj
+docs: k-qgl4i1ux k-gpvft35n k-flnarv00 k-vywbodaq k-di6r1njw k-nx4nxa3p
 
 
 .PHONY: debug
-debug: k-lk4bambl
+debug: k-vo86dvqf
 
 
-.PHONY: c-wrya8kpp
-c-wrya8kpp: lib/index.js lib/postJson.js lib/test.js
+.PHONY: c-9ys0rqi8
+c-9ys0rqi8: lib/index.js lib/postJson.js lib/test.js
 
 
 .PHONY: build
-build: c-wrya8kpp
+build: c-9ys0rqi8
 
 
 .PHONY: test
-test: k-2ukm5j0s k-rsiv50v5
+test: k-o7jpp2ba k-7g2v5m9w
 
 
 .PHONY: update
-update: k-vtyjlds0
+update: k-pk520ff4
 
 
 .PHONY: major
-major: k-j62ljpwb k-6tdfy7h1 k-0jb7l92j
+major: k-k3snlmn1 k-6ahfg0q5 k-26l6xfgi
 
 
 .PHONY: minor
-minor: k-demrm77c k-i9d4k0rr k-seeomuhu
+minor: k-12i7jogk k-1eskna6x k-rb40veq0
 
 
 .PHONY: patch
-patch: k-kpsa8a4q k-uvjhnbn1 k-3jvv25w8
+patch: k-kvjw3vj0 k-dxcdwkyw k-va9o4bav
 
 
 .PHONY: prepare
@@ -48,115 +48,115 @@ prepare: lib
 
 
 
-.PHONY: k-hjpuv9f3
-k-hjpuv9f3:  
+.PHONY: k-qgl4i1ux
+k-qgl4i1ux:  
 	./node_modules/.bin/git-hist history.md
 
 
-.PHONY: k-erqf6mq9
-k-erqf6mq9:  
+.PHONY: k-gpvft35n
+k-gpvft35n:  
 	./node_modules/.bin/mustache package.json docs/readme.md | ./node_modules/.bin/stupid-replace '~USAGE~' -f docs/usage.md > readme.md
 
 
-.PHONY: k-h2r6ouof
-k-h2r6ouof:  
+.PHONY: k-flnarv00
+k-flnarv00:  
 	cat history.md >> readme.md
 
 
-.PHONY: k-75vqay0m
-k-75vqay0m:  
+.PHONY: k-vywbodaq
+k-vywbodaq:  
 	mkdir -p ./man/man1
 
 
-.PHONY: k-5k4o7aob
-k-5k4o7aob:  
+.PHONY: k-di6r1njw
+k-di6r1njw:  
 	pandoc -s -f markdown -t man readme.md > ./man/man1/vz-biblio2json.1
 
 
-.PHONY: k-qjos1srj
-k-qjos1srj:  
+.PHONY: k-nx4nxa3p
+k-nx4nxa3p:  
 	hub cm 'update docs and history.md'
 
 
-.PHONY: k-lk4bambl
-k-lk4bambl:  
+.PHONY: k-vo86dvqf
+k-vo86dvqf:  
 	make && node ./index.js convert ./test/biblio.bib
 
 
-.PHONY: k-mbl224xb
-k-mbl224xb:  
+.PHONY: k-r8ggbumu
+k-r8ggbumu:  
 	((echo '#!/usr/bin/env node') && cat ./lib/index.js) > index.js
 
 
-.PHONY: k-irhjy29o
-k-irhjy29o:  
+.PHONY: k-293mvoh7
+k-293mvoh7:  
 	chmod +x ./index.js
 
 
 .PHONY: all
 all: 
 	make build 
-	make k-mbl224xb 
-	make k-irhjy29o  
+	make k-r8ggbumu 
+	make k-293mvoh7  
 
 
-.PHONY: k-2ukm5j0s
-k-2ukm5j0s:  
+.PHONY: k-o7jpp2ba
+k-o7jpp2ba:  
 	make all
 
 
-.PHONY: k-rsiv50v5
-k-rsiv50v5:  
+.PHONY: k-7g2v5m9w
+k-7g2v5m9w:  
 	./node_modules/.bin/mocha ./lib/test.js
 
 
-.PHONY: k-vtyjlds0
-k-vtyjlds0:  
+.PHONY: k-pk520ff4
+k-pk520ff4:  
 	make clean && ./node_modules/.bin/babel configure.js | node
 
 
-.PHONY: k-j62ljpwb
-k-j62ljpwb:  
+.PHONY: k-k3snlmn1
+k-k3snlmn1:  
 	make all
 
 
-.PHONY: k-6tdfy7h1
-k-6tdfy7h1:  
+.PHONY: k-6ahfg0q5
+k-6ahfg0q5:  
 	make docs
 
 
-.PHONY: k-0jb7l92j
-k-0jb7l92j:  
+.PHONY: k-26l6xfgi
+k-26l6xfgi:  
 	./node_modules/.bin/xyz -i major
 
 
-.PHONY: k-demrm77c
-k-demrm77c:  
+.PHONY: k-12i7jogk
+k-12i7jogk:  
 	make all
 
 
-.PHONY: k-i9d4k0rr
-k-i9d4k0rr:  
+.PHONY: k-1eskna6x
+k-1eskna6x:  
 	make docs
 
 
-.PHONY: k-seeomuhu
-k-seeomuhu:  
+.PHONY: k-rb40veq0
+k-rb40veq0:  
 	./node_modules/.bin/xyz -i minor
 
 
-.PHONY: k-kpsa8a4q
-k-kpsa8a4q:  
+.PHONY: k-kvjw3vj0
+k-kvjw3vj0:  
 	make all
 
 
-.PHONY: k-uvjhnbn1
-k-uvjhnbn1:  
+.PHONY: k-dxcdwkyw
+k-dxcdwkyw:  
 	make docs
 
 
-.PHONY: k-3jvv25w8
-k-3jvv25w8:  
+.PHONY: k-va9o4bav
+k-va9o4bav:  
 	./node_modules/.bin/xyz -i patch
 
 
