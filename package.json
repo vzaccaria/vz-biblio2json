@@ -29,7 +29,7 @@
     "diy-build": "1.0.8",
     "easy-table": "1.0.0",
     "git-hist": "0.2.0",
-    "lodash": "3.0.0",
+    "lodash": "4.17.21",
     "mdtable2json": "0.1.0",
     "mocha": "2.2.5",
     "moment": "2.11.2",
