@@ -34,7 +34,7 @@
     "mocha": "2.2.5",
     "moment": "2.11.2",
     "mustache": "2.1.2",
-    "shelljs": "0.5.1",
+    "shelljs": "0.8.5",
     "string-hash": "1.1.0",
     "stupid-replace": "0.0.3",
     "underscore.string": "3.2.2",
