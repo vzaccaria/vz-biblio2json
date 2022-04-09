@@ -32,7 +32,7 @@
     "lodash": "3.0.0",
     "mdtable2json": "0.1.0",
     "mocha": "2.2.5",
-    "moment": "2.11.2",
+    "moment": "2.29.2",
     "mustache": "2.1.2",
     "shelljs": "0.5.1",
     "string-hash": "1.1.0",
